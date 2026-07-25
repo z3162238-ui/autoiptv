@@ -1,8 +1,8 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-02-28 03:03:14
-# 过滤原因: 主要失败原因: HTTP 610
+# 生成时间: 2026-07-26 00:27:52
+# 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
 
@@ -614,8 +614,15 @@ http://101.66.199.6:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.199.6:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.199.6:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
 
+# 域名: 103.137.83.62:9090
+http://103.137.83.62:9090/play/32/index.m3u8
+http://103.137.83.62:9090/play/33/index.m3u8
+
 # 域名: 103.150.10.16:177
 http://103.150.10.16:177/st.php?id=st1
+
+# 域名: 103.157.248.140:8000
+http://103.157.248.140:8000/play/a01m/index.m3u8
 
 # 域名: 103.193.151.146
 http://103.193.151.146/huya.php?id=11342394
@@ -631,6 +638,9 @@ http://103.193.151.146/huya.php?id=29465871
 # 域名: 103.199.161.254
 http://103.199.161.254/Content/bbcworld/Live/Channel%28BBCworld%29/index.m3u8
 
+# 域名: 103.229.254.25:7001
+http://103.229.254.25:7001/play/a09q/index.m3u8
+
 # 域名: 103.233.191.134:1935
 http://103.233.191.134:1935/ch1/ch1.live/playlist.m3u8
 http://103.233.191.134:1935/ch2/ch2.live/playlist.m3u8
@@ -638,6 +648,9 @@ http://103.233.191.134:1935/ch3/ch3.live/playlist.m3u8
 http://103.233.191.134:1935/ch4/sport_ch4.live/playlist.m3u8
 http://103.233.191.134:1935/ch5/info_ch5.live/playlist.m3u8
 http://103.233.191.134:1935/ch6/hd_ch6.live/playlist.m3u8
+
+# 域名: 103.250.28.74:8000
+http://103.250.28.74:8000/play/a019/index.m3u8
 
 # 域名: 103.252.251.199:18085
 http://103.252.251.199:18085/hls/xichangweishi.m3u8
@@ -678,6 +691,9 @@ http://106.53.99.30/tv/cctv13.php
 
 # 域名: 108.181.20.197
 http://108.181.20.197/livehttpplay?channel_id=20107
+
+# 域名: 108.181.20.255:27347
+http://108.181.20.255:27347/livehttpplay?channel_id=23054
 
 # 域名: 108.181.32.169:14194
 p3p://108.181.32.169:14194/641a1ff10002ac95bf6680630445195d
@@ -2817,6 +2833,9 @@ http://117.190.130.4:8081/out_2/index.m3u8
 http://117.36.76.86:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 http://117.36.76.86:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 
+# 域名: 118.107.85.4:1935
+http://118.107.85.4:1935/live/smil:DNTV2.smil/chunklist.m3u8
+
 # 域名: 118.113.42.180:3456
 http://118.113.42.180:3456/rtp/239.93.1.151:5140
 
@@ -3528,6 +3547,9 @@ http://121.34.150.149:8225/rtp/239.77.1.244:5146
 
 # 域名: 121.60.56.116:10001
 http://121.60.56.116:10001/rtp/239.69.1.142:10488
+
+# 域名: 121.91.61.106:8000
+http://121.91.61.106:8000/play/a04h/index.m3u8
 
 # 域名: 122.117.71.103:8529
 http://122.117.71.103:8529/http/61.222.53.250:8081/hls/64/806/ch13.m3u8
@@ -4371,6 +4393,9 @@ http://13457610200.8866.org:2018/live/上海纪实/index.m3u8
 http://13457610200.8866.org:2018/live/南宁公共/index.m3u8
 http://13457610200.8866.org:2018/live/广西卫视HD/index.m3u8
 
+# 域名: 138.121.15.230:9002
+http://138.121.15.230:9002/WIN-SPORT/index.m3u8
+
 # 域名: 139.162.182.79
 http://139.162.182.79/live/test/index.m3u8?checkedby:iptvcat.com
 
@@ -4406,6 +4431,9 @@ http://140.207.241.3:8080/live/program/live/qcxj/1300000/d1.m3u8
 http://140.207.241.3:8080/live/program/live/xdkt/1300000/d1.m3u8
 http://140.207.241.3:8080/live/program/live/xwzhhd/4000000/d1.m3u8
 
+# 域名: 143.14.178.40:7777
+http://143.14.178.40:7777/Band_Sports_HD/index.m3u8
+
 # 域名: 144.255.17.2:12345
 http://144.255.17.2:12345/rtp/239.21.1.141:5002
 
@@ -4417,6 +4445,10 @@ http://144.255.40.132:7788/rtp/239.21.1.141:5002
 
 # 域名: 144.255.44.198:4022
 http://144.255.44.198:4022/rtp/239.21.1.141:5002
+
+# 域名: 145.239.5.177
+http://145.239.5.177/349/index.m3u8
+http://145.239.5.177/556a/index.m3u8
 
 # 域名: 146.56.153.245:20121
 http://146.56.153.245:20121/bysid/257
@@ -4659,6 +4691,9 @@ http://159.75.85.63:35455/douyu/454867
 http://159.75.85.63:36666/migu/631354620.m3u8?migutoken=89eff51a683f53c6c9ef79d0d9e0fac5bf8f88966c39c35e13920557e637b087b90748e8e872a32daa2fe81c69eb4dd445a2f13b872627007373c66f36da7eb9ce392148b0fa2a49a407ff7877
 http://159.75.85.63:36666/migu/654102378.m3u8?migutoken=0e1594227603da77e6a1b8d1cef1be8b61bd1c390b03d3393ff717d1e67f55864acc08cc7feefc17e8b90a18d356f4e8d69ce6ac846c09d9bc82f948ac4d3735cb28789b972353df9140fa1215
 
+# 域名: 1593604785.rsc.cdn77.org
+https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
+
 # 域名: 160.202.238.87:12395
 http://160.202.238.87:12395/live2.rxip.sc96655.com/live/CCTV-10H265_4000.m3u8?E&U&A&K&P&S
 http://160.202.238.87:12395/live2.rxip.sc96655.com/live/CCTV-11-H265_4000.m3u8?E&U&A&K&P&S
@@ -4730,6 +4765,9 @@ http://160.202.238.87:12395/live2.rxip.sc96655.com/live/ycpd_2000.m3u8?E&U&A&K&P
 http://160.202.238.87:12395/live2.rxip.sc96655.com/live/ys4Kcq_2000.m3u8?E&U&A&K&P&S
 http://160.202.238.87:12395/live2.rxip.sc96655.com/live/yybb-dmxc-H265_4000.m3u8?E&U&A&K&P&S
 http://160.202.238.87:12395/live2.rxip.sc96655.com/live/zjwsH265_4000.m3u8?E&U&A&K&P&S
+
+# 域名: 162.250.201.58:6211
+http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 
 # 域名: 167.114.175.6:55331
 p3p://167.114.175.6:55331/5fded422000d0eb46d5f29815c1d4155
@@ -5058,6 +5096,15 @@ http://175.8.28.207:9999/tsfile/live/0012_1.m3u8
 http://175.8.28.207:9999/tsfile/live/0013_1.m3u8
 http://175.8.28.207:9999/tsfile/live/0014_1.m3u8
 
+# 域名: 177.234.249.178:8888
+http://177.234.249.178:8888/GOLTV/index.m3u8
+
+# 域名: 178.124.179.122:8080
+http://178.124.179.122:8080/BT5/index.m3u8
+
+# 域名: 178.33.11.6:8696
+http://178.33.11.6:8696/live/rtshsport/playlist.m3u8
+
 # 域名: 180.158.106.89:4022
 http://180.158.106.89:4022/rtp/239.45.3.210:5140
 
@@ -5109,6 +5156,17 @@ rtsp://180.95.143.19/PLTV/88888910/224/3221225847/376430588.smil
 rtsp://180.95.143.19/PLTV/88888910/224/3221225850/376430583.smil
 rtsp://180.95.143.19/PLTV/88888910/224/3221225854/376430616.smil
 rtsp://180.95.143.19/PLTV/88888910/224/3221225872/376957310.smil
+
+# 域名: 181.119.66.28:8081
+http://181.119.66.28:8081/AZTECA-DEPORTES-HD/index.m3u8
+
+# 域名: 181.78.197.59:8000
+http://181.78.197.59:8000/play/a07n/index.m3u8
+http://181.78.197.59:8000/play/a07z/index.m3u8
+http://181.78.197.59:8000/play/a081/index.m3u8
+
+# 域名: 181.78.8.199:8000
+http://181.78.8.199:8000/play/a0fr/index.m3u8
 
 # 域名: 182.150.115.21:8030
 http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
@@ -5619,6 +5677,15 @@ http://183.94.1.118:8801/tsfile/live/1000_1.m3u8
 http://183.94.1.118:8801/tsfile/live/1006_1.m3u8
 http://183.94.1.118:8801/tsfile/live/1017_1.m3u8
 
+# 域名: 185.102.171.218
+http://185.102.171.218/CablenetSports1/index.m3u8
+http://185.102.171.218/CablenetSports2/index.m3u8
+http://185.102.171.218/Cytavisionsports1/index.m3u8
+http://185.102.171.218/Cytavisionsports2/index.m3u8
+http://185.102.171.218/Cytavisionsports3/index.m3u8
+http://185.102.171.218/Cytavisionsports4/index.m3u8
+http://185.102.171.218/Cytavisionsports5/index.m3u8
+
 # 域名: 185.243.7.13:80
 http://185.243.7.13:80/play/live.php?mac=00:1A:79:45:5E:9A&stream=153506&extension=ts&play_token=miEIuxsBcN
 http://185.243.7.13:80/play/live.php?mac=00:1A:79:45:5E:9A&stream=571185&extension=ts&play_token=wD7CZpooiF
@@ -5630,8 +5697,14 @@ http://185.243.7.13:80/play/live.php?mac=00:1A:79:45:5E:9A&stream=941620&extensi
 http://185.243.7.13:80/play/live.php?mac=00:1A:79:45:5E:9A&stream=941621&extension=ts&play_token=vFR5CkmzbA
 http://185.243.7.13:80/play/live.php?mac=00:1A:79:45:5E:9A&stream=941622&extension=ts&play_token=E9ymAxKoVJ
 
+# 域名: 1853185335.rsc.cdn77.org
+https://1853185335.rsc.cdn77.org/K192/tv/playlist.m3u8
+
 # 域名: 190.52.32.13:1935
 http://190.52.32.13:1935/canal4/smil:manifest.smil/playlist.m3u8?checkedby:iptvcat.com
+
+# 域名: 190.61.90.17:40000
+http://190.61.90.17:40000/play/a03v/index.m3u8
 
 # 域名: 192.168.123.1:23234
 http://192.168.123.1:23234/rtp/228.1.1.15:1234
@@ -5862,10 +5935,19 @@ http://1b6467f415.iok.la:9931/tsfile/live/1100_1.m3u8
 http://1b6467f415.iok.la:9931/tsfile/live/1120_1.m3u8
 http://1b6467f415.iok.la:9931/tsfile/live/1130_1.m3u8
 
+# 域名: 1nyaler.streamhostingcdn.top
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+
 # 域名: 1yp7hc5p.live.sxmty.com
 http://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc.m3u8
 http://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc.m3u8?zshanxd
 https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
+
+# 域名: 2-fss-2.streamhoster.com
+https://2-fss-2.streamhoster.com/pl_118/204972-2205186-1/playlist.m3u8
+
+# 域名: 200.125.170.122:8000
+http://200.125.170.122:8000/play/a03j/index.m3u8
 
 # 域名: 202.102.201.244:40022
 http://202.102.201.244:40022/rtp/238.1.79.57:4592
@@ -5959,6 +6041,13 @@ http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
 
 # 域名: 205.185.123.236:8899
 http://205.185.123.236:8899/astro/qianxi/qianxi.m3u8
+
+# 域名: 206.212.244.63
+http://206.212.244.63/2486/index.m3u8
+http://206.212.244.63/4249/index.m3u8
+http://206.212.244.63/6139/index.m3u8
+http://206.212.244.63/6141/index.m3u8
+http://206.212.244.63/6153/index.m3u8
 
 # 域名: 209.141.58.162:4994
 http://209.141.58.162:4994/proxy?url=http%3A//209.141.58.162%3A5050/litv/4gtv-4gtv077
@@ -7151,6 +7240,15 @@ rtp://228.1.1.81:8304
 # 域名: 228.1.1.96:4120
 rtp://228.1.1.96:4120
 
+# 域名: 23.237.104.106:8080
+http://23.237.104.106:8080/USA_BEIN/index.m3u8
+http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+http://23.237.104.106:8080/USA_GOLTV/index.m3u8
+http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
+http://23.237.104.106:8080/USA_MSG/index.m3u8
+http://23.237.104.106:8080/USA_NESN/index.m3u8
+http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
+
 # 域名: 23.237.228.133
 http://23.237.228.133/live2/baogutai.m3u8
 http://23.237.228.133/live2/xingyingtai.m3u8
@@ -7499,9 +7597,23 @@ http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv
 
 # 域名: 30a-tv.com
 http://30a-tv.com/music.m3u8?checkedby:iptvcat.com
+https://30a-tv.com/feeds/vidaa/golf.m3u8
+
+# 域名: 31.148.48.15
+http://31.148.48.15/Boks_TV/index.m3u8
+http://31.148.48.15/Futbol_HD/index.m3u8
+http://31.148.48.15/KHL_TV/index.m3u8
+http://31.148.48.15/M1_Global/index.m3u8
+http://31.148.48.15/Match_Arena_HD/index.m3u8
+http://31.148.48.15/Match_Igra_HD/index.m3u8
+http://31.148.48.15/Match_Strana/index.m3u8
+http://31.148.48.15/Russkiy_Ekstrim/index.m3u8
 
 # 域名: 31182.hlsplay.aodianyun.com
 http://31182.hlsplay.aodianyun.com/lms_31182/tv_channel_175.m3u8
+
+# 域名: 315e5a5d.ottrast.com
+http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12077/index.m3u8
 
 # 域名: 32.shqiptv.org
 http://32.shqiptv.org/korca/albplus/index.m3u8
@@ -8298,8 +8410,34 @@ http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
 http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8?checkedby:hlscat.com
 http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8?zjiangsd
 
+# 域名: 40.160.24.52
+http://40.160.24.52/MSG_2/index.m3u8
+
+# 域名: 40.160.24.55
+http://40.160.24.55/SNY/index.m3u8
+http://40.160.24.55/Sportsman_Channel/index.m3u8
+http://40.160.24.55/TSN_1/index.m3u8
+http://40.160.24.55/TSN_2/index.m3u8
+http://40.160.24.55/TSN_3/index.m3u8
+http://40.160.24.55/TSN_4/index.m3u8
+http://40.160.24.55/TSN_5/index.m3u8
+http://40.160.24.55/TVG/index.m3u8
+http://40.160.24.55/USA_NETWORK/index.m3u8
+http://40.160.24.55/USA_NETWORK_WEST/index.m3u8
+
+# 域名: 40.160.24.58
+http://40.160.24.58/ESPN_DEPORTES/index.m3u8
+http://40.160.24.58/NBC_SPORTS_NETWORK/index.m3u8
+
+# 域名: 41.205.70.146
+http://41.205.70.146/BEINSPORT1/index.m3u8
+http://41.205.70.146/M6/index.m3u8
+
 # 域名: 41.205.93.154
 http://41.205.93.154/ESPN/index.m3u8
+
+# 域名: 41.223.30.230
+http://41.223.30.230/ESPNNEWS/index.m3u8
 
 # 域名: 42.176.185.28:9901
 http://42.176.185.28:9901/tsfile/live/1006_1.m3u8
@@ -8514,6 +8652,27 @@ http://43.251.226.89:8080/play/99.m3u8
 # 域名: 44911.hlsplay.aodianyun.com
 https://44911.hlsplay.aodianyun.com/tv_radio_44911/tv_channel_1796.m3u8?auth_key=4830573978-0-0-92824c2c03f95906a3c49a4aa28f1709&extra_key=Yc1XsmxOKy2UBoPM4Wy5vCPsEYqnj06taCR2SRB2Xrg2w28NPilH03KdIbbM5wgSql-VBohSnoO9AOKl94q2t2DWMftz-XB-2qUX-UjXcS80StcSZahBFjrKLivXaRjiY5r2NOMKWMKFbv-S0Bz2G6iEXgCK8yGjtrFHDcPfAQEE0pvXq0Bwy34b7We8zARN&ali_ffmpeg_version=mpengine
 
+# 域名: 45.170.130.224:8000
+http://45.170.130.224:8000/play/a020/index.m3u8
+http://45.170.130.224:8000/play/a04i/index.m3u8
+
+# 域名: 45.181.87.106
+http://45.181.87.106/TYCSPORTSHD/index.m3u8
+
+# 域名: 45.190.156.152
+http://45.190.156.152/COMBATE/index.m3u8
+http://45.190.156.152/PREMIERE_CLUBES/index.m3u8
+
+# 域名: 45.4.1.201:8000
+http://45.4.1.201:8000/play/a13e/index.m3u8
+http://45.4.1.201:8000/play/a1ai/index.m3u8
+
+# 域名: 45.5.119.43:4000
+http://45.5.119.43:4000/play/a05t/index.m3u8
+
+# 域名: 46.32.176.50
+http://46.32.176.50/extremesport/index.m3u8
+
 # 域名: 47.104.173.199
 http://47.104.173.199/b/hoge.php?ip=gxwztv&id=23&auth=niubiplus
 
@@ -8563,6 +8722,9 @@ https://4gtv.dxjc.pp.ua/of-4gtv-4gtv074/index.m3u8
 https://4k.11cn.dpdns.org/27.m3u8
 https://4k.11cn.dpdns.org/28.m3u8
 https://4k.11cn.dpdns.org/29.m3u8
+
+# 域名: 5.188.159.128:8070
+http://5.188.159.128:8070/udar/index.m3u8
 
 # 域名: 50.7.234.10:8278
 http://50.7.234.10:8278/badadrama/playlist.m3u8?tid=ME4E4734124647341246&ct=19225&tsum=c4e596572a79ad99675ee2137d1cc43d
@@ -8648,6 +8810,9 @@ http://51.210.199.24/hls/stream.m3u8
 
 # 域名: 51.210.199.27
 http://51.210.199.27/hls/stream.m3u8
+
+# 域名: 53be5ef2d13aa.streamlock.net
+https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
 
 # 域名: 568slnjf.live.sxmty.com
 https://568slnjf.live.sxmty.com/live/hls/90c8b2efeb164cc0a6c2409eed668d6b/f77cbb89ec57435b9ba4c47589c16e4f-1.m3u8
@@ -9140,7 +9305,12 @@ https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8?che
 https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8?checkedby:iptvcat.com
 
 # 域名: 5c7b683162943.streamlock.net
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8?checkedby:iptvcat.com
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
+
+# 域名: 5ca3e84a76d30.streamlock.net
+https://5ca3e84a76d30.streamlock.net/tv43gto/tv43gto.smil/.m3u8
 
 # 域名: 5ddce30eb4b55.streamlock.net
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
@@ -10092,6 +10262,10 @@ http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m
 # 域名: 61ae39677a1ab.streamlock.net
 https://61ae39677a1ab.streamlock.net/tvellef/tvellef/playlist.m3u8?checkedby:iptvcat.com
 
+# 域名: 636ffd31f0e12.streamlock.net
+https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
+https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8
+
 # 域名: 65.108.74.147:49366
 http://65.108.74.147:49366/iptv.php?key=gat10&id=3
 http://65.108.74.147:49366/iptv.php?key=gat2&id=13
@@ -10110,6 +10284,9 @@ http://69.30.246.194/live/dfws.m3u8
 http://69.30.246.194/live/hnws.m3u8
 http://69.30.246.194/live/jsws.m3u8
 http://69.30.246.194/live/zjws.m3u8
+
+# 域名: 72.1.184.5:8089
+http://72.1.184.5:8089/play/a0cw/index.m3u8
 
 # 域名: 74.48.192.96:82
 http://74.48.192.96:82/live.php?id=CCTV17
@@ -10278,8 +10455,36 @@ http://8.218.84.3:8885/live/NlAhgdR475_p9pHeKE1G1rILoVl18Qqe36jUsiWqY5S26LQzNA-8
 # 域名: 80.94.54.42
 http://80.94.54.42/fashiontv/stream/playlist.m3u8
 
+# 域名: 85.237.89.160:9590
+http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+
+# 域名: 87.229.103.60:1935
+http://87.229.103.60:1935/liverelay/loverseny2.sdp/playlist.m3u8
+
+# 域名: 88.212.15.19
+http://88.212.15.19/live/m4_hun/index.m3u8
+http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
+
+# 域名: 88.212.15.27
+http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
+
+# 域名: 88b9da48.kazmazpaz.ru
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7304/index.m3u8
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7305/index.m3u8
+
 # 域名: 8kdown.brtvcloud.com
 http://8kdown.brtvcloud.com/8klive/8kliveok.m3u8?txSecret=a9cfb6acb08a9fe154a8ba6d0226cfef&txTime=71697CD5
+
+# 域名: 91.146.94.234:10001
+http://91.146.94.234:10001/play/a070
+http://91.146.94.234:10001/play/a07a
+http://91.146.94.234:10001/play/a07b
+http://91.146.94.234:10001/play/a07f
+http://91.146.94.234:10001/play/a07r
+http://91.146.94.234:10001/play/a07s
+
+# 域名: 93.184.10.248
+http://93.184.10.248/JordanSport/index.m3u8
 
 # 域名: AMChls.wns.live
 https://AMChls.wns.live/hls/stream.m3u8
@@ -11387,6 +11592,12 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 # 域名: [2409:8c02:21c:60::2b]
 http://[2409:8c02:21c:60::2b]/live.rxip.sc96655.com/live/gsws_4000.m3u8
 
+# 域名: a-cdn.klowdtv.com
+https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
+https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
+https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8
+https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
+
 # 域名: a.jsrdn.com
 https://a.jsrdn.com/broadcast/e9b4093a41/%2B0000/high/c.m3u8
 
@@ -11415,6 +11626,12 @@ https://ad-playlistserver.aws.syncbak.com/playlist/13613390/master.m3u8?access_t
 
 # 域名: admdn2.cdn.mangomolo.com
 http://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/chunklist_b1800000_t64NzIwcA==.m3u8
+
+# 域名: aegis-cloudfront-1.tubi.video
+https://aegis-cloudfront-1.tubi.video/b474c2bb-b34d-4c53-a94b-c4ffe884563c/playlist.m3u8
+
+# 域名: africa24.vedge.infomaniak.com
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 
 # 域名: agp-nimble.streamguys1.com
 https://agp-nimble.streamguys1.com/AGCC/AGCC/playlist.m3u8?checkedby:iptvcat.com
@@ -11739,14 +11956,31 @@ https://alimov2.a.kwimgs.com/upic/2024/05/08/20/BMjAyNDA1MDgyMDAyMjFfMTg1NzcxNTY
 http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c56_lb_188_600_t10/c56_lb_188_600_t10.m3u8?key
 http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c57_lb_225_600_t10/c57_lb_225_600_t10.m3u8?key
 
+# 域名: aloula-redirect.vercel.app
+https://aloula-redirect.vercel.app/10/playlist.m3u8
+https://aloula-redirect.vercel.app/16/playlist.m3u8
+https://aloula-redirect.vercel.app/9/playlist.m3u8
+
+# 域名: alpha.tv.online.tm
+https://alpha.tv.online.tm/hls/ch004.m3u8
+
 # 域名: amdlive-ch01.ctnd.com.edgesuite.net:80
 http://amdlive-ch01.ctnd.com.edgesuite.net:80/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
 
 # 域名: amdlive-ch03-ctnd-com.akamaized.net
 https://amdlive-ch03-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
 
+# 域名: amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv
+https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8
+
+# 域名: amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv
+https://amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8
+
 # 域名: amg01868-amg01868c5-tvbanywhere-us-4493.playouts.now.amagi.tv
 https://amg01868-amg01868c5-tvbanywhere-us-4493.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbnews-tvbanywhereus/playlist.m3u8
+
+# 域名: amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
 
 # 域名: anren.live
 http://anren.live/HK/BSJDUFpB.m3u8
@@ -12109,6 +12343,9 @@ http://app.yixianfabu.com:1935/live/yixian/playlist.m3u8
 # 域名: arcast.net:1935
 http://arcast.net:1935/mp/mp/playlist.m3u8?checkedby:iptvcat.com
 
+# 域名: ares.mnet.mk
+http://ares.mnet.mk/hls/mnet-sport.m3u8
+
 # 域名: as-hls-ww-live.akamaized.net
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio=320000.m3u8
 http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio=320000.m3u8
@@ -12131,6 +12368,9 @@ http://audiolive.rbc.cn:1935/live/fm1073/96K/tzwj_video.m3u8
 
 # 域名: audiows010.cnr.cn
 http://audiows010.cnr.cn/live/wyzs192/playlist.m3u8
+
+# 域名: autopilot.catcast.tv
+https://autopilot.catcast.tv/content/37909/index.m3u8
 
 # 域名: b.ds.ch.dingtoo.com
 http://b.ds.ch.dingtoo.com/AppName/StreamName.m3u8
@@ -12167,7 +12407,10 @@ http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist.m3u8
 http://bclivepull.handannews.com.cn/BClive/NewsBroadcast.m3u8
 
 # 域名: bcovlive-a.akamaihd.net
+https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 https://bcovlive-a.akamaihd.net/4e7f273ae0a04ad6b7d2e543df61e362/us-west-2/6240731308001/playlist.m3u8
+https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 
 # 域名: beishan008.asuscomm.com:8889
 http://beishan008.asuscomm.com:8889/bysid/1.m3u8
@@ -12191,6 +12434,9 @@ http://bktvplay.gdnewmedia.cc/live/bk_whly.m3u8
 
 # 域名: bl.ainaxi.cn
 https://bl.ainaxi.cn/live/d1b85c45e7b74e96bdd950e047c7fd94.m3u8
+
+# 域名: bl.webcaster.pro
+https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8
 
 # 域名: bloomberg-bloombergtv-1-fr.samsung.wurl.com
 https://bloomberg-bloombergtv-1-fr.samsung.wurl.com/manifest/playlist.m3u8
@@ -12274,6 +12520,9 @@ http://bxtv.3a.ink/mytv/?id=ztxw
 http://bziyunshao.synology.me:8891/bysid/76
 http://bziyunshao.synology.me:8891/bysid/77
 http://bziyunshao.synology.me:8891/bysid/78
+
+# 域名: ca-rt.onetv.app
+https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202
 
 # 域名: canadaremar2.todostreaming.es
 http://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8?checkedby:iptvcat.com
@@ -12415,6 +12664,15 @@ https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/hlg4kvideo/playlist.m3u8
 https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/sdr4kvideo/playlist.m3u8
 https://cdn.jsdelivr.net/gh/namegenliang/fast-github-access@main/hosts/1080p.m3u8
 
+# 域名: cdn.rabta.stream
+https://cdn.rabta.stream/M-Sports/index.m3u8
+
+# 域名: cdn.tvmatic.net
+http://cdn.tvmatic.net/fight.m3u8
+
+# 域名: cdn1.ayitistream.com
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+
 # 域名: cdn10.yzzy-tv-cdn.com
 https://cdn10.yzzy-tv-cdn.com/20221023/2307_200a0670/index.m3u8
 
@@ -12425,6 +12683,9 @@ https://cdn13.yzzy-tv-cdn.com/20230128/9592_3d21d729/index.m3u8
 http://cdn2.163189.xyz/live/gdty/stream.m3u8
 http://cdn2.163189.xyz/live/gdzj/stream.m3u8
 https://cdn2.163189.xyz/live/gdty/stream.m3u8
+
+# 域名: cdn2.ujjina.com:1935
+http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
 
 # 域名: cdn2.yzzy-tv-cdn.com
 https://cdn2.yzzy-tv-cdn.com/20220330/4069_8714f6bb/index.m3u8
@@ -12447,6 +12708,9 @@ https://cdn3.163189.xyz/163189/wxty
 https://cdn3.163189.xyz/live/fct/stream.m3u8
 https://cdn3.163189.xyz/live/fhxg/stream.m3u8
 https://cdn3.163189.xyz/live/fhzx/stream.m3u8
+
+# 域名: cdn3.wowza.com
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
 
 # 域名: cdn4.yzzy-tv-cdn.com
 https://cdn4.yzzy-tv-cdn.com/20220606/17324_133ab69b/index.m3u8
@@ -12576,8 +12840,14 @@ https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 # 域名: channel.wcrmt.cn:80
 http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
 
+# 域名: channels.trace.plus
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+
 # 域名: chibi-live21.cjyun.org
 http://chibi-live21.cjyun.org/10138/s10138-CBTV1.m3u8?auth_key=1672502399-0-0-7c31a89b27ffafb24fdc5e16d4762860
+
+# 域名: ciner.daioncdn.net
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
 
 # 域名: cloud.video.taobao.com
 https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239755956819.mp4
@@ -12790,6 +13060,9 @@ https://cmc-ono.amagi.tv/playlist1080_p.m3u8
 # 域名: cnlive.cnr.cn
 https://cnlive.cnr.cn/hls/bjyygb.m3u8
 
+# 域名: cnn.livestreaminggroup.info:3132
+https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8
+
 # 域名: cnpull.sccnfb.com
 http://cnpull.sccnfb.com/live/123456.m3u8?zsicd
 http://cnpull.sccnfb.com/live/123456.m3u8?zsicd&quot;
@@ -12803,6 +13076,10 @@ http://cnpull.sccnfb.com:80/live/123456.m3u8
 http://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8?checkedby:iptvcat.com
 https://content.uplynk.com/40cec2bf074c40f08932da03ab4510be.m3u8?checkedby:iptvcat.com
 https://content.uplynk.com/channel/bba3e7da884a49bba96341ecf5128f0f.m3u8?checkedby:iptvcat.com
+
+# 域名: cors-proxy.cooks.fyi
+https://cors-proxy.cooks.fyi/http://147.135.114.221:8001/play/a00m/index.m3u8
+https://cors-proxy.cooks.fyi/http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 
 # 域名: cpop.bigbradio.net
 http://cpop.bigbradio.net/s
@@ -12830,16 +13107,25 @@ https://ct-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 https://ct-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 
+# 域名: cyclingtv.playout.vju.tv
+https://cyclingtv.playout.vju.tv/cyclingtv/main.m3u8
+
 # 域名: czlive.czgd.tv:85
 http://czlive.czgd.tv:85/live/xnet.m3u8
 http://czlive.czgd.tv:85/live/xnst.m3u8
 http://czlive.czgd.tv:85/live/xnyt.m3u8
+
+# 域名: d12a2vxqkkh1bo.cloudfront.net
+https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
 
 # 域名: d18dyiwu97wm6q.cloudfront.net
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
 # 域名: d2dw21aq0j0l5c.cloudfront.net
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
+
+# 域名: d2e00kr7m9coe4.cloudfront.net
+https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8
 
 # 域名: d2e1asnsl7br7b.cloudfront.net
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
@@ -12851,6 +13137,9 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 
+# 域名: d2hrvno5bw6tg2.cloudfront.net
+https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
+
 # 域名: d2p372oxiwmcn1.cloudfront.net
 https://d2p372oxiwmcn1.cloudfront.net/hls/1080p/playlist.m3u8
 
@@ -12860,18 +13149,41 @@ https://d2p372oxiwmcn1.cloudfront.net:443/hls/1080p/playlist.m3u8
 # 域名: d2vnbkvjbims7j.cloudfront.net
 https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 
+# 域名: d2xeo83q8fcni6.cloudfront.net
+https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8
+
 # 域名: d34t5yjz1ooymj.cloudfront.net
 https://d34t5yjz1ooymj.cloudfront.net/out/v1/875039d5eba0478fa8375a06b3aa5a37/index.m3u8
 
+# 域名: d36r8jifhgsk5j.cloudfront.net
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
+
+# 域名: d3d85c7qkywguj.cloudfront.net
+https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
+
+# 域名: d3qs3d2rkhfqrt.cloudfront.net
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+
 # 域名: d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips&checkedby:iptvcat.com
+
+# 域名: d71gqtnep83vb.cloudfront.net
+https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8
 
 # 域名: dafeng-tv-hls.cm.jstv.com
 http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafenget.m3u8
 http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafengyt.m3u8
 
 # 域名: dash2.antik.sk
+https://dash2.antik.sk/live/sporty_tv/index.m3u8
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
+
+# 域名: dash3.antik.sk
+https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
+
+# 域名: dash4.antik.sk
+https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
 
 # 域名: dassby.qqff.top:99
 http://dassby.qqff.top:99/live/CHC动作电影/index.m3u8
@@ -12955,8 +13267,14 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226552/index.m3u8
 
+# 域名: dc1644a9jazgj.cloudfront.net
+https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
+
 # 域名: de1se01.v2beat.live
 http://de1se01.v2beat.live/chunks.m3u8
+
+# 域名: dev.aftermind.xyz
+https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx
 
 # 域名: devlivepull.migucloud.com
 http://devlivepull.migucloud.com/live/01YCQY7M_C0.flv
@@ -12967,6 +13285,19 @@ http://devlivepull.migucloud.com/live/ZBXWIMTD_C0_2.flv
 
 # 域名: devpgclive.cmc.dyrmt.com
 http://devpgclive.cmc.dyrmt.com/live/dyrmt02.m3u8
+
+# 域名: dfr80qz435crc.cloudfront.net
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+
+# 域名: di-yx2saj20.vo.lswcdn.net
+https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8
+https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
+
+# 域名: directes-tv-cat.3catdirectes.cat
+https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
+
+# 域名: distribution.sportitalialive.it
+https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8
 
 # 域名: diyp.112114.xyz
 http://diyp.112114.xyz/douyu/7489563
@@ -13209,6 +13540,9 @@ http://drive.mxmy.net:8888/udp/239.3.1.63:8116
 http://drive.mxmy.net:8888/udp/239.3.1.64:8124
 http://drive.mxmy.net:8888/udp/239.3.1.65:8132
 
+# 域名: dshn8inoshngm.cloudfront.net
+https://dshn8inoshngm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gac2i63dmu8b7/LEquipe_FR.m3u8
+
 # 域名: dsj.motem.top:8880
 http://dsj.motem.top:8880/bptv/10000100000000050000000003870776.m3u8
 http://dsj.motem.top:8880/bptv/10000100000000050000000003870780.m3u8
@@ -13431,11 +13765,20 @@ http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8?zshij
 http://ebsonairios.ebs.co.kr/plus1tablet500k/tablet500k/plus1tablet500k.index.m3u8
 http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
 
+# 域名: edge-001.streamup.eu
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+
 # 域名: edge.realitatea.net
 https://edge.realitatea.net/realitatea/plus_fq/playlist.m3u8?checkedby:iptvcat.com
 
 # 域名: edge2a.v2h-cdn.com
 https://edge2a.v2h-cdn.com/news/news.stream/chunklist.m3u8
+
+# 域名: edge59.dc.beltelecom.by
+https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
+
+# 域名: edgectc.com
+https://edgectc.com/DEPORTES_CTC_PLUS/index.m3u8
 
 # 域名: edgeone.passwdword.xyz
 https://edgeone.passwdword.xyz/ofiii.php?token=passwd&id=4gtv-4gtv009
@@ -13705,6 +14048,9 @@ https://fenghuang.tv12.xyz/66.m3u8
 # 域名: fhs8036.bd-61.ktcdn.co.kr
 https://fhs8036.bd-61.ktcdn.co.kr/klive/smil:klive.smil/playlist.m3u8
 
+# 域名: fighthls.persiana.live
+https://fighthls.persiana.live/hls/stream.m3u8
+
 # 域名: file.hhtv.cc
 http://file.hhtv.cc/cms/videos/nmip-media/channellive/channel1/playlist.m3u8
 http://file.hhtv.cc/cms/videos/nmip-media/channellive/channel2/playlist.m3u8
@@ -13933,6 +14279,9 @@ http://fn.tmde.top:35455/nptv/cctv8k.m3u8
 http://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 
+# 域名: fox.hostlagarto.com:8081
+https://fox.hostlagarto.com:8081/toursporttv/playlist.m3u8
+
 # 域名: foxkidstv.be:3369
 https://foxkidstv.be:3369/stream/play.m3u8
 
@@ -14003,8 +14352,15 @@ http://free.cnlive.club/channel/n88aa83.m3u8
 http://free.cnlive.club/channel/n9e78d0.m3u8
 http://free.cnlive.club/channel/nb957a7c/index.m3u8?q=1752629214236
 
+# 域名: freecast-lukentvlive.vgcdn.net
+https://freecast-lukentvlive.vgcdn.net/out/v1/a4f31f297fc5440f814bd2cffd77e689/index.m3u8
+
 # 域名: frus7.jdiptv.cc
 http://frus7.jdiptv.cc/live/xgtyjdgy.m3u8kdstime=1743869071&kdssign=3f092afa312e4f7baae83a964e07bf1a
+
+# 域名: futbol9865.ultratv13.workers.dev
+https://futbol9865.ultratv13.workers.dev/deportivo111/69.m3u8
+https://futbol9865.ultratv13.workers.dev/deportivo111/78.m3u8
 
 # 域名: fvsln5ps.live.sxmty.com
 https://fvsln5ps.live.sxmty.com/live/hls/7922d2cdc4734bb3921826418cfa992d/cd7756e2135a48758e73017d502d8ec1-1.m3u8
@@ -14372,6 +14728,14 @@ http://goo.bkpcp.top/mg/xmws
 http://goo.bkpcp.top/mg/xzws
 http://goo.bkpcp.top/mg/ynws
 http://goo.bkpcp.top/mg/zjws
+
+# 域名: gpuserver3.tier1streams.com
+https://gpuserver3.tier1streams.com/CBS_SPORTS_NETWORK/index.m3u8
+https://gpuserver3.tier1streams.com/FOX_SOCCER_PLUS/index.m3u8
+https://gpuserver3.tier1streams.com/GOLF_CHANNEL/index.m3u8
+https://gpuserver3.tier1streams.com/MARQUEE_SPORTS_NETWORK/index.m3u8
+https://gpuserver3.tier1streams.com/MLB_Network/index.m3u8
+https://gpuserver3.tier1streams.com/MSG_PLUS/index.m3u8
 
 # 域名: grandprix2023.asuscomm.com:8889
 http://grandprix2023.asuscomm.com:8889/bysid/1.m3u8
@@ -14788,6 +15152,9 @@ http://h.20191209.xyz:25888/yy/21881901
 http://h.20191209.xyz:25888/yy/28265277
 http://h.20191209.xyz:25888/yy/33300793
 
+# 域名: h.jcp.live.opencaster.com
+https://h.jcp.live.opencaster.com/play_src/index.m3u8
+
 # 域名: h5.baojinews.com
 http://h5.baojinews.com/m3u8/baojitv1.m3u8
 http://h5.baojinews.com/m3u8/baojitv2.m3u8
@@ -14801,6 +15168,10 @@ https://haoyunlai.serv00.net/Smartv-1.php?id=phoenixinfo_hd
 
 # 域名: hb2stream1.baoxinwen.com
 https://hb2stream1.baoxinwen.com/d6387fc7a8836e78/6385068498053235715_1597997122.m3u8?auth_key=1893456000-0-0-93ea48b07ddd03f4904079b7659e81a4
+
+# 域名: hbbtvapp.ert.gr
+http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts
+http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts
 
 # 域名: hbbz.chinashadt.com:2036
 http://hbbz.chinashadt.com:2036/live/stream:bzgg.stream/chunklist_w1392286626.m3u8
@@ -18327,6 +18698,9 @@ http://ikuai.haleeyo.cn:9003/udp/239.77.1.14:5146
 http://ikuai.zlsip.top:4022/rtp/239.3.1.137:8036
 http://ikuai.zlsip.top:4022/rtp/239.3.1.249:8001
 
+# 域名: imn-live.esite-lab.com
+https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
+
 # 域名: imob.dunyanews.tv
 http://imob.dunyanews.tv/live/_definst_/dunyalive_1/FluxusTV.m3u8?checkedby:iptvcat.com
 
@@ -19156,6 +19530,12 @@ http://jingzhou-live21.cjyun.org/10085/s10085-jingzhou-tv02.m3u8?auth_key=167250
 http://jingzhou-live21.cjyun.org/10085/s10085-jingzhou-tv03.m3u8?auth_key=1672502399-0-0-dd8f147fdd4d8fa5cf320242c32b4ecd
 
 # 域名: jmp2.uk
+https://jmp2.uk/plu-5f99a772c54853000797bf18.m3u8
+https://jmp2.uk/plu-6357f33cb51d2d00077927c6.m3u8
+https://jmp2.uk/plu-6357f3de3643ba0007bc0b50.m3u8
+https://jmp2.uk/plu-64afe50c5dc16600087f3227.m3u8
+https://jmp2.uk/plu-64b67f0424ade50008a3be17.m3u8
+https://jmp2.uk/plu-6683f7fe36a2f9000804940c.m3u8
 https://jmp2.uk/sam-GBBD8000016N.m3u8
 
 # 域名: jp1.jdiptv.cc
@@ -19367,6 +19747,9 @@ https://k44991.kylintv.tv/live/pxna_iphone.m3u8$LR•IPV4『线路41』
 
 # 域名: kali.vdopanel.com:3986
 https://kali.vdopanel.com:3986/live/mbashalive.m3u8?checkedby:iptvcat.com
+
+# 域名: kanal75xto-llhls.akamaized.net
+https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8
 
 # 域名: kbs-dokdo.gscdn.com
 http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
@@ -21895,6 +22278,12 @@ http://kms.erfiy.com:8884/udp/225.0.4.202:7980
 # 域名: kpop.bigbradio.net
 http://kpop.bigbradio.net/s
 
+# 域名: kwtsplta.cdn.mangomolo.com
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+
+# 域名: kwtspta.cdn.mangomolo.com
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+
 # 域名: l.cztvcloud.com
 http://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8?zzhed
@@ -22050,6 +22439,9 @@ https://l2fpdktp.live.sxmty.com/live/hls/e4c3b363cc4549788e2d983f403e07db/d99ce1
 # 域名: l2yx82zv.live2.danghongyun.com
 http://l2yx82zv.live2.danghongyun.com/live/hls/8be0890a1b0c4d7aaf80b51ea8646682/5a8988f5ecc64986a19aa9b6b3a052a6-1.m3u8
 
+# 域名: latam-cache-sv2-cdn.latamlive.net
+http://latam-cache-sv2-cdn.latamlive.net/LA_LIGA_SMARTBANK_IP_ENC_LIVE/index.m3u8
+
 # 域名: lb.streaming.sk
 http://lb.streaming.sk/fashiontv/stream/chunklist.m3u8
 http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8
@@ -22058,6 +22450,9 @@ http://lb.streaming.sk/fashiontv/stream/playlist.m3u8
 
 # 域名: lb1-live-mv.v2h-cdn.com
 https://lb1-live-mv.v2h-cdn.com/hls/fdca/tvbnews/tvbnews.m3u8
+
+# 域名: lbgo.bozztv.com
+https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8
 
 # 域名: lbyzztfe.live.sxmty.com
 http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8
@@ -22099,6 +22494,9 @@ https://lianshui-tv-hls.cm.jstv.com:443/lianshui-tv/lsxw.m3u8
 # 域名: lichuan-live21.cjyun.org
 http://lichuan-live21.cjyun.org/10093/s10093-lczh.m3u8?auth_key=1672502399-0-0-f207596099dd52263c0839cbf33ce792
 
+# 域名: lightning-tracesport-samsungau.amagi.tv
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+
 # 域名: linxinbf.fst1994.cn
 http://linxinbf.fst1994.cn/live/xinwen.m3u8
 http://linxinbf.fst1994.cn/live/yingshi.m3u8
@@ -22106,9 +22504,15 @@ http://linxinbf.fst1994.cn/live/yingshi.m3u8
 # 域名: litv.zapi.us.kg
 https://litv.zapi.us.kg/?id=litv-ftv10
 
+# 域名: live-3.otcnet.ru
+https://live-3.otcnet.ru/sportivny/index.m3u8
+
 # 域名: live-350k.streamingfast.net
 http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-1.m3u8
 http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-1.m3u8
+
+# 域名: live-a.fptplay53.net
+https://live-a.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8
 
 # 域名: live-auth.51kandianshi.com
 https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
@@ -22143,6 +22547,15 @@ http://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
 http://live-edge01.telecentro.net.ar/live/msctphd-720/playlist.m3u8
 http://live-edge01.telecentro.net.ar/live/smil:trm.smil/playlist.m3u8?checkedby:iptvcat.com
 
+# 域名: live-embed.supertennix.hiway.media
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+
+# 域名: live-evg8.tv360.bitel.com.pe
+https://live-evg8.tv360.bitel.com.pe/bitel/studiotvhuanta/playlist.m3u8
+
+# 域名: live-fi.tvkaista.net
+https://live-fi.tvkaista.net/viaplay-tv/live.m3u8?hd=true
+
 # 域名: live-hdl.macaulotustv.com
 http://live-hdl.macaulotustv.com/lotustv/macaulotustv.m3u8
 
@@ -22176,6 +22589,9 @@ https://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
 
 # 域名: live-stream.lsxrmtzx.com
 https://live-stream.lsxrmtzx.com/live/video.m3u8
+
+# 域名: live-us1.thaimomo.com
+https://live-us1.thaimomo.com/live-as/chtsport-1/playlist.m3u8
 
 # 域名: live.0359tv.com
 http://live.0359tv.com/lsdream/p5eq48m/1000/live.m3u8
@@ -22461,11 +22877,20 @@ http://live.dxhmt.cn:9081/tv/11728-1.m3u8
 http://live.dxhmt.cn:9081/tv/11729-1.m3u8
 http://live.dxhmt.cn:9081/tv/19001-1.m3u8
 
+# 域名: live.elheddaftv.com:8081
+https://live.elheddaftv.com:8081/elheddaf/index.mpd
+
+# 域名: live.enhdtv.com:8081
+https://live.enhdtv.com:8081/8160/index.m3u8
+
 # 域名: live.erdszs.org.cn
 http://live.erdszs.org.cn/lsdream/3lZr8dK/1000/live.m3u8
 http://live.erdszs.org.cn/lsdream/726npBZ/1000/live.m3u8
 http://live.erdszs.org.cn/lsdream/h2mxgj4/1000/live.m3u8
 http://live.erdszs.org.cn/lsdream/ogvfqcp/1000/live.m3u8
+
+# 域名: live.fptplay53.net
+https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8
 
 # 域名: live.funhillrm.com
 http://live.funhillrm.com/2/sd/live.m3u8
@@ -22874,6 +23299,9 @@ https://live.metshop.top/huya/29465857
 https://live.metshop.top/huya/29465862
 https://live.metshop.top/huya/30080236
 
+# 域名: live.mnb.mn
+https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+
 # 域名: live.mudu.tv
 http://live.mudu.tv/watch/4zbn2f.flv
 http://live.mudu.tv/watch/4zbn2f.m3u8
@@ -23102,6 +23530,9 @@ https://live.sport888.tv/sport/202_4317185_1.m3u8
 https://live.sport888.tv/sport/202_4317188_1.m3u8
 https://live.sport888.tv/sport/202_4317413_1.m3u8
 
+# 域名: live.sportstv.com.tr
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+
 # 域名: live.streamingfast.net
 http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-3.m3u8
 http://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-3.m3u8
@@ -23161,6 +23592,12 @@ https://live.sxrtv.com/iptv/xjws.flv
 https://live.sxrtv.com/iptv/xzws.flv
 https://live.sxrtv.com/iptv/ynws.flv
 https://live.sxrtv.com/iptv/zjws.flv
+
+# 域名: live.talenttv.lk:8080
+http://live.talenttv.lk:8080/hls/x8kd5n3tm8e8lsv/index.m3u8
+
+# 域名: live.teleradiocom.tj
+https://live.teleradiocom.tj/8/3m.m3u8
 
 # 域名: live.tongdaotv.com:8087
 http://live.tongdaotv.com:8087/live/tdtv.m3u8
@@ -23383,6 +23820,9 @@ http://live.zzyxxw.com:85/live/xwzh.m3u8
 http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
 http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,
 
+# 域名: live05.meung.app
+https://live05.meung.app/live/90865415.m3u8
+
 # 域名: live1.fhtv.net.cn
 http://live1.fhtv.net.cn/shys/sd/live.m3u8
 http://live1.fhtv.net.cn/zhzb/sd/live.m3u8
@@ -23433,6 +23873,11 @@ http://live2.qxndt.com/zhpd/sd/live.m3u8
 # 域名: live2.scmstv.cn
 http://live2.scmstv.cn/ggpd/sd/live.m3u8
 
+# 域名: live20.bozztv.com
+https://live20.bozztv.com/akamaissh101/ssh101/livetigocr/playlist.m3u8
+https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8
+https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
+
 # 域名: live2018.wuhunews.cn
 http://live2018.wuhunews.cn/video/s10010-nlnews/index.m3u8
 
@@ -23440,6 +23885,9 @@ http://live2018.wuhunews.cn/video/s10010-nlnews/index.m3u8
 http://live3.plus.hebtv.com/hbdsx/hd/live.m3u8
 http://live3.plus.hebtv.com/hbdsx/playlist.m3u8
 http://live3.plus.hebtv.com/nmpdx/playlist.m3u8
+
+# 域名: live3.tdm.com.mo
+https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
 
 # 域名: live4play.uk
 http://live4play.uk/livehttpplay?channel_id=12037
@@ -23529,6 +23977,17 @@ https://livedoc.cgtn.com/500d/prog_index.m3u8
 # 域名: livees.cgtn.com
 http://livees.cgtn.com/500e/prog_index.m3u8
 https://livees.cgtn.com/1000e/prog_index.m3u8
+
+# 域名: liveeu-gcp.alkassdigital.net
+https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8
+https://liveeu-gcp.alkassdigital.net/alkass7-p/main.m3u8
+https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8
+https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8
 
 # 域名: liveflash.sxrtv.com
 http://liveflash.sxrtv.com/live/huanghe.flv
@@ -23664,11 +24123,17 @@ https://livestream-bt.nmtv.cn/nmtv/2351general.m3u8?txSecret=8857087aeec2cec44d1
 https://livestream-bt.nmtv.cn/nmtv/2354general.m3u8?txSecret=cf5f71d0000862b18f5813607b3dfd5b&txTime=771E8800
 https://livestream-bt.nmtv.cn/nmtv/2358general.m3u8?txSecret=98390a77c143a68f0fd64bfe6e181dcb&txTime=771E8800
 
+# 域名: livestream.lumpentv.com.ar
+https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
+
 # 域名: livesydst.chinamcache.com
 http://livesydst.chinamcache.com/sydst/zb04.m3u8?auth_key=1633924026-0-0-674388eaa14736b03bcd6cfd1d294ba1
 
 # 域名: livetongl.chinamcache.com
 http://livetongl.chinamcache.com/live/tlzb01.m3u8?txSecret=2ee28a051ebfb1b0771869a7d652d4a9&txTime=639a8391
+
+# 域名: livetr.teleromagna.it
+https://livetr.teleromagna.it/mia/live/playlist.m3u8
 
 # 域名: livetv.wqwqwq.sbs
 http://livetv.wqwqwq.sbs/gaoma/cctv4k16.m3u8
@@ -23989,6 +24454,9 @@ https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u
 # 域名: m3u8file.lstv.org.cn
 http://m3u8file.lstv.org.cn/nmip-media/channellive/channel1/playlist.m3u8
 
+# 域名: mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
+
 # 域名: manifest.googlevideo.com
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1701000552/ei/COFiZcvRGIT02roPqOSxmA0/ip/223.16.10.147/id/lVmOUVRDKE8.2/source/yt_live_broadcast/requiressl/yes/hfr/1/playlist_duration/30/manifest_duration/30/maxh/4320/maudio/1/gcr/hk/siu/1/spc/UWF9f83M7303sjCXjsXVE1yQt6ryeowuVCtl8-NPRlO8Ilz8BmdW7Qg/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaxh%2Cmaudio%2Cgcr%2Csiu%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/ANLwegAwRQIgOpmfsCPmkYrdJ_goBk8U8MF9DRpywkSihOeA1a49LqwCIQDwE7e9ONbosFmgeV7YGp0_p9BK-aGAjy9A5z3o8vZXhA%3D%3D/file/index.m3u8
 
@@ -24018,6 +24486,10 @@ https://mao.ffmking888.dpdns.org/?id=6Z2W5aSp6LOH6KiK5Yaw&auth=30234cedf87158198
 https://mao.ffmking888.dpdns.org/?id=6Z2W5aSp6Zu75b2x5Yaw&auth=30234cedf871581989d3c91a3daec1e9f50e024aafcfa2247e7d44d91bb8d02fbc3f571b2d67f9d82642cc1d0f133d89
 https://mao.ffmking888.dpdns.org/?id=VFZCUaaWsOiBngxx&auth=30234cedf871581989d3c91a3daec1e9f50e024aafcfa2247e7d44d91bb8d02fbc3f571b2d67f9d82642cc1d0f133d89
 https://mao.ffmking888.dpdns.org/?id=VFZCUaatoeaoguWPsAxx&auth=30234cedf871581989d3c91a3daec1e9f50e024aafcfa2247e7d44d91bb8d02fbc3f571b2d67f9d82642cc1d0f133d89
+
+# 域名: master.tucableip.com
+https://master.tucableip.com/Amistoso/index.m3u8
+https://master.tucableip.com/ftvhd/index.m3u8
 
 # 域名: masterpull.hljtv.com
 https://masterpull.hljtv.com/live/4WdrZLCq.m3u8
@@ -25053,6 +25525,9 @@ https://mgtv.ottiptv.cc/migu/956909358.m3u8?migutoken=c3931ea9d3d7ede24a9d13084d
 
 # 域名: mgugaklive.nowcdn.co.kr
 http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
+
+# 域名: mgv-awapa.akamaized.net
+https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8
 
 # 域名: migu.188766.xyz
 https://migu.188766.xyz/?migutoken=0058b64b2d01861574f42a1ace191007&id=CCTV5p&type=yy
@@ -26540,6 +27015,9 @@ https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8?checkedby
 https://msj.188766.xyz/play?id=3000000010000009788&token=4c9e9aec4c9e9aec4c9e9aec4c9e9aec
 https://msj.188766.xyz/play?id=3000000010000015686&token=4caadd2e4caadd2e4caadd2e4caadd2e
 
+# 域名: mts1.iptv-playoutcenter.de
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+
 # 域名: mursor.ottiptv.cc
 https://mursor.ottiptv.cc/migu/608780988.m3u8?migutoken=7c61765857deba36348b33b70960be142ad01112a576887cba46c30e7069797b60d888f8f8dde583e0fd4fc58620a1fe2e530a64d73661591405b25881e40fcc2c1fe608d3cc0e259c8c00d297
 https://mursor.ottiptv.cc/migu/609006446.m3u8?migutoken=42ba87f38d5576de5f23dc490b756c4fb21a2ac016d365e8f4db029442920a3e302517922b3ae6d83ca3767ee91101e32693c1a756c1f95fe97e3c9f12e03e0be34ddf079f4c69faf69aa701be
@@ -26736,6 +27214,10 @@ http://nas.suntao.online:35455/itv/5000000011000031203.m3u8?cdn=bestzb
 # 域名: nbculocallive.akamaized.net
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8?checkedby:iptvcat.com
 
+# 域名: ncdn.telewebion.ir
+https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
+https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8
+
 # 域名: nczbpull.ncntv.com.cn
 https://nczbpull.ncntv.com.cn/nctv/2004.m3u8
 https://nczbpull.ncntv.com.cn/nctv/2005.m3u8
@@ -26796,6 +27278,9 @@ http://ngcdn017.cnr.cn/live/xczs/index.m3u8
 
 # 域名: ngcdn025.cnr.cn
 http://ngcdn025.cnr.cn/live/hygb/index.m3u8
+
+# 域名: ngtrk.dc.beltelecom.by
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 
 # 域名: nhkwlive-ojp.akamaized.net
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
@@ -26887,6 +27372,12 @@ https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8
 https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
 https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
 
+# 域名: ocshls-2-olympicchannel.akamaized.net
+https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_1.m3u8
+
+# 域名: ogc-nsprt-tcl-roku-syndication.otteravision.com
+https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
+
 # 域名: omnix.cn:4000
 http://omnix.cn:4000/udp/225.1.8.20:8004
 http://omnix.cn:4000/udp/225.1.8.21:8002
@@ -26904,6 +27395,9 @@ http://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3
 # 域名: other.ottiptv.cc
 https://other.ottiptv.cc/cwjd.m3u8
 https://other.ottiptv.cc/wxty.m3u8
+
+# 域名: ott-balancer.tvri.go.id
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
 
 # 域名: ott-linear-channels.stingray.com
 https://ott-linear-channels.stingray.com/hls/stirr/101.m3u8?checkedby:iptvcat.com
@@ -27097,6 +27591,9 @@ https://p8.vzan.com/slowlive/034028687228317362/live.m3u8?zbid=351104&tpid=86810
 
 # 域名: palive.patv123.com:8091
 http://palive.patv123.com:8091/live/xwpd_800K.m3u8
+
+# 域名: pb-wm04vonaerv0k.akamaized.net
+https://pb-wm04vonaerv0k.akamaized.net/billi.m3u8
 
 # 域名: pbs-samsunguk.amagi.tv
 https://pbs-samsunguk.amagi.tv/playlist.m3u8
@@ -27782,6 +28279,12 @@ http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master_2400.
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
 
+# 域名: proped3fhg87.airspace-cdn.cbsivideo.com
+https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
+
+# 域名: proshls.wns.live
+https://proshls.wns.live/hls/stream.m3u8
+
 # 域名: pull-f3.douyincdn.com
 http://pull-f3.douyincdn.com/media/stream-695180860228633260.m3u8?arch_hrchy=w1&auth_key=1770012985-0-0-ff9ee4b3a63b6442d68acb5c221d05b4&exp_hrchy=w1&major_anchor_level=common&t_id=037-202601261446245C5B02B57E2169287B08-jDQsKk
 http://pull-f3.douyincdn.com/media/stream-695210801053303468.m3u8?arch_hrchy=w1&auth_key=1770157464-0-0-c86e8708d6a7ec472d19e1e6d5c72ce4&exp_hrchy=w1&major_anchor_level=common&t_id=037-202601280654241B9396BD38ED096ED49B-UTnX2O
@@ -28036,6 +28539,9 @@ http://r.jdshipin.com/thuYX
 http://r.jdshipin.com/vSJvl
 http://r.jdshipin.com/yDoTN
 
+# 域名: racingvic-i.akamaized.net
+https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
+
 # 域名: radio.pull.hebtv.com
 https://radio.pull.hebtv.com/live/hebnczx.m3u8
 
@@ -28123,6 +28629,15 @@ http://rfichinois96k.ice.infomaniak.ch/rfichinois-96k.mp3
 # 域名: rfienchinois64k.ice.infomaniak.ch
 https://rfienchinois64k.ice.infomaniak.ch/rfienchinois-64.mp3
 
+# 域名: rightsboosterltd-scl-1-be.samsung.wurl.tv
+https://rightsboosterltd-scl-1-be.samsung.wurl.tv/playlist.m3u8
+
+# 域名: rightsboosterltd-scl-1-eu.rakuten.wurl.tv
+https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+# 域名: rightsboosterltd-scl-2-eu.rakuten.wurl.tv
+https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8
+
 # 域名: rihou.cc:555
 http://rihou.cc:555/tv/[AtI]广东体育
 http://rihou.cc:555/tv/[AtI]广东卫视
@@ -28177,6 +28692,21 @@ http://rihou.cc:555/tv/[SZ]无线翡翠
 # 域名: rmplive.hljtv.com
 https://rmplive.hljtv.com/live/haerbin.m3u8
 https://rmplive.hljtv.com/live/qitaihe.m3u8
+
+# 域名: rmtv.akamaized.net
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
+
+# 域名: rnttwmjcin.turknet.ercdn.net
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+
+# 域名: rpn.bozztv.com
+https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
+https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
+https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
+https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
+https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
+https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
+https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 
 # 域名: rrs01.hw.gmcc.net:8088
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226667/1.m3u8
@@ -28441,6 +28971,9 @@ http://sk.cri.cn/hxfh.m3u8
 http://sk.cri.cn/hyhq.m3u8
 http://sk.cri.cn/nhzs.m3u8
 
+# 域名: skylivetab-new.akamaized.net
+https://skylivetab-new.akamaized.net/hls/live/2038782/stcsd/index.m3u8
+
 # 域名: slstplay.xjtvs.com.cn
 https://slstplay.xjtvs.com.cn/xjtv1/xjtv1stream.m3u8?auth_key=1769721085-5-5-9baaa3f716553c676d210e0c901fd362&aliyun_uuid=35691083-1351-44f7-8efc-45a697e5aa05
 
@@ -28514,8 +29047,15 @@ https://smt.iktv.ddns-ip.net/Smart.php?id=videolandmovie
 http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=Tvbclassic
 http://smt.veryfast.filegear-sg.me/smt3.2.1.php?id=hkphoenix_twn
 
+# 域名: snrtworker.kharazbelaid.workers.dev
+https://snrtworker.kharazbelaid.workers.dev/?id=arryadia.m3u8
+
 # 域名: solo.disfrutaenlared.com:1936
 https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8
+
+# 域名: sra72yz.s.gy
+https://sra72yz.s.gy/EDGE_SPORTS_SD
+https://sra72yz.s.gy/ONE_SPORTS_PH_SD
 
 # 域名: sradio.ipradio.rs
 https://sradio.ipradio.rs/sradio/radiostv/playlist.m3u8
@@ -28534,6 +29074,7 @@ https://srv1.zcast.com.br/kpoptv/kpoptv/.m3u8
 
 # 域名: srvx1.selftv.video
 https://srvx1.selftv.video/cafe/live/playlist.m3u8?checkedby:iptvcat.com
+https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 
 # 域名: ssdyapp.cn
 http://ssdyapp.cn/live/dyv1.m3u8
@@ -28541,6 +29082,9 @@ http://ssdyapp.cn/live/dyv1.m3u8
 # 域名: st1.my.to
 http://st1.my.to/api/curl.php?id=163
 http://st1.my.to/api/curl.php?id=40
+
+# 域名: st2.mediabay.tv
+https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8
 
 # 域名: starfish.bj.aliyun.001.qingting.fm:8000
 http://starfish.bj.aliyun.001.qingting.fm:8000/jingdianFM1008
@@ -28585,6 +29129,34 @@ mitv://starvod.xyz:19806/eb30a7e16f1841c6900b45c8be342071.ts
 mitv://starvod.xyz:19806/f4650e7cb54645f79ea52469b84ef3c4.ts
 mitv://starvod.xyz:19806/f9cdad09f3cc47bc83ba1d94167ebe64.ts
 
+# 域名: steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev
+https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
+
+# 域名: stm.sinalmycn.com
+https://stm.sinalmycn.com/19024/video.m3u8
+https://stm.sinalmycn.com/19025/video.m3u8
+https://stm.sinalmycn.com/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/20003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/20006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/20009/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/20012/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/20015/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/20018/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/20021/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/21000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/21003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+https://stm.sinalmycn.com/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+
+# 域名: stmv2.voxtvhd.com.br
+https://stmv2.voxtvhd.com.br/crtvchile/crtvchile/playlist.m3u8
+
+# 域名: stream-lb.livemediama.com
+https://stream-lb.livemediama.com/arryadia-hd-01/hls/master.m3u8
+https://stream-lb.livemediama.com/arryadia-hd-02/hls/master.m3u8
+https://stream-lb.livemediama.com/arryadia-hd-03/hls/master.m3u8
+https://stream-lb.livemediama.com/arryadia-tnt/hls/master.m3u8
+https://stream-lb.livemediama.com/arryadia/hls/master.m3u8
+
 # 域名: stream.0515yc.cn
 http://stream.0515yc.cn/yctv1/playlist.m3u8
 http://stream.0515yc.cn/yctv2/playlist.m3u8
@@ -28617,6 +29189,9 @@ http://stream.appwuhan.com:80/jyzb/sd/live.m3u8
 http://stream.bzcm.net/1/sd/live.m3u8
 http://stream.bzcm.net/2/sd/live.m3u8
 http://stream.bzcm.net/4/sd/live.m3u8
+
+# 域名: stream.digitalgt.com:3605
+https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
 
 # 域名: stream.freetv.fun
 https://stream.freetv.fun/2f2e29b8759a2458730dc1f3686024472691952a50e787fe075944d0cb17f36e.ctv
@@ -28730,6 +29305,16 @@ http://stream.lytv.net.cn/2/sd/live.m3u8
 http://stream.lyxltv.com/xinluotv/sd/live.m3u8
 http://stream.lyxltv.com/xltv/sd/live.m3u8
 
+# 域名: stream.mcquack.net
+http://stream.mcquack.net/112/index.m3u8
+http://stream.mcquack.net/169/index.m3u8
+http://stream.mcquack.net/178/index.m3u8
+http://stream.mcquack.net/333/index.m3u8
+http://stream.mcquack.net/353/index.m3u8
+http://stream.mcquack.net/491/index.m3u8
+http://stream.mcquack.net/492/index.m3u8
+http://stream.mcquack.net/493/index.m3u8
+
 # 域名: stream.mediawork.cz
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 
@@ -28774,6 +29359,12 @@ http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=ff91851a1740792470
 
 # 域名: stream.rcs.revma.com
 http://stream.rcs.revma.com/044q61ha7a0uv/hls.m3u8
+
+# 域名: stream.realitatea.net
+https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
+
+# 域名: stream.smashmalta.com:25463
+https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
 
 # 域名: stream.smntv.cn
 http://stream.smntv.cn/smtv1/playlist.m3u8
@@ -30527,6 +31118,10 @@ http://stream5.jlntv.cn/wq/sd/live.m3u8
 http://stream5.jlntv.cn/wq/sd/live.m3u8?_upt=eb80947d1699080781
 http://stream5.jlntv.cn/wq/sd/live.m3u8?zjild
 
+# 域名: stream8.cinerama.uz
+https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+
 # 域名: stream8.jlntv.cn
 http://stream8.jlntv.cn/cbstv/sd/live.m3u8
 http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
@@ -30551,8 +31146,14 @@ http://stream9.jlntv.cn:80/aac_huadiangb/playlist.m3u8
 http://stream9.jlntv.cn:80/aac_jygb/playlist.m3u8
 http://stream9.jlntv.cn:80/aac_longjinggb/playlist.m3u8
 
+# 域名: streamer1.nexgen.bz
+https://streamer1.nexgen.bz/TNC_SPORTS/index.m3u8
+
 # 域名: streaming-cl.sh1ny.space
 https://streaming-cl.sh1ny.space/memfs/e16d2f72-70b5-4bf5-b9c5-107b6390a10f.m3u8
+
+# 域名: streaming.astrakhan.ru
+https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 
 # 域名: streaming.radionomy.com
 http://streaming.radionomy.com/JamendoLounge
@@ -30563,8 +31164,24 @@ https://streamingserver02.omroepnuenen.nl/lon/lonweb_720p/playlist.m3u8?checkedb
 # 域名: streamipcf.akamaized.net
 http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 
+# 域名: streams2.sofast.tv
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
+https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
+
+# 域名: streamtv.as3sport.online:3394
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8
+
 # 域名: streamtv.cdn.dvmr.fr
 https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8
+
+# 域名: streamvidex.qzz.io
+https://streamvidex.qzz.io/videx/dsports2/index.m3u8
+https://streamvidex.qzz.io/videx/dsportsar/index.m3u8
+https://streamvidex.qzz.io/videx/dsportsplus/index.m3u8
+https://streamvidex.qzz.io/videx/fox2usa/index.m3u8
+
+# 域名: strhls.streamakaci.tv
+https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8
 
 # 域名: suining-tv-hls.cm.jstv.com:80
 http://suining-tv-hls.cm.jstv.com:80/suining-tv/suiningzh.m3u8
@@ -30602,6 +31219,7 @@ https://svipsvip.ffzyread1.com/20250129/35458_c988286f/index.m3u8
 
 # 域名: svs.itworkscdn.net
 https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
+https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8
 
 # 域名: sxjc.chinashadt.com:2036
 http://sxjc.chinashadt.com:2036/live/stream:jctv.stream/playlist.m3u8
@@ -31442,9 +32060,16 @@ https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 # 域名: test5.btzx.com.cn:80
 http://test5.btzx.com.cn:80/live/kkdl.stream/playlist.m3u8
 
+# 域名: thm-it-roku.otteravision.com
+https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+
 # 域名: tianhewan.top
 http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8576/.m3u8$LR•IPV4『线路89』
 http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8577/.m3u8$LR•IPV4『线路45』
+
+# 域名: tjktv-live.tjk.org
+https://tjktv-live.tjk.org/tjktv.m3u8
+https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
 
 # 域名: tl.061833.xyz
 http://tl.061833.xyz/tl/lovenaturehd
@@ -31478,6 +32103,9 @@ https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
 # 域名: traffic.jbh.tjbh.com
 http://traffic.jbh.tjbh.com/live/bhtv10/playlist.m3u8
 
+# 域名: trs1.aynaott.com
+https://trs1.aynaott.com/tsports/index.m3u8
+
 # 域名: tscstreaming-lh.akamaihd.net
 http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8?checkedby:iptvcat.com
@@ -31503,6 +32131,12 @@ http://tunein.ord.streamguys1.com/secure-aljazeera-english
 
 # 域名: tv-live.ynkmit.com
 http://tv-live.ynkmit.com/tv/anning.m3u8?txSecret=7528f35fb4b62bd24d55b891899db68f&txTime=632C8680
+
+# 域名: tv-trtspor1.medya.trt.com.tr
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+
+# 域名: tv-trtspor2.medya.trt.com.tr
+https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 
 # 域名: tv-trtworld.live.trt.com.tr
 https://tv-trtworld.live.trt.com.tr/master.m3u8
@@ -31676,6 +32310,9 @@ rtmp://tv.mcrm.org.cn:1935/channellive/tv01?zsicd;http://tvfile.mcrm.org.cn/nmip
 # 域名: tv.mytvsuper.xyz
 https://tv.mytvsuper.xyz/astro/qianxi/qianxi.m3u8
 https://tv.mytvsuper.xyz/tvb/xinghe/xinghe.m3u8
+
+# 域名: tv.picta.cu
+https://tv.picta.cu/telerebelde/telerebelde_1.m3u8
 
 # 域名: tv.pull.hebtv.com
 http://tv.pull.hebtv.com/jishi/shaoerkejiao.m3u8?t=2510710360&k=4ff4446adf3cce3de40dd013255b38b2
@@ -32062,6 +32699,20 @@ https://tvpull.hmgbtv.com/hmtv/channelfb0e5c505477aa44/playlist.m3u8
 https://tvpull.smartwq.cn/wqlive/convergencemedia/playlist.m3u8
 https://tvpull.smartwq.cn/wqlive/convergencemedia/playlist.m3u8?ztianjd
 
+# 域名: tvsen5.aynascope.net
+http://tvsen5.aynascope.net/willowhd/index.m3u8
+
+# 域名: tvsen7.aynaott.com
+https://tvsen7.aynaott.com/ssport2hd/index.m3u8
+https://tvsen7.aynaott.com/sspts1/index.m3u8
+
+# 域名: tvsen7.aynascope.net
+http://tvsen7.aynascope.net/ssport2hd/index.m3u8
+http://tvsen7.aynascope.net/sspts1/index.m3u8
+
+# 域名: tvturf4.janus.cl
+https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&id=
+
 # 域名: tw-ty-line-11-1-5.sudatech.store:20319
 http://tw-ty-line-11-1-5.sudatech.store:20319/4gtv-4gtv001/index.m3u8?proxy=true
 http://tw-ty-line-11-1-5.sudatech.store:20319/4gtv-4gtv003/index.m3u8?proxy=true
@@ -32179,6 +32830,9 @@ https://uni8rtmp.tulix.tv/cfntv/cfntv/playlist.m3u8
 # 未知域名
 http://[2409:8087:8:21::18]*
 
+# 域名: unlimited6-cl.dps.live
+https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
+
 # 域名: usgeowall.sinclairstoryline.com
 http://usgeowall.sinclairstoryline.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8?checkedby:iptvcat.com
 https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e.m3u8?checkedby:iptvcat.com
@@ -32243,6 +32897,9 @@ https://v9.tlkqc.com/wjv9/202408/06/p7712pXCuV81/video/index.m3u8
 # 域名: vapi.91kds.cc
 http://vapi.91kds.cc/live1/hitv.m3u8?id=hiqs&apiKey=2079b631b519ec17da0bc09844eb8419
 http://vapi.91kds.cc/live1/hitv.m3u8?id=hiys&apiKey=2079b631b519ec17da0bc09844eb8419
+
+# 域名: vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr
+https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
 
 # 域名: vd1.bdstatic.com
 http://vd1.bdstatic.com/mda-hc2rwgemn6yrnvw2/mda-hc2rwgemn6yrnvw2.mp4
@@ -32364,6 +33021,9 @@ http://video.oct.dc.gov/out/u/15_12.m3u8?checkedby:iptvcat.com
 
 # 域名: video.uitzending.tv:19360
 https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8?checkedby:iptvcat.com
+
+# 域名: video01.soultv.com.br
+https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
 
 # 域名: video02.logicahost.com.br
 https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8?checkedby:iptvcat.com
@@ -32847,6 +33507,9 @@ http://wb.xn--dkw.xn--6qq986b3xl:5244/d/%E5%A4%A9/og1.mp4?mda-nd5cr584424xr57c/s
 # 域名: webcast.hkstv.tv
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 
+# 域名: webstream.multistream.it
+https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+
 # 域名: wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.345888.xyz.cdn.cloudflare.net
 http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.345888.xyz.cdn.cloudflare.net/gt/aktv.php?variable=null-14
 http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.345888.xyz.cdn.cloudflare.net/gt/aktv.php?variable=null-4
@@ -32974,6 +33637,9 @@ https://wstvcpudali.v.myalicdn.com/wstvcpud/udrmbtv9_1/index.m3u8?adapt=0&BR=aud
 
 # 域名: wtmtylive.yunshicloud.com
 https://wtmtylive.yunshicloud.com/tbziu1/ad592j.m3u8
+
+# 域名: wurl120sports.global.transmit.live
+https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
 
 # 域名: www.30a-tv.com
 http://www.30a-tv.com/InvPit.m3u8?checkedby:iptvcat.com
@@ -33784,6 +34450,9 @@ http://xc.mfykeke.top:35455/nptv/cctv8k.m3u8
 http://xc.mfykeke.top:35455/nptv/dyjc.m3u8
 http://xc.mfykeke.top:35455/nptv/fyjc.m3u8
 http://xc.mfykeke.top:35455/nptv/hjjc.m3u8
+
+# 域名: xemzi.short.gy
+https://xemzi.short.gy/2000005
 
 # 域名: xhalive.qwmedia.cn
 http://xhalive.qwmedia.cn/hdratv-live/xha-fcpd.flv
