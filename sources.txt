@@ -1,3 +1,6 @@
+http://[2409:8087:...]/otttv.bj.chinamobile.com/...
+# 以及任何北京移动、北京联通等相关组播源
+
 # 港台頻道與 TVB 專用源
 https://gh.aptv.app/https://raw.githubusercontent.com/nthack/IPTVM3U/master/HKTW.m3u
 https://gh.aptv.app/https://raw.githubusercontent.com/MercuryZz/IPTVN/refs/heads/Files/GAT.m3u
