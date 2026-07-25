@@ -1,13 +1,8 @@
-# 綜合體育與咪咕源
-https://gh.aptv.app/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
-https://gh.aptv.app/https://raw.githubusercontent.com/YanG-1989/m3u/main/Migu.m3u
-
 # 港台頻道與 TVB 專用源
 https://gh.aptv.app/https://raw.githubusercontent.com/nthack/IPTVM3U/master/HKTW.m3u
 https://gh.aptv.app/https://raw.githubusercontent.com/MercuryZz/IPTVN/refs/heads/Files/GAT.m3u
-
-# 穩定的國內通用 IPv6 源（作為主備用）
-https://gh.aptv.app/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+https://gh.aptv.app/https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.m3u
+https://iptv-org.github.io/iptv/categories/sports.m3u
 
 
 
