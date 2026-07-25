@@ -1,6 +1,6 @@
 #EXTM3U
 # 其他台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-07-26 00:27:52
+# 更新时间(北京时间): 2026-07-26 04:45:32
 # 电视台数量: 98
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -120,7 +120,7 @@ https://jmp2.uk/plu-68dfa431cc3c6cd904053100.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Håndbold Live" group-title="其他台" tvg-logo="https://images.pluto.tv/channels/6618f54baec96800081525ec/colorLogoPNG_1762173655031.png",Pluto TV Håndbold Live [1普通]
 https://jmp2.uk/plu-6618f54baec96800081525ec.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Snooker 900" group-title="其他台" tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" tvg-quality="标清",Pluto TV Snooker 900 [9普通]
-https://jmp2.uk/plu-68ac5543a1ac0c90f2c8943e.m3u8|https://jmp2.uk/plu-66fd35e44ca31f0008060b77.m3u8|https://jmp2.uk/plu-655b7cbb2c46f300086f0afa.m3u8|https://jmp2.uk/plu-69148c76e9dec35c9269a16c.m3u8|https://jmp2.uk/plu-68ac55bb3efb41cd979a65ec.m3u8|https://jmp2.uk/plu-68ac56363efb41cd979a8005.m3u8|https://jmp2.uk/plu-69148c470155f9b136b5d856.m3u8|https://jmp2.uk/plu-68ac55fe3efb41cd979a6877.m3u8|https://jmp2.uk/plu-639b4f75d3d35c0007d37b30.m3u8
+https://jmp2.uk/plu-68ac5543a1ac0c90f2c8943e.m3u8|https://jmp2.uk/plu-655b7cbb2c46f300086f0afa.m3u8|https://jmp2.uk/plu-68ac55bb3efb41cd979a65ec.m3u8|https://jmp2.uk/plu-69148c470155f9b136b5d856.m3u8|https://jmp2.uk/plu-66fd35e44ca31f0008060b77.m3u8|https://jmp2.uk/plu-69148c76e9dec35c9269a16c.m3u8|https://jmp2.uk/plu-68ac55fe3efb41cd979a6877.m3u8|https://jmp2.uk/plu-68ac56363efb41cd979a8005.m3u8|https://jmp2.uk/plu-639b4f75d3d35c0007d37b30.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Sport" group-title="其他台" tvg-logo="https://images.pluto.tv/channels/608030eff4b6f70007e1684c/colorLogoPNG_1746816937164.png",Pluto TV Sport [2普通]
 https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8|https://jmp2.uk/plu-62cd74e38f6f0d000798cd93.m3u8
 #EXTINF:-1 tvg-name="Premier Sports" group-title="其他台" tvg-logo="https://i.imgur.com/BURPHzI.png" tvg-quality="高清",Premier Sports [1普通]
