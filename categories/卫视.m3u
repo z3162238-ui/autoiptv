@@ -1,7 +1,7 @@
 #EXTM3U
 # 卫视频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-07-26 08:49:19
-# 电视台数量: 34
+# 更新时间(北京时间): 2026-07-27 05:23:55
+# 电视台数量: 31
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -15,12 +15,10 @@ http://58.57.40.22:9901/tsfile/live/1032_1.m3u8
 https://stream1.freetv.fun/d8b2b882e8a704bb305f55afb644fea2842712aafb0bff0654c598e58b9d136a.ctv
 #EXTINF:-1 tvg-name="重庆卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/重庆卫视.png",重庆卫视 [1普通]
 http://58.57.40.22:9901/tsfile/live/0142_1.m3u8
-#EXTINF:-1 tvg-name="河北卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/河北卫视.png",河北卫视 [3普通]
-http://101.66.194.177:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0|https://stream1.freetv.fun/bb203fc38869ffbbb252e20dcc201c2484d80335e5b9c96aaee3a713202eb684.ctv|https://stream1.freetv.fun/b1b70c0ba5ae4a14b5325b4ced18b94dd2423b228895e62c705cf91ef625219c.ctv
+#EXTINF:-1 tvg-name="河北卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/河北卫视.png",河北卫视 [1普通]
+https://stream1.freetv.fun/b1b70c0ba5ae4a14b5325b4ced18b94dd2423b228895e62c705cf91ef625219c.ctv
 #EXTINF:-1 tvg-name="山西卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/山西卫视.png",山西卫视 [2普通]
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8|https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="吉林卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/吉林卫视.png",吉林卫视 [1普通]
-https://stream1.freetv.fun/ff2a6adcf238ada96d1264bb734c2f6db38253d6fbdfec2cff7a56f4b61b5187.ctv
 #EXTINF:-1 tvg-name="黑龙江卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/黑龙江卫视.png",黑龙江卫视 [1普通]
 http://58.57.40.22:9901/tsfile/live/1040_1.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/安徽卫视.png",安徽卫视 [2普通]
@@ -35,8 +33,8 @@ http://58.57.40.22:9901/tsfile/live/1038_1.m3u8
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8|http://58.57.40.22:9901/tsfile/live/1028_1.m3u8
 #EXTINF:-1 tvg-name="广东卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东卫视.png",广东卫视 [1普通]
 https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
-#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" tvg-ipv6="true",海南卫视 [1IPv6+2普通]
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|http://58.57.40.22:9901/tsfile/live/1000_1.m3u8|https://stream1.freetv.fun/3aeb30bcb2f18f870ecf97beec9e21c8b8622f6e0a89b95f211ad33ca0c43261.ctv
+#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" tvg-ipv6="true",海南卫视 [1IPv6+1普通]
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|http://58.57.40.22:9901/tsfile/live/1000_1.m3u8
 #EXTINF:-1 tvg-name="四川卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/四川卫视.png",四川卫视 [2普通]
 https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="贵州卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/贵州卫视.png",贵州卫视 [2普通]
@@ -55,10 +53,6 @@ https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471
 https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="西藏卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/西藏卫视.png",西藏卫视 [3普通]
 https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://stream1.freetv.fun/613b5d598b98f0da6ef4428d7a736d6eae51a31e62fb3b47cad62a7047adad46.ctv|https://stream1.freetv.fun/512291fa402193c612ef5a63086d3883640fb73d6d172a1991b4a789c99ef9c8.ctv
-#EXTINF:-1 tvg-name="三沙卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/三沙卫视.png",三沙卫视 [1普通]
-https://stream1.freetv.fun/df33905ace9ef0fe0351b498ad9d668c616fa105b9a9cda86ed0a24f5e85f485.ctv
-#EXTINF:-1 tvg-name="东南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东南卫视.png",东南卫视 [1普通]
-http://101.66.194.177:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png",东方卫视 [2普通]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8|http://58.57.40.22:9901/tsfile/live/1030_1.m3u8
 #EXTINF:-1 tvg-name="凤凰卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/凤凰卫视.png",凤凰卫视 [1普通]

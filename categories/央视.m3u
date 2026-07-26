@@ -1,7 +1,7 @@
 #EXTM3U
 # 央视频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-07-26 08:49:19
-# 电视台数量: 2
+# 更新时间(北京时间): 2026-07-27 05:23:55
+# 电视台数量: 1
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -11,5 +11,3 @@
 
 #EXTINF:-1 tvg-name="CCTV-17 农业农村" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-17.png",CCTV-17 农业农村 [2普通]
 https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="CCTV 4中文国际" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV4.png",CCTV 4中文国际 [1普通]
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1785068100-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-f4e892b035b78fb95a40629bb289b9e3&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c

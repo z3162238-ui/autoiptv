@@ -4,8 +4,8 @@
 # 播放器切换源方法：PotPlayer按Alt+W，VLC右键选择源
 # 排序规则：IPv6源 > 白名单源 > 4K > 高清 > 标清 > 流畅
 # 新增分类：调频广播、歌曲MV
-# 更新时间(北京时间): 2026-07-26 08:49:19
-# 电视台总数: 279
+# 更新时间(北京时间): 2026-07-27 05:23:55
+# 电视台总数: 270
 # 数据源: 3 个 (成功: 2, 失败: 1)
 # 特点: 移除技术参数，统一央视频道命名，按省份分类地方台，IPv6优先
 # 配置文件: config.txt
@@ -21,25 +21,21 @@
 # 黑名单: blacklist.txt
 
 
-# 分类: 央视 (2个频道)
+# 分类: 央视 (1个频道)
 #EXTINF:-1 tvg-name="CCTV-17 农业农村" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-17.png",CCTV-17 农业农村 [2源]
 https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="CCTV 4中文国际" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV4.png",CCTV 4中文国际 [1高速+1源]
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1785068100-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-f4e892b035b78fb95a40629bb289b9e3&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
-# 分类: 卫视 (34个频道)
+# 分类: 卫视 (31个频道)
 #EXTINF:-1 tvg-name="北京卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/北京卫视.png",北京卫视 [1高速+1源]
 http://58.57.40.22:9901/tsfile/live/1032_1.m3u8
 #EXTINF:-1 tvg-name="天津卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/天津卫视.png",天津卫视 [1源]
 https://stream1.freetv.fun/d8b2b882e8a704bb305f55afb644fea2842712aafb0bff0654c598e58b9d136a.ctv
 #EXTINF:-1 tvg-name="重庆卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/重庆卫视.png",重庆卫视 [1高速+1源]
 http://58.57.40.22:9901/tsfile/live/0142_1.m3u8
-#EXTINF:-1 tvg-name="河北卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/河北卫视.png",河北卫视 [1高速+3源]
-http://101.66.194.177:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0|https://stream1.freetv.fun/bb203fc38869ffbbb252e20dcc201c2484d80335e5b9c96aaee3a713202eb684.ctv|https://stream1.freetv.fun/b1b70c0ba5ae4a14b5325b4ced18b94dd2423b228895e62c705cf91ef625219c.ctv
+#EXTINF:-1 tvg-name="河北卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/河北卫视.png",河北卫视 [1源]
+https://stream1.freetv.fun/b1b70c0ba5ae4a14b5325b4ced18b94dd2423b228895e62c705cf91ef625219c.ctv
 #EXTINF:-1 tvg-name="山西卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/山西卫视.png",山西卫视 [1高速+2源]
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8|https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="吉林卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/吉林卫视.png",吉林卫视 [1源]
-https://stream1.freetv.fun/ff2a6adcf238ada96d1264bb734c2f6db38253d6fbdfec2cff7a56f4b61b5187.ctv
 #EXTINF:-1 tvg-name="黑龙江卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/黑龙江卫视.png",黑龙江卫视 [1高速+1源]
 http://58.57.40.22:9901/tsfile/live/1040_1.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/安徽卫视.png",安徽卫视 [1高速+2源]
@@ -54,8 +50,8 @@ http://58.57.40.22:9901/tsfile/live/1038_1.m3u8
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8|http://58.57.40.22:9901/tsfile/live/1028_1.m3u8
 #EXTINF:-1 tvg-name="广东卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东卫视.png",广东卫视 [1源]
 https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
-#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" tvg-ipv6="true",海南卫视 [1IPv6+1高速+3源]
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|http://58.57.40.22:9901/tsfile/live/1000_1.m3u8|https://stream1.freetv.fun/3aeb30bcb2f18f870ecf97beec9e21c8b8622f6e0a89b95f211ad33ca0c43261.ctv
+#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" tvg-ipv6="true",海南卫视 [1IPv6+1高速+2源]
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|http://58.57.40.22:9901/tsfile/live/1000_1.m3u8
 #EXTINF:-1 tvg-name="四川卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/四川卫视.png",四川卫视 [2源]
 https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="贵州卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/贵州卫视.png",贵州卫视 [1高速+2源]
@@ -74,10 +70,6 @@ https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471
 https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="西藏卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/西藏卫视.png",西藏卫视 [3源]
 https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://stream1.freetv.fun/613b5d598b98f0da6ef4428d7a736d6eae51a31e62fb3b47cad62a7047adad46.ctv|https://stream1.freetv.fun/512291fa402193c612ef5a63086d3883640fb73d6d172a1991b4a789c99ef9c8.ctv
-#EXTINF:-1 tvg-name="三沙卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/三沙卫视.png",三沙卫视 [1源]
-https://stream1.freetv.fun/df33905ace9ef0fe0351b498ad9d668c616fa105b9a9cda86ed0a24f5e85f485.ctv
-#EXTINF:-1 tvg-name="东南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东南卫视.png",东南卫视 [1高速+1源]
-http://101.66.194.177:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png",东方卫视 [2高速+2源]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8|http://58.57.40.22:9901/tsfile/live/1030_1.m3u8
 #EXTINF:-1 tvg-name="凤凰卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/凤凰卫视.png",凤凰卫视 [1源]
@@ -190,8 +182,8 @@ https://cdn.qd.je/163189.php?id=fct|https://stream1.freetv.fun/829b7e0470319a0e8
 https://stream1.freetv.fun/an-hui-zong-yi-ti-yu-8.m3u8
 #EXTINF:-1 tvg-name="山东体育" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东体育.png",山东体育 [2高速+2源]
 https://stream1.freetv.fun/shan-dong-ti-yu-4.m3u8|https://stream1.freetv.fun/shan-dong-ti-yu-7.m3u8
-#EXTINF:-1 tvg-name="广东体育" group-title="体育台" tvg-logo="https://11.112114.xyz/logo/广东体育.png",广东体育 [4源]
-https://stream1.freetv.fun/215449034a84edf70262158dc798e6923a2484c7efa1a98ad0dc22daa2117945.ctv|https://stream1.freetv.fun/1adf192bf214b0501d5dffac8b0f02243982fd569eb252184908a9c7bb8e1aff.ctv|http://php.jdshipin.com/PLTV/iptv.php?id=gdty|http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+#EXTINF:-1 tvg-name="广东体育" group-title="体育台" tvg-logo="https://11.112114.xyz/logo/广东体育.png",广东体育 [3源]
+https://stream1.freetv.fun/215449034a84edf70262158dc798e6923a2484c7efa1a98ad0dc22daa2117945.ctv|http://php.jdshipin.com/PLTV/iptv.php?id=gdty|http://php.jdshipin.com/TVOD/iptv.php?id=gdty
 #EXTINF:-1 tvg-name="魅力足球" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/魅力足球.png" tvg-ipv6="true",魅力足球 [1IPv6+1高速]
 https://stream1.freetv.fun/ipv6-mei-li-zu-qiu-4.m3u8
 
@@ -203,7 +195,7 @@ https://stream1.freetv.fun/hu-nan-dian-ying-2.ctv|http://php.jdshipin.com:8880/i
 #EXTINF:-1 tvg-name="纬来电影" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纬来电影.png",纬来电影 [2高速+2源]
 https://stream1.freetv.fun/wei-lai-dian-ying-1.m3u8|https://stream1.freetv.fun/wei-lai-dian-ying-3.m3u8
 
-# 分类: 其他台 (120个频道)
+# 分类: 其他台 (116个频道)
 #EXTINF:-1 tvg-name="CETV 2" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-2.png" tvg-ipv6="true",CETV 2 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
 #EXTINF:-1 tvg-name="CETV 3" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-3.png" tvg-ipv6="true",CETV 3 [1IPv6]
@@ -212,8 +204,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="东方影视" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方影视.png" tvg-ipv6="true",东方影视 [1IPv6+1高速]
 https://stream1.freetv.fun/ipv6-dong-fang-ying-shi-8.m3u8
-#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [7源]
-http://119.88.243.98:17231/959986621|http://182.127.153.79:1234/959986621|http://42.94.210.57:7788/959986621|http://116.236.204.18:1234/959986621|http://182.61.15.163:80/959986621|http://27.12.12.189:1234/959986621|http://60.168.105.138:5008/959986621
+#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [5源]
+http://119.88.243.98:17231/959986621|http://42.94.210.57:7788/959986621|http://116.236.204.18:1234/959986621|http://182.61.15.163:80/959986621|http://60.168.105.138:5008/959986621
 #EXTINF:-1 tvg-name="中央电视塔东" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中央电视塔东.png",中央电视塔东 [1源]
 https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8
 #EXTINF:-1 tvg-name="中央电视塔南" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中央电视塔南.png",中央电视塔南 [1源]
@@ -246,8 +238,8 @@ https://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8
 https://gcalic.v.myalicdn.com/gc/blg05_1/index.m3u8
 #EXTINF:-1 tvg-name="兰溪新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兰溪新闻综合.png",兰溪新闻综合 [1高速+1源]
 https://stream1.freetv.fun/lan-xi-xin-wen-zong-he-3.m3u8
-#EXTINF:-1 tvg-name="兵器科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兵器科技.png",兵器科技 [2源]
-https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://live.264788.xyz/channel/bingqikeji?streamid=530cb4e58bbc48b7fc26f5e0a2e47966&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-name="兵器科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兵器科技.png",兵器科技 [1源]
+https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="动漫秀场" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/动漫秀场.png",动漫秀场 [1高速+1源]
 https://stream1.freetv.fun/dong-man-xiu-chang-11.m3u8
 #EXTINF:-1 tvg-name="十堰新闻" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/十堰新闻.png",十堰新闻 [2高速+2源]
@@ -274,8 +266,8 @@ https://stream1.freetv.fun/tian-ying-jing-dian-5.m3u8
 https://gcalic.v.myalicdn.com/gc/tyhjtys_1/index.m3u8
 #EXTINF:-1 tvg-name="宜兴新闻" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宜兴新闻.png",宜兴新闻 [1高速+1源]
 https://stream1.freetv.fun/yi-xing-xin-wen-2.m3u8
-#EXTINF:-1 tvg-name="宿州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合.png",宿州新闻综合 [3高速+3源]
-https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-3.m3u8|http://live.ahsz.tv/video/s10001-szzh/index.m3u8
+#EXTINF:-1 tvg-name="宿州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合.png",宿州新闻综合 [2高速+2源]
+https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-3.m3u8
 #EXTINF:-1 tvg-name="嵊州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊州新闻综合.png",嵊州新闻综合 [1高速+1源]
 https://stream1.freetv.fun/sheng-zhou-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="嵊泗综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊泗综合.png",嵊泗综合 [1高速+1源]
@@ -318,10 +310,6 @@ https://stream1.freetv.fun/wu-yi-2dian-shi-ju-1.m3u8
 https://stream1.freetv.fun/wu-yi-jiao-yu-4.m3u8|https://stream1.freetv.fun/wu-yi-jiao-yu-6.m3u8|https://stream1.freetv.fun/wu-yi-jiao-yu-1.m3u8
 #EXTINF:-1 tvg-name="永嘉新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/永嘉新闻综合.png",永嘉新闻综合 [1高速+1源]
 https://stream1.freetv.fun/yong-jia-xin-wen-zong-he-4.m3u8
-#EXTINF:-1 tvg-name="汕头经济生活" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/汕头经济生活.png",汕头经济生活 [1源]
-https://stream1.freetv.fun/df1c23bfd3de01df2000c14a091824044c94b92a436f0f6a42237bf6ae0b89f9.ctv
-#EXTINF:-1 tvg-name="汕尾新闻综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/汕尾新闻综合.png",汕尾新闻综合 [1源]
-https://stream1.freetv.fun/062fedadba1a81e9549f247d5fa4e7c10af6a871d5f7cfce5b7f843fb5f2074d.ctv
 #EXTINF:-1 tvg-name="江门综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/江门综合.png",江门综合 [1源]
 https://stream1.freetv.fun/05a412b2f7dcf348a25bb4e50a032cef491b74834bc47f280ca28bcd99d512a7.ctv
 #EXTINF:-1 tvg-name="沁阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/沁阳新闻综合.png",沁阳新闻综合 [1高速+1源]
@@ -346,8 +334,6 @@ http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b473
 https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-1.m3u8|https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-3.m3u8
 #EXTINF:-1 tvg-name="潍坊新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/潍坊新闻综合.png" tvg-ipv6="true",潍坊新闻综合 [2IPv6+2高速]
 https://stream1.freetv.fun/ipv6-wei-fang-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/ipv6-wei-fang-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="潮州综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/潮州综合.png",潮州综合 [1源]
-https://stream1.freetv.fun/a3e9f134c357d93130ca03976bf3555503b939092562f9754c66d175b8d53083.ctv
 #EXTINF:-1 tvg-name="熊猫直播" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/熊猫直播.png",熊猫直播 [1源]
 https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
 #EXTINF:-1 tvg-name="狮子山鸟瞰丽江古城" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/狮子山鸟瞰丽江古城.png",狮子山鸟瞰丽江古城 [1源]
@@ -374,8 +360,6 @@ https://stream1.freetv.fun/shao-xing-gong-gong-7.m3u8|https://stream1.freetv.fun
 https://stream1.freetv.fun/335a86a4b34384eeb26091cbe319c41d060db3bbd27f3531c5dc32559550d016.ctv|https://stream1.freetv.fun/3c6e59483c61896b165c14db622aedd9fcde64062eb599c8acb76d34225db77f.ctv
 #EXTINF:-1 tvg-name="绵阳科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绵阳科技.png",绵阳科技 [1高速+1源]
 https://stream1.freetv.fun/mian-yang-ke-ji-2.m3u8
-#EXTINF:-1 tvg-name="节目预告" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/EPG.png",节目预告 [1源]
-http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}
 #EXTINF:-1 tvg-name="苍南新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苍南新闻综合.png",苍南新闻综合 [2高速+2源]
 https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-5.m3u8|https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-3.m3u8
 #EXTINF:-1 tvg-name="苏州文化生活" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苏州文化生活.png",苏州文化生活 [1高速+1源]
@@ -495,17 +479,15 @@ https://stream1.freetv.fun/shan-dong-xin-wen-2.m3u8
 #EXTINF:-1 tvg-name="湖南张家界天门山西线玻璃栈道" group-title="山西省" tvg-logo="https://11.112114.xyz/logo/湖南张家界天门山西线玻璃栈道.png",湖南张家界天门山西线玻璃栈道 [1源]
 https://gcalic.v.myalicdn.com/gc/tms05_1/index.m3u8
 
-# 分类: 广东省 (5个频道)
+# 分类: 广东省 (4个频道)
 #EXTINF:-1 tvg-name="广东影视" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东影视.png",广东影视 [1高速+1源]
 https://t.freetv.fun/live/yan-dong-ying-shi-gao-qing-11.m3u8
-#EXTINF:-1 tvg-name="广东新闻" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东新闻.png",广东新闻 [2源]
-https://stream1.freetv.fun/58b8ef014a45e584ad25c9fd8855fa6677a0c8b91afbd08cb9f959508a171514.ctv|https://stream1.freetv.fun/995036cf04dd76e5b4da9142a9558d9bfa25b0661a6392e76f23e2596239911d.ctv
+#EXTINF:-1 tvg-name="广东新闻" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东新闻.png",广东新闻 [1源]
+https://stream1.freetv.fun/995036cf04dd76e5b4da9142a9558d9bfa25b0661a6392e76f23e2596239911d.ctv
 #EXTINF:-1 tvg-name="广东民生" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东民生.png",广东民生 [1源]
 https://stream1.freetv.fun/yan-dong-min-sheng-35.ctv
-#EXTINF:-1 tvg-name="广东珠江" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东珠江.png",广东珠江 [2源]
-https://stream1.freetv.fun/7f7f3d093404d862c4a47c81731ae346d9ad177ccd8c91326ec459db90b8a64a.ctv|https://stream1.freetv.fun/1b5a9471a33c88b5a362d5cd8dd82cf902285ad6d452652377436b6af5622f74.ctv
-#EXTINF:-1 tvg-name="广东经济" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东经济.png",广东经济 [1源]
-https://stream1.freetv.fun/d7f05f84fd9f2466afd6e72713d62b989b9910c733533ce558aa329460e2a55b.ctv
+#EXTINF:-1 tvg-name="广东珠江" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东珠江.png",广东珠江 [1源]
+https://stream1.freetv.fun/1b5a9471a33c88b5a362d5cd8dd82cf902285ad6d452652377436b6af5622f74.ctv
 
 # 分类: 广西壮族自治区 (1个频道)
 #EXTINF:-1 tvg-name="广西玉林大容山莲花山顶" group-title="广西壮族自治区" tvg-logo="https://11.112114.xyz/logo/广西玉林大容山莲花山顶.png",广西玉林大容山莲花山顶 [1源]

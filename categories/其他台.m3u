@@ -1,7 +1,7 @@
 #EXTM3U
 # 其他台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-07-26 08:49:19
-# 电视台数量: 120
+# 更新时间(北京时间): 2026-07-27 05:23:55
+# 电视台数量: 116
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -17,8 +17,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="东方影视" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方影视.png" tvg-ipv6="true",东方影视 [1IPv6]
 https://stream1.freetv.fun/ipv6-dong-fang-ying-shi-8.m3u8
-#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [7普通]
-http://119.88.243.98:17231/959986621|http://182.127.153.79:1234/959986621|http://42.94.210.57:7788/959986621|http://116.236.204.18:1234/959986621|http://182.61.15.163:80/959986621|http://27.12.12.189:1234/959986621|http://60.168.105.138:5008/959986621
+#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [5普通]
+http://119.88.243.98:17231/959986621|http://42.94.210.57:7788/959986621|http://116.236.204.18:1234/959986621|http://182.61.15.163:80/959986621|http://60.168.105.138:5008/959986621
 #EXTINF:-1 tvg-name="中央电视塔东" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中央电视塔东.png",中央电视塔东 [1普通]
 https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8
 #EXTINF:-1 tvg-name="中央电视塔南" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中央电视塔南.png",中央电视塔南 [1普通]
@@ -51,8 +51,8 @@ https://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8
 https://gcalic.v.myalicdn.com/gc/blg05_1/index.m3u8
 #EXTINF:-1 tvg-name="兰溪新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兰溪新闻综合.png",兰溪新闻综合 [1普通]
 https://stream1.freetv.fun/lan-xi-xin-wen-zong-he-3.m3u8
-#EXTINF:-1 tvg-name="兵器科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兵器科技.png",兵器科技 [2普通]
-https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk|https://live.264788.xyz/channel/bingqikeji?streamid=530cb4e58bbc48b7fc26f5e0a2e47966&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-name="兵器科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兵器科技.png",兵器科技 [1普通]
+https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="动漫秀场" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/动漫秀场.png",动漫秀场 [1普通]
 https://stream1.freetv.fun/dong-man-xiu-chang-11.m3u8
 #EXTINF:-1 tvg-name="十堰新闻" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/十堰新闻.png",十堰新闻 [2普通]
@@ -79,8 +79,8 @@ https://stream1.freetv.fun/tian-ying-jing-dian-5.m3u8
 https://gcalic.v.myalicdn.com/gc/tyhjtys_1/index.m3u8
 #EXTINF:-1 tvg-name="宜兴新闻" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宜兴新闻.png",宜兴新闻 [1普通]
 https://stream1.freetv.fun/yi-xing-xin-wen-2.m3u8
-#EXTINF:-1 tvg-name="宿州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合.png",宿州新闻综合 [3普通]
-https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-3.m3u8|http://live.ahsz.tv/video/s10001-szzh/index.m3u8
+#EXTINF:-1 tvg-name="宿州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合.png",宿州新闻综合 [2普通]
+https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-3.m3u8
 #EXTINF:-1 tvg-name="嵊州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊州新闻综合.png",嵊州新闻综合 [1普通]
 https://stream1.freetv.fun/sheng-zhou-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="嵊泗综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊泗综合.png",嵊泗综合 [1普通]
@@ -123,10 +123,6 @@ https://stream1.freetv.fun/wu-yi-2dian-shi-ju-1.m3u8
 https://stream1.freetv.fun/wu-yi-jiao-yu-4.m3u8|https://stream1.freetv.fun/wu-yi-jiao-yu-6.m3u8|https://stream1.freetv.fun/wu-yi-jiao-yu-1.m3u8
 #EXTINF:-1 tvg-name="永嘉新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/永嘉新闻综合.png",永嘉新闻综合 [1普通]
 https://stream1.freetv.fun/yong-jia-xin-wen-zong-he-4.m3u8
-#EXTINF:-1 tvg-name="汕头经济生活" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/汕头经济生活.png",汕头经济生活 [1普通]
-https://stream1.freetv.fun/df1c23bfd3de01df2000c14a091824044c94b92a436f0f6a42237bf6ae0b89f9.ctv
-#EXTINF:-1 tvg-name="汕尾新闻综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/汕尾新闻综合.png",汕尾新闻综合 [1普通]
-https://stream1.freetv.fun/062fedadba1a81e9549f247d5fa4e7c10af6a871d5f7cfce5b7f843fb5f2074d.ctv
 #EXTINF:-1 tvg-name="江门综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/江门综合.png",江门综合 [1普通]
 https://stream1.freetv.fun/05a412b2f7dcf348a25bb4e50a032cef491b74834bc47f280ca28bcd99d512a7.ctv
 #EXTINF:-1 tvg-name="沁阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/沁阳新闻综合.png",沁阳新闻综合 [1普通]
@@ -151,8 +147,6 @@ http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b473
 https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-1.m3u8|https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-3.m3u8
 #EXTINF:-1 tvg-name="潍坊新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/潍坊新闻综合.png" tvg-ipv6="true",潍坊新闻综合 [2IPv6]
 https://stream1.freetv.fun/ipv6-wei-fang-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/ipv6-wei-fang-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="潮州综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/潮州综合.png",潮州综合 [1普通]
-https://stream1.freetv.fun/a3e9f134c357d93130ca03976bf3555503b939092562f9754c66d175b8d53083.ctv
 #EXTINF:-1 tvg-name="熊猫直播" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/熊猫直播.png",熊猫直播 [1普通]
 https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
 #EXTINF:-1 tvg-name="狮子山鸟瞰丽江古城" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/狮子山鸟瞰丽江古城.png",狮子山鸟瞰丽江古城 [1普通]
@@ -179,8 +173,6 @@ https://stream1.freetv.fun/shao-xing-gong-gong-7.m3u8|https://stream1.freetv.fun
 https://stream1.freetv.fun/335a86a4b34384eeb26091cbe319c41d060db3bbd27f3531c5dc32559550d016.ctv|https://stream1.freetv.fun/3c6e59483c61896b165c14db622aedd9fcde64062eb599c8acb76d34225db77f.ctv
 #EXTINF:-1 tvg-name="绵阳科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绵阳科技.png",绵阳科技 [1普通]
 https://stream1.freetv.fun/mian-yang-ke-ji-2.m3u8
-#EXTINF:-1 tvg-name="节目预告" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/EPG.png",节目预告 [1普通]
-http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}
 #EXTINF:-1 tvg-name="苍南新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苍南新闻综合.png",苍南新闻综合 [2普通]
 https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-5.m3u8|https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-3.m3u8
 #EXTINF:-1 tvg-name="苏州文化生活" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苏州文化生活.png",苏州文化生活 [1普通]
