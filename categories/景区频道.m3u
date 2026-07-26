@@ -1,7 +1,7 @@
 #EXTM3U
 # 景区频道频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-02-28 03:03:14
-# 电视台数量: 26
+# 更新时间(北京时间): 2026-07-26 08:49:19
+# 电视台数量: 16
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -9,55 +9,35 @@
 # 白名单功能: 启用
 # 测速功能: 启用
 
-#EXTINF:-1 tvg-name="云台山红石硖" group-title="景区频道",云台山红石硖 [1普通]
-https://gcalic.v.myalicdn.com/gc/ytshsx_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="六盘山红军长征景区" group-title="景区频道",六盘山红军长征景区 [1普通]
+#EXTINF:-1 tvg-name="六盘山红军长征景区" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/六盘山红军长征景区.png",六盘山红军长征景区 [1普通]
 https://gcalic.v.myalicdn.com/gc/lpsgmjng01_1/index.m3u8
-#EXTINF:-1 tvg-name="广西桂林漓江景区" group-title="景区频道" tvg-logo="https://tb.zbds.top/logo/广西桂林漓江景区.png",广西桂林漓江景区 [1普通]
+#EXTINF:-1 tvg-name="广西桂林漓江景区" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/广西桂林漓江景区.png",广西桂林漓江景区 [1普通]
 https://gcalic.v.myalicdn.com/gc/gllj01_1/index.m3u8
-#EXTINF:-1 tvg-name="张家界大峡谷" group-title="景区频道",张家界大峡谷 [1普通]
-https://gcalic.v.myalicdn.com/gc/hsxkssqdzrqj_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="张家界阿凡达悬浮山" group-title="景区频道",张家界阿凡达悬浮山 [1普通]
-https://gcalic.v.myalicdn.com/gc/zjjafdxfs_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="泰山主峰" group-title="景区频道",泰山主峰 [1普通]
+#EXTINF:-1 tvg-name="泰山主峰" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山主峰.png",泰山主峰 [1普通]
 https://gcalic.v.myalicdn.com/gc/taishan01_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山十八盘" group-title="景区频道",泰山十八盘 [1普通]
+#EXTINF:-1 tvg-name="泰山十八盘" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山十八盘.png",泰山十八盘 [1普通]
 https://gcalic.v.myalicdn.com/gc/taishan05_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山南天门" group-title="景区频道",泰山南天门 [1普通]
+#EXTINF:-1 tvg-name="泰山南天门" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山南天门.png",泰山南天门 [1普通]
 https://gcalic.v.myalicdn.com/gc/hkts07_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山大观峰" group-title="景区频道",泰山大观峰 [1普通]
+#EXTINF:-1 tvg-name="泰山大观峰" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山大观峰.png",泰山大观峰 [1普通]
 https://gcalic.v.myalicdn.com/gc/taishan03_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山太平岭" group-title="景区频道",泰山太平岭 [1普通]
+#EXTINF:-1 tvg-name="泰山太平岭" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山太平岭.png",泰山太平岭 [1普通]
 https://gcalic.v.myalicdn.com/gc/hkts09_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山拱北石" group-title="景区频道",泰山拱北石 [1普通]
-https://gcalic.v.myalicdn.com/gc/taishan04_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="泰山望人松" group-title="景区频道",泰山望人松 [1普通]
+#EXTINF:-1 tvg-name="泰山望人松" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山望人松.png",泰山望人松 [1普通]
 https://gcalic.v.myalicdn.com/gc/taishan02_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山玉皇顶" group-title="景区频道",泰山玉皇顶 [2普通]
-https://gcalic.v.myalicdn.com/gc/taishan06_1/index.m3u8|https://gcalic.v.myalicdn.com/gc/taishan06_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="泰山白云亭悬崖" group-title="景区频道",泰山白云亭悬崖 [1普通]
+#EXTINF:-1 tvg-name="泰山玉皇顶" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山玉皇顶.png",泰山玉皇顶 [1普通]
+https://gcalic.v.myalicdn.com/gc/taishan06_1/index.m3u8
+#EXTINF:-1 tvg-name="泰山白云亭悬崖" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山白云亭悬崖.png",泰山白云亭悬崖 [1普通]
 https://gcalic.v.myalicdn.com/gc/hkts02_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山碧霞祠" group-title="景区频道",泰山碧霞祠 [1普通]
+#EXTINF:-1 tvg-name="泰山碧霞祠" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山碧霞祠.png",泰山碧霞祠 [1普通]
 https://gcalic.v.myalicdn.com/gc/hkts03_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山迎客松" group-title="景区频道",泰山迎客松 [1普通]
-https://gcalic.v.myalicdn.com/gc/taishan02_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="黄山" group-title="景区频道",黄山 [1普通]
+#EXTINF:-1 tvg-name="黄山" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山.png",黄山 [1普通]
 https://gcalic.v.myalicdn.com/gc/ahhs01_1/index.m3u8
-#EXTINF:-1 tvg-name="黄山卧云峰" group-title="景区频道",黄山卧云峰 [2普通]
-https://gcalic.v.myalicdn.com/gc/hswlf_1/index.m3u8|https://gcalic.v.myalicdn.com/gc/hswlf_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="黄山始信新道" group-title="景区频道",黄山始信新道 [1普通]
+#EXTINF:-1 tvg-name="黄山卧云峰" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山卧云峰.png",黄山卧云峰 [1普通]
+https://gcalic.v.myalicdn.com/gc/hswlf_1/index.m3u8
+#EXTINF:-1 tvg-name="黄山始信新道" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山始信新道.png",黄山始信新道 [1普通]
 https://gcalic.v.myalicdn.com/gc/hsyg_1/index.m3u8
-#EXTINF:-1 tvg-name="黄山平天矼" group-title="景区频道",黄山平天矼 [1普通]
-https://gcalic.v.myalicdn.com/gc/hsptgz_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="黄山排云亭" group-title="景区频道",黄山排云亭 [2普通]
-https://gcalic.v.myalicdn.com/gc/hspyt_1/index.m3u8|https://gcalic.v.myalicdn.com/gc/hspyt_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="黄山西海大峡谷" group-title="景区频道",黄山西海大峡谷 [1普通]
-https://gcalic.v.myalicdn.com/gc/hsxhdxg_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="黄山飞来石" group-title="景区频道",黄山飞来石 [1普通]
+#EXTINF:-1 tvg-name="黄山排云亭" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山排云亭.png",黄山排云亭 [1普通]
+https://gcalic.v.myalicdn.com/gc/hspyt_1/index.m3u8
+#EXTINF:-1 tvg-name="黄山飞来石" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山飞来石.png",黄山飞来石 [1普通]
 https://gcalic.v.myalicdn.com/gc/hsptgy_1/index.m3u8
-#EXTINF:-1 tvg-name="黟县宏村南湖" group-title="景区频道",黟县宏村南湖 [1普通]
-https://gcalic.v.myalicdn.com/gc/yxhcnh_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="黟县西递半山亭俯瞰" group-title="景区频道",黟县西递半山亭俯瞰 [1普通]
-https://gcalic.v.myalicdn.com/gc/yxxdbst_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 tvg-name="黟县西递牌坊" group-title="景区频道",黟县西递牌坊 [1普通]
-https://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8?contentid=2820180516001
