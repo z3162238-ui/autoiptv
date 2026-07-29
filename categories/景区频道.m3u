@@ -1,7 +1,7 @@
 #EXTM3U
 # 景区频道频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-07-29 05:56:07
-# 电视台数量: 13
+# 更新时间(北京时间): 2026-07-30 04:50:10
+# 电视台数量: 14
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -19,19 +19,21 @@ https://gcalic.v.myalicdn.com/gc/taishan01_1/index.m3u8
 https://gcalic.v.myalicdn.com/gc/taishan05_1/index.m3u8
 #EXTINF:-1 tvg-name="泰山南天门" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山南天门.png",泰山南天门 [1普通]
 https://gcalic.v.myalicdn.com/gc/hkts07_1/index.m3u8
+#EXTINF:-1 tvg-name="泰山大观峰" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山大观峰.png",泰山大观峰 [1普通]
+https://gcalic.v.myalicdn.com/gc/taishan03_1/index.m3u8
+#EXTINF:-1 tvg-name="泰山太平岭" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山太平岭.png",泰山太平岭 [1普通]
+https://gcalic.v.myalicdn.com/gc/hkts09_1/index.m3u8
 #EXTINF:-1 tvg-name="泰山望人松" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山望人松.png",泰山望人松 [1普通]
 https://gcalic.v.myalicdn.com/gc/taishan02_1/index.m3u8
 #EXTINF:-1 tvg-name="泰山玉皇顶" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山玉皇顶.png",泰山玉皇顶 [1普通]
 https://gcalic.v.myalicdn.com/gc/taishan06_1/index.m3u8
 #EXTINF:-1 tvg-name="泰山白云亭悬崖" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山白云亭悬崖.png",泰山白云亭悬崖 [1普通]
 https://gcalic.v.myalicdn.com/gc/hkts02_1/index.m3u8
-#EXTINF:-1 tvg-name="泰山碧霞祠" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/泰山碧霞祠.png",泰山碧霞祠 [1普通]
-https://gcalic.v.myalicdn.com/gc/hkts03_1/index.m3u8
 #EXTINF:-1 tvg-name="黄山" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山.png",黄山 [1普通]
 https://gcalic.v.myalicdn.com/gc/ahhs01_1/index.m3u8
-#EXTINF:-1 tvg-name="黄山卧云峰" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山卧云峰.png",黄山卧云峰 [1普通]
-https://gcalic.v.myalicdn.com/gc/hswlf_1/index.m3u8
 #EXTINF:-1 tvg-name="黄山始信新道" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山始信新道.png",黄山始信新道 [1普通]
 https://gcalic.v.myalicdn.com/gc/hsyg_1/index.m3u8
 #EXTINF:-1 tvg-name="黄山排云亭" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山排云亭.png",黄山排云亭 [1普通]
 https://gcalic.v.myalicdn.com/gc/hspyt_1/index.m3u8
+#EXTINF:-1 tvg-name="黄山飞来石" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/黄山飞来石.png",黄山飞来石 [1普通]
+https://gcalic.v.myalicdn.com/gc/hsptgy_1/index.m3u8

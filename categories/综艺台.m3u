@@ -1,7 +1,7 @@
 #EXTM3U
 # 综艺台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-07-29 05:56:07
-# 电视台数量: 3
+# 更新时间(北京时间): 2026-07-30 04:50:10
+# 电视台数量: 2
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -11,7 +11,5 @@
 
 #EXTINF:-1 tvg-name="南宁影视娱乐" group-title="综艺台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁影视娱乐.png",南宁影视娱乐 [1普通]
 https://stream1.freetv.fun/nan-zhu-ying-shi-yu-le-4.m3u8
-#EXTINF:-1 tvg-name="岭南戏曲" group-title="综艺台" tvg-logo="https://11.112114.xyz/logo/岭南戏曲.png",岭南戏曲 [2普通]
-https://stream1.freetv.fun/42a086620b7c0822bfb1730aadfc77b329f888b41589f8899a18172c5c60f96e.ctv|https://stream1.freetv.fun/e36851a92c1ce5fe4d3e1ec5187d1a85903ece0115fa6ec81cb04a54b19bef84.ctv
 #EXTINF:-1 tvg-name="湖州文化娱乐" group-title="综艺台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖州文化娱乐.png",湖州文化娱乐 [1普通]
 http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
