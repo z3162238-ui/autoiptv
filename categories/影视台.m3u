@@ -1,6 +1,6 @@
 #EXTM3U
 # 影视台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-01 05:56:13
+# 更新时间(北京时间): 2026-08-02 04:46:19
 # 电视台数量: 3
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -14,4 +14,4 @@ https://stream1.freetv.fun/shang-yu-wen-hua-ying-yuan-3.ctv|https://stream1.free
 #EXTINF:-1 tvg-name="湖南电影" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南电影.png",湖南电影 [1普通]
 https://stream1.freetv.fun/hu-nan-dian-ying-2.ctv
 #EXTINF:-1 tvg-name="纬来电影" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纬来电影.png",纬来电影 [2普通]
-https://stream1.freetv.fun/wei-lai-dian-ying-1.m3u8|https://stream1.freetv.fun/wei-lai-dian-ying-3.m3u8
+https://stream1.freetv.fun/wei-lai-dian-ying-3.m3u8|https://stream1.freetv.fun/wei-lai-dian-ying-1.m3u8
