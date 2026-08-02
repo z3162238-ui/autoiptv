@@ -1,6 +1,6 @@
 #EXTM3U
 # 黑龙江省频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-02 04:46:19
+# 更新时间(北京时间): 2026-08-03 04:48:09
 # 电视台数量: 5
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -16,6 +16,6 @@ https://stream1.freetv.fun/hei-long-jiang-wen-ti-7.m3u8|https://stream1.freetv.f
 #EXTINF:-1 tvg-name="黑龙江新闻" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江新闻.png",黑龙江新闻 [1普通]
 https://stream1.freetv.fun/hei-long-jiang-xin-wen-9.m3u8
 #EXTINF:-1 tvg-name="黑龙江新闻法治" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江新闻法治.png",黑龙江新闻法治 [4普通]
-https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-7.m3u8|https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-5.m3u8|https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-6.m3u8|https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-4.m3u8
+https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-6.m3u8|https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-4.m3u8|https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-7.m3u8|https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-5.m3u8
 #EXTINF:-1 tvg-name="黑龙江都市" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江都市.png",黑龙江都市 [1普通]
 https://stream1.freetv.fun/hei-long-jiang-du-shi-7.m3u8
