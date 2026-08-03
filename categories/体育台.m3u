@@ -1,6 +1,6 @@
 #EXTM3U
 # 体育台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-03 04:48:09
+# 更新时间(北京时间): 2026-08-04 05:58:47
 # 电视台数量: 4
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -13,7 +13,7 @@
 https://stream1.freetv.fun/an-hui-zong-yi-ti-yu-8.m3u8
 #EXTINF:-1 tvg-name="山东体育" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东体育.png",山东体育 [2普通]
 https://stream1.freetv.fun/shan-dong-ti-yu-4.m3u8|https://stream1.freetv.fun/shan-dong-ti-yu-7.m3u8
-#EXTINF:-1 tvg-name="广东体育" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东体育.png",广东体育 [1普通]
-http://php.jdshipin.com/PLTV/iptv.php?id=gdty
+#EXTINF:-1 tvg-name="广东体育" group-title="体育台" tvg-logo="https://11.112114.xyz/logo/广东体育.png",广东体育 [2普通]
+https://stream1.freetv.fun/ec0336130b18f791deaf603e77663917ddfee5af381279c2ee504fabb8cec733.ctv|http://php.jdshipin.com/PLTV/iptv.php?id=gdty
 #EXTINF:-1 tvg-name="魅力足球" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/魅力足球.png" tvg-ipv6="true",魅力足球 [1IPv6]
 https://stream1.freetv.fun/ipv6-mei-li-zu-qiu-4.m3u8
