@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-08-05 06:09:46
+# 生成时间: 2026-08-06 06:27:47
 # 过滤原因: 主要失败原因: HTTP 403
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -1511,6 +1511,9 @@ http://111.221.137.234:44330/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authi
 http://111.225.205.64:8081/964D4p2/800/live.m3u8
 http://111.225.205.64:8081/LNX7l10/1000/live.m3u8
 
+# 域名: 111.228.4.117:6789
+http://111.228.4.117:6789/migu720p.php?id=947472506
+
 # 域名: 111.31.106.140
 http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 
@@ -1521,6 +1524,8 @@ http://111.38.104.24:8090/hls/main0/playlist.m3u8
 http://111.39.71.77:8099/live/one/playlist.m3u8
 
 # 域名: 111.4.59.41:60901
+http://111.4.59.41:60901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
+http://111.4.59.41:60901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -4011,6 +4016,7 @@ http://123.130.84.106:8154/tsfile/live/0139_1.m3u8
 http://123.130.84.106:8154/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.130.84.106:8154/tsfile/live/0140_1.m3u8
 http://123.130.84.106:8154/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
+http://123.130.84.106:8154/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.130.84.106:8154/tsfile/live/0142_1.m3u8
 http://123.130.84.106:8154/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.130.84.106:8154/tsfile/live/0143_1.m3u8
@@ -5349,6 +5355,7 @@ http://173.208.212.130:8181/720p/haws.m3u8
 http://173.208.212.130:8181/720p/hews.m3u8
 http://173.208.212.130:8181/720p/hjjc.m3u8
 http://173.208.212.130:8181/720p/hnws.m3u8
+http://173.208.212.130:8181/720p/jsws.m3u8
 http://173.208.212.130:8181/720p/nxss.m3u8
 http://173.208.212.130:8181/720p/ysjp.m3u8
 http://173.208.212.130:8181/720p/zjws.m3u8
@@ -6037,10 +6044,12 @@ http://192.151.150.154/live/gxgj.m3u8
 http://192.151.150.154/live/gxwshd.m3u8
 http://192.151.150.154/live/gxxw.m3u8
 http://192.151.150.154/live/gzwshd.m3u8
+http://192.151.150.154/live/hawshd.m3u8
 http://192.151.150.154/live/hbwshd.m3u8
 http://192.151.150.154/live/hewshd.m3u8
 http://192.151.150.154/live/hnwshd.m3u8
 http://192.151.150.154/live/jlwshd.m3u8
+http://192.151.150.154/live/jswshd.m3u8
 http://192.151.150.154/live/jxwshd.m3u8
 http://192.151.150.154/live/lnwshd.m3u8
 http://192.151.150.154/live/nxws.m3u8
@@ -6165,6 +6174,9 @@ http://192.168.123.1:23234/rtp/239.3.1.62:8112
 http://192.168.123.1:23234/rtp/239.3.1.63:8116
 http://192.168.123.1:23234/rtp/239.3.1.64:8124
 http://192.168.123.1:23234/rtp/239.3.1.65:8132
+
+# 域名: 194.147.100.173
+http://194.147.100.173/jsy/p.php/?id=AxMN-4l_LKRjtVOmPWiGtA
 
 # 域名: 198.16.100.186:8278
 http://198.16.100.186:8278/zhongshinews_twn/playlist.m3u8?tid=MD0D3377711133777111&ct=19249&tsum=ffaee3fe7040c96643b3c7f12bf2de8d
@@ -7240,6 +7252,7 @@ http://221.226.51.220:50080/newlive/live/hls/46/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/1/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/18/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/2/live.m3u8
+http://221.226.51.220:50081/newlive/live/hls/25/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/27/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/28/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/29/live.m3u8
@@ -9746,6 +9759,7 @@ http://58.48.37.158:1111/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 58.56.162.102:4466
 http://58.56.162.102:4466/newlive/live/hls/17/live.m3u8
+http://58.56.162.102:4466/newlive/live/hls/21/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/28/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/29/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/32/live.m3u8
@@ -10710,6 +10724,7 @@ http://61.178.129.74:5021/live_hls/1/playlist.m3u8
 
 # 域名: 61.178.227.57:9901
 http://61.178.227.57:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+http://61.178.227.57:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.178.227.57:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.178.227.57:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.178.227.57:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -19919,11 +19934,13 @@ https://iptv.catvod.com/migu?id=608831231&token=05e2c9de050fb10cb5d2aba657a27d0b
 https://iptv.catvod.com/migu?id=608831231&token=1f85032dfe85a55de59157f88a0048bb
 https://iptv.catvod.com/migu?id=608831231&token=48f6702da00e9c37d5af874c509f46bf
 https://iptv.catvod.com/migu?id=608831231&token=90bc42781ac1b0590441b5f258af3710
+https://iptv.catvod.com/migu?id=608831231&token=987b3b0cacec260ef32824266830bbd9
 https://iptv.catvod.com/migu?id=608831231&token=a7dc005449ffd39e165f84d6c2f8ae2e
 https://iptv.catvod.com/migu?id=608831231&token=a8162a1532fa5b05333edf1e0a2be10a
 https://iptv.catvod.com/migu?id=608831231&token=af464be4890e0f4f6625b09a760c5f57
 https://iptv.catvod.com/migu?id=608831231&token=e409b6d99bc7d4352057d7344fdb0336
 https://iptv.catvod.com/migu?id=608917627&token=20261a735c8a5509c0d97d016bdc97e1
+https://iptv.catvod.com/migu?id=608917627&token=2477dac80c097bf350e309b8ab91c348
 https://iptv.catvod.com/migu?id=608917627&token=265ec60e940820bbe6e8b949bc4939ff
 https://iptv.catvod.com/migu?id=608917627&token=36b5ea90022856e71c04ae3e43d1c5c1
 https://iptv.catvod.com/migu?id=608917627&token=5f73c12c43659a8e5de4a73e3f72dc9b
@@ -19932,6 +19949,7 @@ https://iptv.catvod.com/migu?id=608917627&token=756cb0c85ee988f862f2690f6992b950
 https://iptv.catvod.com/migu?id=608917627&token=9fe1c69571fbcaf23b64aa88728a08e0
 https://iptv.catvod.com/migu?id=608917627&token=a4dae7003589713cee33c9c19c9d5e6e
 https://iptv.catvod.com/migu?id=608917627&token=e414dbce4385e8c62df6d5e2c0a3e4cc
+https://iptv.catvod.com/migu?id=623899368&token=0c6d407898e7c49d48446d8824604f99
 https://iptv.catvod.com/migu?id=623899368&token=6853400ff2877ed6676ca32c4c5cb178
 https://iptv.catvod.com/migu?id=623899368&token=76a930f27a721647f26e6d40bcefc843
 https://iptv.catvod.com/migu?id=623899368&token=7e0e77bcb0af5d5bfb9292832cae3af4
@@ -19947,6 +19965,7 @@ https://iptv.catvod.com/migu?id=630287636&token=2b0a11b47ac724634e37e4248b463cda
 https://iptv.catvod.com/migu?id=630287636&token=4090e10f49c542457bbaf9fce90c8eda
 https://iptv.catvod.com/migu?id=630287636&token=45c7df831577627c52f2f00693a54444
 https://iptv.catvod.com/migu?id=630287636&token=4a65bdfdc29cd4a10e5e7bffc8120fa1
+https://iptv.catvod.com/migu?id=630287636&token=76ef3693375a8e5c355c1cf0416a6499
 https://iptv.catvod.com/migu?id=630287636&token=ca181a3bfe7db4a9235c082feb97c179
 https://iptv.catvod.com/migu?id=630287636&token=f89f6caf581ef045bd2339cab313892b
 https://iptv.catvod.com/migu?id=630287636&token=fd62c0e465cc8ea27919aa310585fa2c
@@ -19959,8 +19978,10 @@ https://iptv.catvod.com/migu?id=630291707&token=8d567e1986a4535a29197f1a2eccbbf8
 https://iptv.catvod.com/migu?id=630291707&token=aac24a958ca7f9fba83aab83fd59f5bf
 https://iptv.catvod.com/migu?id=630291707&token=b049a8226b9a6bca645e211e9377e5b1
 https://iptv.catvod.com/migu?id=630291707&token=c54c12d4c01e01cc148b8be051766c7b
+https://iptv.catvod.com/migu?id=630291707&token=f34863a7818d996f251642d601ed1a20
 https://iptv.catvod.com/migu?id=639731952&token=070575c6f667844cf97e083334adecf6
 https://iptv.catvod.com/migu?id=639731952&token=4e1817700abede502eaba4bfbdd747bf
+https://iptv.catvod.com/migu?id=639731952&token=69dbcdec969c0b628a03e3b15ecc8e27
 https://iptv.catvod.com/migu?id=639731952&token=6c364953ba2076de1210699eeb70059e
 https://iptv.catvod.com/migu?id=639731952&token=6dbb6c746ab69ff50ceefcea28956ab7
 https://iptv.catvod.com/migu?id=639731952&token=6fb14e6a23a65610df2212d2beeafd1f
@@ -19974,11 +19995,13 @@ https://iptv.catvod.com/migu?id=651632648&token=5cd061a3ca18f11aef594545049194f6
 https://iptv.catvod.com/migu?id=651632648&token=5d869c6ba7ac572bc137e646a7758823
 https://iptv.catvod.com/migu?id=651632648&token=8a8fdc3e566a0493364a2e088bba3d38
 https://iptv.catvod.com/migu?id=651632648&token=a758056a3088d6da7a852530c2f11de5
+https://iptv.catvod.com/migu?id=651632648&token=b321728fef27415b127b999916ebb97f
 https://iptv.catvod.com/migu?id=651632648&token=bda7e80c2cfe0564b2a617a61dbbcf18
 https://iptv.catvod.com/migu?id=651632648&token=e32cead6daa0c4a24d77db9c86d38a91
 https://iptv.catvod.com/migu?id=651632648&token=fdabc8f9e7fc8d73a6b5b61e7e0f510d
 https://iptv.catvod.com/migu?id=738906901&token=019d902372070be1d6ad3b79e25cc31b
 https://iptv.catvod.com/migu?id=738906901&token=097bf760cef148c64b23c2116446fe9d
+https://iptv.catvod.com/migu?id=738906901&token=142359c15c034d4dda556e275a5e2c64
 https://iptv.catvod.com/migu?id=738906901&token=19ad33ade5f2eeecaa9c611be223987e
 https://iptv.catvod.com/migu?id=738906901&token=4a9fbfa9092fc51016f4e89586ff19fe
 https://iptv.catvod.com/migu?id=738906901&token=83c649846d319cb5ae67dfd271706912
@@ -19994,11 +20017,13 @@ https://iptv.catvod.com/migu?id=738910535&token=61bc66c4edc19bbdec34c84ada626c6d
 https://iptv.catvod.com/migu?id=738910535&token=63154f16eb264c57d283c889965d652e
 https://iptv.catvod.com/migu?id=738910535&token=828adbda11b06cdbd89a2e151fe45ebe
 https://iptv.catvod.com/migu?id=738910535&token=ceb80da61e381fb4fa609bf046bb4f00
+https://iptv.catvod.com/migu?id=738910535&token=e2f005c19dcaabddf81a316e73c4bb79
 https://iptv.catvod.com/migu?id=738910535&token=ede347bf0781cb66d57e6d2e71db4837
 https://iptv.catvod.com/migu?id=738910838&token=1c855368ea412af33546f7aa43597eeb
 https://iptv.catvod.com/migu?id=738910838&token=271a00dbd9dbb4913997e5625cff5f37
 https://iptv.catvod.com/migu?id=738910838&token=5f60abfaf1e1d2246498d9ec2b6d7765
 https://iptv.catvod.com/migu?id=738910838&token=6a0aea360968f44dd84a4e5e3a9b6e0f
+https://iptv.catvod.com/migu?id=738910838&token=82616f7e94790caf07d43c25bc714020
 https://iptv.catvod.com/migu?id=738910838&token=87e57f8e46e09a5cc34f07cde6415cdb
 https://iptv.catvod.com/migu?id=738910838&token=b5275c7b14d43abcccaa44aea3215299
 https://iptv.catvod.com/migu?id=738910838&token=ca24f5d440ad9a31cfb74ee9dc51e14c
@@ -20010,6 +20035,7 @@ https://iptv.catvod.com/migu?id=738910914&token=39ab3f9cc40b35abccd33ae071f4d0e2
 https://iptv.catvod.com/migu?id=738910914&token=46a3eda913c2c8edd4c87b149f70f4cb
 https://iptv.catvod.com/migu?id=738910914&token=633c101c97b01735528e900817e171a5
 https://iptv.catvod.com/migu?id=738910914&token=84f8885058519698dc66fefd39404744
+https://iptv.catvod.com/migu?id=738910914&token=cfa0974d835fcca0eb2f6119cd94afd6
 https://iptv.catvod.com/migu?id=738910914&token=e74190f248bda8c6965ae9a32c3f7a7f
 https://iptv.catvod.com/migu?id=738910914&token=ec89eaadfb5a4a2d8b138153374bd693
 https://iptv.catvod.com/migu?id=738910914&token=fa8195c8f4330cb9e1d1d71a00b9d23e
@@ -20018,10 +20044,12 @@ https://iptv.catvod.com/migu?id=783847495&token=2bf33e1957d2d564ce2af236243ca7a0
 https://iptv.catvod.com/migu?id=783847495&token=33be28213311f324956a60ff74a3df6f
 https://iptv.catvod.com/migu?id=783847495&token=486dc0d1a3edba9dbcb04cad9e8d540a
 https://iptv.catvod.com/migu?id=783847495&token=5e93caebf2b15b9440c15a55abf8233e
+https://iptv.catvod.com/migu?id=783847495&token=726ae4e1fe333e19408bc34327f179de
 https://iptv.catvod.com/migu?id=783847495&token=a6a024960fbc60f8abbe38c5eb791303
 https://iptv.catvod.com/migu?id=783847495&token=c817cdef091af293648431298a8e5fc6
 https://iptv.catvod.com/migu?id=783847495&token=d2ed19815161f9afb38213a1e44d4f9c
 https://iptv.catvod.com/migu?id=783847495&token=fb9b73f4d3afd5d12bdaef87c84e34a4
+https://iptv.catvod.com/migu?id=790187291&token=1c8d1312510e3c6ef82d41e078789cb7
 https://iptv.catvod.com/migu?id=790187291&token=6feaf0a99da6236dfb6eac6dfc079be5
 https://iptv.catvod.com/migu?id=790187291&token=7264665baabd99d159c5641fb63a1ad7
 https://iptv.catvod.com/migu?id=790187291&token=9f76dccec9733b1487296f51a1f3b2a1
@@ -20039,6 +20067,7 @@ https://iptv.catvod.com/migu?id=849116810&token=8366ea4d4903bad67b23fecc209e4df6
 https://iptv.catvod.com/migu?id=849116810&token=c192f72544ad0f2e344f334a25289b89
 https://iptv.catvod.com/migu?id=849116810&token=d54b68e0132f584528f66363f4ca4110
 https://iptv.catvod.com/migu?id=849116810&token=d66b355019a990d54507dcc029501194
+https://iptv.catvod.com/migu?id=849116810&token=dbe4df1527c67c5aa6bd28282e09acfc
 https://iptv.catvod.com/migu?id=849116810&token=eb9cfab122859763bc1ec22c97248a1a
 https://iptv.catvod.com/migu?id=849119120&token=0e46870fb7dd70ca24976cc3ac4ab891
 https://iptv.catvod.com/migu?id=849119120&token=0f5776d57ed717bbf8852b7a92d5ccb9
@@ -20049,6 +20078,7 @@ https://iptv.catvod.com/migu?id=849119120&token=a053afa8c0a7ec5171f16df55a857071
 https://iptv.catvod.com/migu?id=849119120&token=aa4c3b7fb78d9d06deff8a0d31974870
 https://iptv.catvod.com/migu?id=849119120&token=bf91ba04e087d02dc3ee9b280ef37887
 https://iptv.catvod.com/migu?id=849119120&token=e1f1e31f9e3600e8836f54b6b0c97c61
+https://iptv.catvod.com/migu?id=849119120&token=f55167eeaf5fa6f0cb007ebf3073dbbb
 https://iptv.catvod.com/migu?id=947472496&token=43543b6a250c8449496fe2f92a8034e5
 https://iptv.catvod.com/migu?id=947472496&token=5ffbb755603aba5fb53fe18445306540
 https://iptv.catvod.com/migu?id=947472496&token=6378bdafcb2befdd254844b3e210c3e6
@@ -20056,12 +20086,14 @@ https://iptv.catvod.com/migu?id=947472496&token=87d9fdecfdf82ea0986ee2bc42d01e9f
 https://iptv.catvod.com/migu?id=947472496&token=8bce037e76e9eabebb47967fef4d4e87
 https://iptv.catvod.com/migu?id=947472496&token=8cada38b98b59f554814a094e0881ea0
 https://iptv.catvod.com/migu?id=947472496&token=a6a61c5054645852c7610fe0eddbdafc
+https://iptv.catvod.com/migu?id=947472496&token=d6e0b6bac9b6a7ea41ffc1def21df0ac
 https://iptv.catvod.com/migu?id=947472496&token=f3efd9a43c6fefb11e4ac0dc504dadb7
 https://iptv.catvod.com/migu?id=947472496&token=fa33a0771c32231e18452bda944e6c21
 https://iptv.catvod.com/migu?id=947472500&token=021f5512c695f267d4a6d638ddf0cae1
 https://iptv.catvod.com/migu?id=947472500&token=03d0d028ddfaec5c649400b1dc5488c2
 https://iptv.catvod.com/migu?id=947472500&token=473462b0c218327a54e9db83ee4870f6
 https://iptv.catvod.com/migu?id=947472500&token=584172b9bf83fab40e4270c84bb5f429
+https://iptv.catvod.com/migu?id=947472500&token=59065ff721a74635a5e727569861234e
 https://iptv.catvod.com/migu?id=947472500&token=72f9c159c9fc9f80776fd0dc6f29a231
 https://iptv.catvod.com/migu?id=947472500&token=78774b19fe5edb361c171911e181cefa
 https://iptv.catvod.com/migu?id=947472500&token=82bcf4504e23d63ca9663e4645636e35
@@ -20074,18 +20106,21 @@ https://iptv.catvod.com/migu?id=947472502&token=4e5c187de71fd98a0ce3b0d2a3a19556
 https://iptv.catvod.com/migu?id=947472502&token=a1c5813eed3a9d4c2e656be859f568a8
 https://iptv.catvod.com/migu?id=947472502&token=caa9d95a5926026b5edbc9187a8c4420
 https://iptv.catvod.com/migu?id=947472502&token=d5d390fbafd21be9206cfb611686cc96
+https://iptv.catvod.com/migu?id=947472502&token=d859daf4ee305152d8618753127905f5
 https://iptv.catvod.com/migu?id=947472502&token=f24efb9f0951a91b7124d453d9ae9562
 https://iptv.catvod.com/migu?id=947472502&token=f910c42b40d67a9770681a90c219cf0f
 https://iptv.catvod.com/migu?id=947472506&token=18c6d004eec05fe05318540e52b7dccb
 https://iptv.catvod.com/migu?id=947472506&token=2916db2d339e00cc1fe957b8942a4837
 https://iptv.catvod.com/migu?id=947472506&token=2e9ef3a26c7a152e64c06df9e564364f
 https://iptv.catvod.com/migu?id=947472506&token=485ccd097cc10b68082730b7c4904721
+https://iptv.catvod.com/migu?id=947472506&token=51434ea46dce863d62ec8ed3afc26279
 https://iptv.catvod.com/migu?id=947472506&token=76c8f7a4f4319e16c694def72b665b9b
 https://iptv.catvod.com/migu?id=947472506&token=81455884079c4a81ee06156080e4c891
 https://iptv.catvod.com/migu?id=947472506&token=a2bae45e4ec65d71fd0bbc0e5be6ab1b
 https://iptv.catvod.com/migu?id=947472506&token=a504abcb57688df10c327d5ef3e7ec9c
 https://iptv.catvod.com/migu?id=947472506&token=efaef0483dcc3301bbff35ac8d8d808c
 https://iptv.catvod.com/migu?id=956923145&token=002331c916aae8b6e22295590beb5355
+https://iptv.catvod.com/migu?id=956923145&token=22e13f98d0ae79e340e3de9448b6065d
 https://iptv.catvod.com/migu?id=956923145&token=4d96ca8996554a63023f0483e604bc43
 https://iptv.catvod.com/migu?id=956923145&token=768c42b8fd464e44800da3de1f562ab1
 https://iptv.catvod.com/migu?id=956923145&token=7c8afa4046307bce30ca4f6c7e89b7bf
@@ -20098,6 +20133,7 @@ https://iptv.catvod.com/migu?id=959986621&token=067b29b31f32d35aedcfdef78ab27b53
 https://iptv.catvod.com/migu?id=959986621&token=0f62e52aef5208999f950ba5dac4a0fd
 https://iptv.catvod.com/migu?id=959986621&token=2e1dc561dbedb718e5d4d5332d127770
 https://iptv.catvod.com/migu?id=959986621&token=33e9298bbc33e837955d7094e68aa602
+https://iptv.catvod.com/migu?id=959986621&token=58670df1214cde665ec14e2ca921c886
 https://iptv.catvod.com/migu?id=959986621&token=75d3b5148ab97b2fde191d2313dc28ff
 https://iptv.catvod.com/migu?id=959986621&token=89fea86a8e69b88b3e09e5d941f878b8
 https://iptv.catvod.com/migu?id=959986621&token=b65324b52ead8fd1d54f79873a7be7fb
@@ -20110,6 +20146,7 @@ https://iptv.catvod.com/migu?id=961023778&token=5f48601e9cc835a575f564388ca0cfc8
 https://iptv.catvod.com/migu?id=961023778&token=6f16ccf5d5cc39e3abfc7bb2621540ab
 https://iptv.catvod.com/migu?id=961023778&token=882c544937fd5b585c80cb11ee7f9cec
 https://iptv.catvod.com/migu?id=961023778&token=8e7faeb9583a2413813f4aae06ab8966
+https://iptv.catvod.com/migu?id=961023778&token=9c1179674879909c2365a0ae9d0381e8
 https://iptv.catvod.com/migu?id=961023778&token=d5d03c0cf6101574541930a586e6e514
 https://iptv.catvod.com/migu?id=961023778&token=fb78359605b6f3f70239ac98652a75fa
 https://iptv.catvod.com/migu?id=962042070&token=13054c6482c590e1fffc113ea26781d9
@@ -20120,6 +20157,7 @@ https://iptv.catvod.com/migu?id=962042070&token=7a2b9134eab3abab157a470f3dc13371
 https://iptv.catvod.com/migu?id=962042070&token=7ac91a07661f9600683e5063e5df085a
 https://iptv.catvod.com/migu?id=962042070&token=7cd496f48782f5bb138176df0599840d
 https://iptv.catvod.com/migu?id=962042070&token=7deda8f9a661bd679aa663a27d6bfc44
+https://iptv.catvod.com/migu?id=962042070&token=852bd7c5007387edb28ec8a4c22d143b
 https://iptv.catvod.com/migu?id=962042070&token=940536c1c8d66ac5475d79deb8fe37fc
 
 # 域名: iptv.cdn.ha.chinamobile.com
@@ -23489,6 +23527,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1785585600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-6f355b3b1ae0c30f1e31a732ec1a5013&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1785672000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-5cadd93d065813e4f1b5dc6ce4eb40ad&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1785758400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-85cb4d0b34fbebd662f5c5771569e2b1&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1785931200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-efe8d42bf8f6018ab5609c9e447ae79c&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -23515,10 +23554,12 @@ https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37d
 https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/fujianlvyou?streamid=221239fcf3c7edb274f2f0760fe47f96&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -30489,6 +30530,7 @@ https://stream1.freetv.fun/062fedadba1a81e9549f247d5fa4e7c10af6a871d5f7cfce5b7f8
 https://stream1.freetv.fun/069b3db18ed7e22abd36bc19d185900fc7b42b88e7ffb7c04bbec2300ed1aada.m3u8
 https://stream1.freetv.fun/08634ae79ac958d456b3a36629c9f5c7a90eb67044c3c672a6b5442c413821aa.m3u8
 https://stream1.freetv.fun/08e5440bb83a804440e341ae792cffc38d6844b04d5a2c7a4fc5ee04a6fe6bc6.m3u8
+https://stream1.freetv.fun/09e5ec16209afefaaaa2e05218f64016e31adba88fb9d24637c55b9456149812.ctv
 https://stream1.freetv.fun/0a41a74a908f871b3e73f9381b831e6bdf23a89efb600e3c5d4532c0a8e7f6e8.m3u8
 https://stream1.freetv.fun/0a42f47350c5496caf043968c38c04edee874a1acfcb5520f11d4afae642a618.ctv
 https://stream1.freetv.fun/0b44e208cd872112b795174aface15ecc0297c4ba99bb480092744e0b00fa625.ctv
@@ -30505,6 +30547,7 @@ https://stream1.freetv.fun/113dfe731c24da3dad758dd33ba562ce123c614408198b9d5847e
 https://stream1.freetv.fun/116b072fce86ad7fb72e6cb782fc5e85b72e4bae044922c23b702e6aa5a3adb8.m3u8
 https://stream1.freetv.fun/1178a02eb676ee58293691fdc19fed767b2dc61d866c1fee41447a8503ec0253.m3u8
 https://stream1.freetv.fun/11cd528da0063d7ef3db744cdc208904f48127c954b57c0ddec15afbe9f12dc4.m3u8
+https://stream1.freetv.fun/12aa0ea72604a5b94656111a44ae71cc4bdeae99065709cd33853f3789aa8dfe.ctv
 https://stream1.freetv.fun/12bd529a4a4c275fc29906844719e95cac5107e284e27b33671bcf2f3c0a0ee6.m3u8
 https://stream1.freetv.fun/1372e179a485ae97bd73883d9c82e6bd11eb85a5f24161242c23aca1d24a2612.m3u8
 https://stream1.freetv.fun/13fda1f7396b03d00bc01a4bd3628b2d3b675348b5757524d08533d452fdbad6.ctv
@@ -30720,6 +30763,7 @@ https://stream1.freetv.fun/713f8c42d89efd6b0b31ab22e8070a22a6eb54790b31f6e8ebe51
 https://stream1.freetv.fun/71563164231d4733177ee91d9a01f4f257c4247a819f43ff78b20840022dfc3c.ctv
 https://stream1.freetv.fun/7174b4fd66ddb2a7456b7040105dc27a1e57c166593870bb773cb5f6b4546c54.ctv
 https://stream1.freetv.fun/72effab16f15ef42127e7de36a93863d61990a7cab75472df9027ba78e7b2440.ctv
+https://stream1.freetv.fun/7318efdd58007defbd1a0cd4ab500eb19669f9670ec6088db80c070b7f0a30f6.ctv
 https://stream1.freetv.fun/738d539f8179cbdabc52d0a3f2fb44bfaf11d2fe6d91725096050058688cfe13.ctv
 https://stream1.freetv.fun/739243957c92ecc3c5cc8e2d33bbc6ef1fd8529992bbf7ab1a9dcef5e17429d4.ctv
 https://stream1.freetv.fun/739e01ea36ce64b23d330982e442caa57c06c2a44cafaff6c1b6d13b31e01d75.m3u8
@@ -30753,9 +30797,11 @@ https://stream1.freetv.fun/803b75e2dce984e1fb3075182ac4f4f77806acd4e743f319f03e6
 https://stream1.freetv.fun/807ab4172401ad27d6f93a470b4a527e3f6b415e5db124caca92fbe90253f253.ctv
 https://stream1.freetv.fun/812990976297843210fc44be0e0edee64a02f134c8f755a070807e6665a03e04.m3u8
 https://stream1.freetv.fun/812cad00d672662e36b8a4a3d967ab826c0d8f4a3fd02ee64389b0bdc116bd43.m3u8
+https://stream1.freetv.fun/8207fefca4ec53194577b2ed278461db2f591ad800e535ba46d497749e2d7ee5.ctv
 https://stream1.freetv.fun/82d2e743daebc2c54f502ed2e39f2d379676465b26a37107cb9bd0ee06ce0c9b.ctv
 https://stream1.freetv.fun/8479751897491e3088c10ef6efb4c09c16eff123a65b54b6507bcb0b204b51a5.m3u8
 https://stream1.freetv.fun/85946246ab7fd0c04a997e854c5a6a90f9f74f0fec769c6bfb77a60526c6d729.m3u8
+https://stream1.freetv.fun/85d7f3ce30dbab26e5bd43b1bc7768119571656ba9dc09aadb6aa17e213e2b8c.ctv
 https://stream1.freetv.fun/86de5eb5b500cf647f47c89a1d78102c2570d00c7e1365ce36fac6d311cbf0e9.m3u8
 https://stream1.freetv.fun/872d3923897d6a11b245d3e2330635ec896fefa926a791ccd717e199c4c5f93d.ctv
 https://stream1.freetv.fun/8775cd8131d5d97e3a904e344aff4b411c06bc8103ed11e5202caf9ac2d37fe3.ctv
@@ -30813,6 +30859,7 @@ https://stream1.freetv.fun/a700de96dc13188f1532d89bbb699c4232e8c8c62418eaca13e73
 https://stream1.freetv.fun/a738860ec7fcaf655c7db23c3d6ef52d023e652b5486379db530287184dad292.ctv
 https://stream1.freetv.fun/a77365f4c8dc7e2fe937bd9e8ce1bd28a0f2128be9cd95d07e9b49efbf193757.m3u8
 https://stream1.freetv.fun/a78c817a8b77168f6c92d28fb369ef6d0036efe492aa86f394ac5934c5f3a14f.ctv
+https://stream1.freetv.fun/a89dd489fa013bc4f36bcc4afe388f1783e2251c276e2566a9359d68a61c6d91.ctv
 https://stream1.freetv.fun/a927444efa3d55d3d42d4d80fc9dd565caeae93fe0328d6e078367c2120df3d4.m3u8
 https://stream1.freetv.fun/a968f766a86c2a7690ca00cd8d3467ef79b4266675256e0e1f5b356aa8177fd2.m3u8
 https://stream1.freetv.fun/aa574271602af31ed475e64787057c1b0f13169ab467c4549c8c094a00b6c6a7.ctv
@@ -30898,6 +30945,7 @@ https://stream1.freetv.fun/c5a266d693da3b49eb6a86a0e7019f1731826536ba1915a25fbf1
 https://stream1.freetv.fun/c63e00b6f6e11db0e25eba94d5c4c63b4af30261838b8c91652553fb0f8e7b8a.m3u8
 https://stream1.freetv.fun/c6fc6b545d48ebb47477044a1cdd7dd7571e559f22995c45416f5bc5fabe9673.m3u8
 https://stream1.freetv.fun/c71a50d5cca22f2d65d97b8c3a3fb64d48fd6446bdba4c5a08135de2b235e837.m3u8
+https://stream1.freetv.fun/c751876ae5ceaa0d82b5cf2badc152342aa92a4b45bf504d12ee45966b2fc644.ctv
 https://stream1.freetv.fun/c80672181517eac1298f47a84d0e0b49715e1434f6908302608a1320f494bd51.ctv
 https://stream1.freetv.fun/c81a555962f383888669f729afa0303c466520db6b41f649f3d7036a0a5a6065.ctv
 https://stream1.freetv.fun/c847cb98e9c1a6e222395ceea5b23181ad7d7ac74bc5523ddb979b34c0dbd8ab.m3u8
@@ -31326,6 +31374,7 @@ https://stream1.freetv.fun/hu-bei-sheng-huo-1.m3u8
 https://stream1.freetv.fun/hu-bei-sheng-huo-12.ctv
 https://stream1.freetv.fun/hu-bei-sheng-huo-12.m3u8
 https://stream1.freetv.fun/hu-bei-sheng-huo-3.ctv
+https://stream1.freetv.fun/hu-bei-sheng-huo-4.ctv
 https://stream1.freetv.fun/hu-bei-sheng-huo-8.ctv
 https://stream1.freetv.fun/hu-bei-ying-shi-1.ctv
 https://stream1.freetv.fun/hu-bei-ying-shi-1.m3u8
@@ -32142,6 +32191,7 @@ https://stream1.freetv.fun/zhe-jiang-min-sheng-xiu-xian-6.ctv
 https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-1.m3u8
 https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-2.m3u8
 https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-3.ctv
+https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv
 https://stream1.freetv.fun/zhe-jiang-shao-er-1.ctv
 https://stream1.freetv.fun/zhe-jiang-shao-er-1.m3u8
 https://stream1.freetv.fun/zhe-jiang-shao-er-10.ctv
@@ -34151,6 +34201,7 @@ https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/liv
 
 # 域名: v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=0c7f3f19e52bbc06dfe60a59c5e0218b
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=1b8fda0de8e9969427130153975299c3
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=229264706c04b3968805a4afb4ce3c6e
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=6a300d5bcd6d3c2267577df6cf49a548
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=71c8f48212e27dfdb4930f83f4f55250
