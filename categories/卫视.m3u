@@ -1,7 +1,7 @@
 #EXTM3U
 # 卫视频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-07 10:03:09
-# 电视台数量: 16
+# 更新时间(北京时间): 2026-08-08 04:13:28
+# 电视台数量: 15
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -9,34 +9,32 @@
 # 白名单功能: 启用
 # 测速功能: 启用
 
+#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png",湖南卫视 [1普通]
+https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 #EXTINF:-1 tvg-name="广东卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/广东卫视.png",广东卫视 [1普通]
 https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
-#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" tvg-ipv6="true",海南卫视 [1IPv6+4普通]
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|http://27.12.12.100:1234/947472502|http://113.120.243.10:7788/947472502|http://116.52.173.194:1234/947472502|http://8.135.27.147:1234/947472502
+#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png",海南卫视 [3普通]
+http://113.120.243.10:7788/947472502|http://116.52.173.194:1234/947472502|http://8.135.27.147:1234/947472502
 #EXTINF:-1 tvg-name="四川卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/四川卫视.png",四川卫视 [1普通]
 https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="陕西卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/陕西卫视.png",陕西卫视 [1普通]
-https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/甘肃卫视.png" tvg-ipv6="true",甘肃卫视 [1IPv6]
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="青海卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/青海卫视.png",青海卫视 [4普通]
-http://14.153.176.108:1234/947472506|http://27.12.12.100:1234/947472506|http://110.154.192.36:7788/947472506|http://116.52.173.194:1234/947472506
-#EXTINF:-1 tvg-name="三沙卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/三沙卫视.png",三沙卫视 [5普通]
-http://14.153.176.108:1234/961023778|http://113.120.243.10:7788/961023778|http://27.12.12.100:1234/961023778|http://42.94.210.221:7788/961023778|http://116.52.173.194:1234/961023778
+#EXTINF:-1 tvg-name="青海卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/青海卫视.png",青海卫视 [3普通]
+http://14.153.176.108:1234/947472506|http://110.154.192.36:7788/947472506|http://116.52.173.194:1234/947472506
+#EXTINF:-1 tvg-name="三沙卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/三沙卫视.png",三沙卫视 [4普通]
+http://14.153.176.108:1234/961023778|http://113.120.243.10:7788/961023778|http://42.94.210.221:7788/961023778|http://116.52.173.194:1234/961023778
 #EXTINF:-1 tvg-name="东南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东南卫视.png",东南卫视 [1普通]
 http://101.66.194.210:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png",东方卫视 [1普通]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 #EXTINF:-1 tvg-name="兵团卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/兵团卫视.png",兵团卫视 [2普通]
 http://42.94.210.221:7788/956923145|http://8.135.27.147:1234/956923145
-#EXTINF:-1 tvg-name="农林卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/农林卫视.png",农林卫视 [7普通]
-http://223.247.25.247:1234/956904896|http://8.135.27.147:1234/956904896|http://42.94.210.221:7788/956904896|http://14.153.176.108:1234/956904896|http://27.12.12.100:1234/956904896|http://113.120.243.10:7788/956904896|http://110.154.192.36:7788/956904896
+#EXTINF:-1 tvg-name="农林卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/农林卫视.png",农林卫视 [6普通]
+http://223.247.25.247:1234/956904896|http://8.135.27.147:1234/956904896|http://42.94.210.221:7788/956904896|http://14.153.176.108:1234/956904896|http://113.120.243.10:7788/956904896|http://110.154.192.36:7788/956904896
 #EXTINF:-1 tvg-name="凤凰卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/凤凰卫视.png",凤凰卫视 [1普通]
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-name="康巴卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/康巴卫视.png" tvg-ipv6="true",康巴卫视 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="延边卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/延边卫视.png" tvg-ipv6="true",延边卫视 [1IPv6+1普通]
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227045/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eq0D3NdTUN7FuRzr8eJsbQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|https://stream1.freetv.fun/yan-bian-wei-shi-16.m3u8
+#EXTINF:-1 tvg-name="延边卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/延边卫视.png",延边卫视 [1普通]
+https://stream1.freetv.fun/yan-bian-wei-shi-16.m3u8
 #EXTINF:-1 tvg-name="星空卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/星空卫视.png",星空卫视 [3普通]
 https://stream1.freetv.fun/xing-kong-wei-shi-11.m3u8|https://stream1.freetv.fun/xing-kong-wei-shi-12.m3u8|http://194.147.100.173/jsy/p.php/?id=1e4smSsL8eixpbYkS2n61A
 #EXTINF:-1 tvg-name="海峡卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海峡卫视.png",海峡卫视 [1普通]
