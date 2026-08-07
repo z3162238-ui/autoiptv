@@ -1,8 +1,8 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-08-06 06:27:47
-# 过滤原因: 主要失败原因: HTTP 403
+# 生成时间: 2026-08-07 10:03:09
+# 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
 
@@ -1526,6 +1526,7 @@ http://111.39.71.77:8099/live/one/playlist.m3u8
 # 域名: 111.4.59.41:60901
 http://111.4.59.41:60901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=0&authid=0
+http://111.4.59.41:60901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -1533,6 +1534,7 @@ http://111.4.59.41:60901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 http://111.4.59.41:60901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=0&authid=0
+http://111.4.59.41:60901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=0&authid=0
 
 # 域名: 111.40.196.9
 http://111.40.196.9/PLTV/88888888/224/3221225534/index.m3u8
@@ -1737,6 +1739,7 @@ http://112.27.235.94:8000/hls/30/index.m3u8
 http://112.27.235.94:8000/hls/31/index.m3u8
 http://112.27.235.94:8000/hls/32/index.m3u8
 http://112.27.235.94:8000/hls/33/index.m3u8
+http://112.27.235.94:8000/hls/33/index.m3u8#http://183.215.134.239:19901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 http://112.27.235.94:8000/hls/33/index.m3u8#http://183.215.134.239:19901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0#http://113.26.202.52:1299/tsfile/live/0126_1.m3u8
 http://112.27.235.94:8000/hls/34/index.m3u8
 http://112.27.235.94:8000/hls/35/index.m3u8
@@ -4689,6 +4692,9 @@ http://13937899.xyz:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
 # 域名: 14.152.88.77
 http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8
 
+# 域名: 14.153.176.108:1234
+http://14.153.176.108:1234/956923145
+
 # 域名: 140.207.241.3:8080
 http://140.207.241.3:8080/live/program/live/dfcj/1300000/d1.m3u8
 http://140.207.241.3:8080/live/program/live/dsjpdhd/4000000/mnf.m3u8
@@ -7078,6 +7084,9 @@ http://221.13.235.129:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=
 http://221.13.235.129:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.13.235.129:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 
+# 域名: 221.13.235.58:9901
+http://221.13.235.58:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+
 # 域名: 221.2.148.205:8154
 http://221.2.148.205:8154/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.2.148.205:8154/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -7280,6 +7289,7 @@ http://221.7.175.154:8445/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.7.175.154:8445/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.7.175.154:8445/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.7.175.154:8445/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+http://221.7.175.154:8445/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.7.175.154:8445/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.7.175.154:8445/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.7.175.154:8445/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -7534,6 +7544,10 @@ http://223.241.247.214:9901/tsfile/live/1010_1.m3u8
 http://223.241.247.214:9901/tsfile/live/1011_1.m3u8
 http://223.241.247.214:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 http://223.241.247.214:9901/tsfile/live/1012_1.m3u8
+
+# 域名: 223.247.25.247:1234
+http://223.247.25.247:1234/947472502
+http://223.247.25.247:1234/956923145
 
 # 域名: 223.247.33.124:1935
 http://223.247.33.124:1935/live/wenhua/playlist.m3u8
@@ -9007,6 +9021,9 @@ http://42.48.105.224:9002/tsfile/live/0138_2.m3u8?key=txiptv&playlive=1&authid=0
 http://42.48.105.224:9002/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 http://42.48.105.224:9002/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 http://42.48.105.224:9002/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
+
+# 域名: 42.94.210.221:7788
+http://42.94.210.221:7788/947472502
 
 # 域名: 42.94.210.57:7788
 http://42.94.210.57:7788/947472502

@@ -1,6 +1,6 @@
 #EXTM3U
 # 广东省频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-06 06:27:47
+# 更新时间(北京时间): 2026-08-07 10:03:09
 # 电视台数量: 2
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -9,7 +9,7 @@
 # 白名单功能: 启用
 # 测速功能: 启用
 
-#EXTINF:-1 tvg-name="广东民生" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东民生.png",广东民生 [2普通]
-https://stream1.freetv.fun/yan-dong-min-sheng-35.ctv|https://stream1.freetv.fun/543466990661752f571c6342ed1051e1ee0ad99a9d22028392153bfa90e32056.ctv
-#EXTINF:-1 tvg-name="广东珠江" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东珠江.png",广东珠江 [3普通]
-https://stream1.freetv.fun/04428a48ff376402f2390af00c5f7dc8abc625e497b18839d7837c389edfb3d7.ctv|https://stream1.freetv.fun/1b5a9471a33c88b5a362d5cd8dd82cf902285ad6d452652377436b6af5622f74.ctv|http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
+#EXTINF:-1 tvg-name="广东民生" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东民生.png",广东民生 [1普通]
+https://stream1.freetv.fun/yan-dong-min-sheng-35.ctv
+#EXTINF:-1 tvg-name="广东珠江" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东珠江.png",广东珠江 [2普通]
+https://stream1.freetv.fun/04428a48ff376402f2390af00c5f7dc8abc625e497b18839d7837c389edfb3d7.ctv|http://php.jdshipin.com/TVOD/iptv.php?id=gdzj

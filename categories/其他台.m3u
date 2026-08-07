@@ -1,6 +1,6 @@
 #EXTM3U
 # 其他台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-06 06:27:47
+# 更新时间(北京时间): 2026-08-07 10:03:09
 # 电视台数量: 70
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -17,8 +17,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="东方影视" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方影视.png" tvg-ipv6="true",东方影视 [1IPv6]
 https://stream1.freetv.fun/ipv6-dong-fang-ying-shi-8.m3u8
-#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [6普通]
-http://14.153.176.108:1234/959986621|http://223.247.25.247:1234/959986621|http://116.52.173.194:1234/959986621|http://113.120.243.10:7788/959986621|http://42.94.210.221:7788/959986621|http://110.154.192.36:7788/959986621
+#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [7普通]
+http://14.153.176.108:1234/959986621|http://223.247.25.247:1234/959986621|http://27.12.12.100:1234/959986621|http://116.52.173.194:1234/959986621|http://42.94.210.221:7788/959986621|http://110.154.192.36:7788/959986621|http://113.120.243.10:7788/959986621
 #EXTINF:-1 tvg-name="乐山新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/乐山新闻综合.png",乐山新闻综合 [2普通]
 https://stream1.freetv.fun/le-shan-xin-wen-zong-he-1.m3u8|https://stream1.freetv.fun/le-shan-xin-wen-zong-he-2.m3u8
 #EXTINF:-1 tvg-name="兰溪新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兰溪新闻综合.png",兰溪新闻综合 [1普通]
@@ -54,7 +54,7 @@ https://stream1.freetv.fun/ping-hu-xin-wen-zong-he-3.m3u8|https://stream1.freetv
 #EXTINF:-1 tvg-name="广元综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广元综合.png",广元综合 [1普通]
 https://stream1.freetv.fun/yan-yuan-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="广州竞赛" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/广州竞赛.png",广州竞赛 [3普通]
-https://stream1.freetv.fun/yan-zhou-jing-sai-12.m3u8|https://stream1.freetv.fun/yan-zhou-jing-sai-34.ctv|https://stream1.freetv.fun/yan-zhou-jing-sai-38.ctv
+https://stream1.freetv.fun/yan-zhou-jing-sai-12.m3u8|https://stream1.freetv.fun/yan-zhou-jing-sai-38.ctv|https://stream1.freetv.fun/yan-zhou-jing-sai-34.ctv
 #EXTINF:-1 tvg-name="广州综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/广州综合.png",广州综合 [1普通]
 https://stream1.freetv.fun/yan-zhou-zong-he-11.ctv
 #EXTINF:-1 tvg-name="开化新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开化新闻综合.png",开化新闻综合 [2普通]
