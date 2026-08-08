@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-08-08 04:13:28
+# 生成时间: 2026-08-09 03:27:58
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -722,6 +722,8 @@ http://106.53.99.30/tv/cctv13.php
 http://107.150.60.122/live/ahwshd.m3u8
 http://107.150.60.122/live/bjwshd.m3u8
 http://107.150.60.122/live/btws.m3u8
+http://107.150.60.122/live/cctv10hd.m3u8
+http://107.150.60.122/live/cctv12hd.m3u8
 http://107.150.60.122/live/cctv2hd.m3u8
 http://107.150.60.122/live/cctv3hd.m3u8
 http://107.150.60.122/live/cctv4hd.m3u8
@@ -729,6 +731,7 @@ http://107.150.60.122/live/cctv5hd.m3u8
 http://107.150.60.122/live/cctv6hd.m3u8
 http://107.150.60.122/live/cctv7hd.m3u8
 http://107.150.60.122/live/cctv8k.m3u8
+http://107.150.60.122/live/cctv9hd.m3u8
 http://107.150.60.122/live/chcdz.m3u8
 http://107.150.60.122/live/chcjt.m3u8
 http://107.150.60.122/live/cqwshd.m3u8
@@ -1515,6 +1518,7 @@ http://111.225.205.64:8081/964D4p2/800/live.m3u8
 http://111.225.205.64:8081/LNX7l10/1000/live.m3u8
 
 # 域名: 111.228.4.117:6789
+http://111.228.4.117:6789/migu720p.php?id=947472502
 http://111.228.4.117:6789/migu720p.php?id=947472506
 
 # 域名: 111.31.106.140
@@ -1770,6 +1774,7 @@ http://112.27.235.94:8000/hls/8/index.m3u8
 http://112.27.235.94:8000/hls/9/index.m3u8
 
 # 域名: 112.27.5.218:9901
+http://112.27.5.218:9901/tsfile/live/faacts/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 http://112.27.5.218:9901/tsfile/live/faacts/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 112.27.89.235:8008
@@ -2086,8 +2091,19 @@ http://113.57.111.4:1111/tsfile/live/1031_1.m3u8
 http://113.57.111.4:1111/tsfile/live/1032_1.m3u8
 
 # 域名: 113.57.140.161:10081
+http://113.57.140.161:10081/newlive/live/hls/10/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/11/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/12/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/13/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/14/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/15/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/16/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/2/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/3/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/4/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/5/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/7/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/8/live.m3u8
 
 # 域名: 113.57.20.158:9901
 http://113.57.20.158:9901/tsfile/live/1000_1.m3u8
@@ -3531,6 +3547,9 @@ http://120.238.94.82:9901/tsfile/live/1030_1.m3u8
 http://120.238.94.82:9901/tsfile/live/1052_1.m3u8
 http://120.238.94.82:9901/tsfile/live/1065_1.m3u8
 http://120.238.94.82:9901/tsfile/live/1086_1.m3u8
+
+# 域名: 120.40.39.246:352
+http://120.40.39.246:352/newlive/live/hls/1/live.m3u8
 
 # 域名: 120.40.57.250:1000
 http://120.40.57.250:1000/rtp/239.61.2.160:8948
@@ -6051,7 +6070,10 @@ http://190.61.90.17:40000/play/a03v/index.m3u8
 http://192.151.150.154/live/ahwshd.m3u8
 http://192.151.150.154/live/bjwshd.m3u8
 http://192.151.150.154/live/cctv10hd.m3u8
+http://192.151.150.154/live/cctv15hd.m3u8
+http://192.151.150.154/live/cctv17hd.m3u8
 http://192.151.150.154/live/cctv2hd.m3u8
+http://192.151.150.154/live/cctv6hd.m3u8
 http://192.151.150.154/live/cctv7hd.m3u8
 http://192.151.150.154/live/cctv9hd.m3u8
 http://192.151.150.154/live/chcjt.m3u8
@@ -6473,10 +6495,18 @@ http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8
 # 域名: 204.12.221.218:8181
 http://204.12.221.218:8181/3m1080p/ahws.m3u8
 http://204.12.221.218:8181/3m1080p/bjws.m3u8
+http://204.12.221.218:8181/3m1080p/cctv1.m3u8
 http://204.12.221.218:8181/3m1080p/cctv10.m3u8
+http://204.12.221.218:8181/3m1080p/cctv11.m3u8
+http://204.12.221.218:8181/3m1080p/cctv12.m3u8
 http://204.12.221.218:8181/3m1080p/cctv14.m3u8
+http://204.12.221.218:8181/3m1080p/cctv15.m3u8
 http://204.12.221.218:8181/3m1080p/cctv16.m3u8
 http://204.12.221.218:8181/3m1080p/cctv2.m3u8
+http://204.12.221.218:8181/3m1080p/cctv3.m3u8
+http://204.12.221.218:8181/3m1080p/cctv6.m3u8
+http://204.12.221.218:8181/3m1080p/cctv8.m3u8
+http://204.12.221.218:8181/3m1080p/cctv9.m3u8
 http://204.12.221.218:8181/3m1080p/cqws.m3u8
 http://204.12.221.218:8181/3m1080p/dnws.m3u8
 http://204.12.221.218:8181/3m1080p/gdws.m3u8
@@ -6995,6 +7025,9 @@ http://219.135.180.210:18888/hls/6/index.m3u8
 http://219.135.180.210:18888/hls/7/index.m3u8
 http://219.135.180.210:18888/hls/8/index.m3u8
 http://219.135.180.210:18888/hls/9/index.m3u8
+
+# 域名: 219.145.93.74:10000
+http://219.145.93.74:10000/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 219.146.95.58:59902
 http://219.146.95.58:59902/tsfile/live/0110_1.m3u8
@@ -7585,6 +7618,7 @@ http://223.78.65.165:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 http://223.78.65.165:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 http://223.78.65.165:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 http://223.78.65.165:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
+http://223.78.65.165:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 http://223.78.65.165:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 223.82.75.3:90
@@ -9808,6 +9842,7 @@ http://58.56.162.102:4466/newlive/live/hls/28/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/29/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/32/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/33/live.m3u8
+http://58.56.162.102:4466/newlive/live/hls/4/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/40/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/41/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/43/live.m3u8
@@ -13229,10 +13264,17 @@ http://bziyunshao.synology.me:8891/bysid/78
 
 # 域名: bztv.tvbus.cc:8081
 http://bztv.tvbus.cc:8081/cdnlive/cctv10.m3u8
+http://bztv.tvbus.cc:8081/cdnlive/cctv12.m3u8
+http://bztv.tvbus.cc:8081/cdnlive/cctv13.m3u8
+http://bztv.tvbus.cc:8081/cdnlive/cctv14.m3u8
 http://bztv.tvbus.cc:8081/cdnlive/cctv16.m3u8
 http://bztv.tvbus.cc:8081/cdnlive/cctv2.m3u8
 http://bztv.tvbus.cc:8081/cdnlive/cctv3.m3u8
+http://bztv.tvbus.cc:8081/cdnlive/cctv4.m3u8
 http://bztv.tvbus.cc:8081/cdnlive/cctv5.m3u8
+http://bztv.tvbus.cc:8081/cdnlive/cctv6.m3u8
+http://bztv.tvbus.cc:8081/cdnlive/cctv8.m3u8
+http://bztv.tvbus.cc:8081/cdnlive/cctv9.m3u8
 
 # 域名: ca-rt.onetv.app
 https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202
@@ -23623,6 +23665,7 @@ https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2
 https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=bc185d1ef1e528922e83efd845006277&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -30006,6 +30049,7 @@ http://sh.lnott.top:880/dx101.m3u8
 http://sh.lnott.top:880/dx93.m3u8
 
 # 域名: shcm-stream-cf1.stream.264788.xyz
+https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001184/index.m3u8?streamid=091bd59ea031989839c23459bb8cc9d4&streamkey=02BjlnRKVk4w1OimLNBUheOcwPFu2B6oL1pyXGnUypEwAWXSi5pA2M8vAAQNdTDwVOBg3wflpOJH2qUejFLrTdJs5UqkOuOhX0oeeOuZCXNP6xGvpxjLkvkGHVF&token=1775846394-f40678590315c3a3-0-795d5d8e9ef7cc7d142de1b17bf1df44
 https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001258/index.m3u8?streamid=a78e16d1a56172e5525dedde279787a3&streamkey=070kmnWlSO6tVxvh6JyoORGIRdEtU2N6uMhBr52XFXMlpDP5cJR3WbAE4XDUyMtM85fygRhPAwq9wyn0AD7vg5QKiMGxk82vdtaBG0RYT7p2mBDXWyty&token=1775753992-d3736074ec706d13-0-d4be0b2d62639f66eea98eb8ecb876a6
 https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001540/index.m3u8?streamid=33aeafbb59f2bcb1877c3a8229c0135b&streamkey=0AGMO6LiBIxyH4UUBGZSecN0VLptakvTRcCBdKPsgZ5LvjIJtZ6lVmakn2xtYKNlvaZmadVnIW0Ur7nROOy5lbmQHqDT5XsDIAlz3aket1LK13kwaGDOHJf9U7zQSS6b&token=1775753804-a378e51446e90f3d-0-831fa09b2b3eafcffbd9550a9e04cf4d
 https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710
@@ -30626,6 +30670,7 @@ https://stream1.freetv.fun/195a90c7fd53ffd35bcd310057c96c96f0ee8b0cdcae125e5bfab
 https://stream1.freetv.fun/1a374486c7cf9bda68906e4e0c84519f24270b43e25a0f23a6f7b35ab9074231.ctv
 https://stream1.freetv.fun/1adf192bf214b0501d5dffac8b0f02243982fd569eb252184908a9c7bb8e1aff.ctv
 https://stream1.freetv.fun/1b51eaf416ee4be8045ce160c21c2b956788a652e03c78ea0db462d925c09459.ctv
+https://stream1.freetv.fun/1b5a9471a33c88b5a362d5cd8dd82cf902285ad6d452652377436b6af5622f74.ctv
 https://stream1.freetv.fun/1b5c2948073df91c08fdc1b18bf158ca6c9cc35c9b7c77bd7bc0727c2c3bb6c4.m3u8
 https://stream1.freetv.fun/1b907bbf4760e673ec9ab89e2327cd1d9e5df04ca6ef35a6fb07f5b6757f4791.m3u8
 https://stream1.freetv.fun/1cc55296a00d160c95a41e68e69fd5eacc5f2b6873e532ca0ac77d574d3687d9.ctv
@@ -30764,6 +30809,7 @@ https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa
 https://stream1.freetv.fun/5335c88a9a7d8b74173b491f480d4f94e8d3bd596af54478106aa2399e6c7917.m3u8
 https://stream1.freetv.fun/537ac964588354800928c49c9842b2b28dcf936584848eb4007a2c2a57199854.ctv
 https://stream1.freetv.fun/53800b472ac1869f0e75f5c2b17fdee144590e10b746f523425fd6ee5cc9b490.m3u8
+https://stream1.freetv.fun/53b0f0ed9f816f84763a45ff5a06d60f999f4f35ba940b8c6a0ebf48410eb9e2.ctv
 https://stream1.freetv.fun/53d70b135b64e3fd71a90fae76b08e41385683291f0c17f9826fe46c08d10f2c.ctv
 https://stream1.freetv.fun/55a64b1622cd954098d66baf8f006c230e1758d0e07ddb84508e7662f6ba32a9.ctv
 https://stream1.freetv.fun/56e516f15802427b9b451c67772481b8d8866caaee127bd1547942e4306ae5ae.m3u8
@@ -30841,6 +30887,7 @@ https://stream1.freetv.fun/7b873437230c9877a0b9cf800e3078144bd17973aff2a72de7c74
 https://stream1.freetv.fun/7bbfe5fb8392af3f4ffdc18217c886d0937de05315ed7980dc17d9578d4411ac.m3u8
 https://stream1.freetv.fun/7c97987fabe18f3ac68fed41bc53ceffb58399ae248785798ba08e384728f027.m3u8
 https://stream1.freetv.fun/7d0b2a99ff90f136f9c30f07bf8bd9991e50df292782d909c87e9eaebd3e6aea.ctv
+https://stream1.freetv.fun/7e0d9638f60dca70ddc3a2437eb10e874587f11f9d3efd833e71acfbdf2de2d6.ctv
 https://stream1.freetv.fun/7e0d9638f60dca70ddc3a2437eb10e874587f11f9d3efd833e71acfbdf2de2d6.m3u8
 https://stream1.freetv.fun/7e3962f35a8b86e1396f1ac3a1a18a0fa6965b348b567281c7b6725f4753fdc1.m3u8
 https://stream1.freetv.fun/7e563699ac2cfea6e2eeb694dbe1d0f1439dfef32698dbecfea6465b9c9925fb.ctv
@@ -35023,6 +35070,9 @@ https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadi
 # 域名: www.30a-tv.com
 http://www.30a-tv.com/InvPit.m3u8?checkedby:iptvcat.com
 
+# 域名: www.520345.xyz:8188
+http://www.520345.xyz:8188/rtp/239.69.2.20:11274
+
 # 域名: www.745612.xyz:7788
 http://www.745612.xyz:7788/rtp/235.254.198.72:1564
 
@@ -36457,6 +36507,7 @@ http://zjzcf.synology.me:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive
 
 # 域名: zmgd.zyrnet.com:8888
 http://zmgd.zyrnet.com:8888/hls/109/index.m3u8
+http://zmgd.zyrnet.com:8888/hls/110/index.m3u8
 
 # 域名: zqh2333.top:2222
 http://zqh2333.top:2222/rtp/239.93.24.132:5140?key=txiptv
