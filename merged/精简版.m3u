@@ -1,8 +1,8 @@
 #EXTM3U
 # 电视直播源 - IPv6优先精简版（新增广播/MV分类）
 # 每个电视台只保留最佳源（IPv6优先，白名单优先）
-# 更新时间(北京时间): 2026-08-10 03:58:40
-# 电视台总数: 135
+# 更新时间(北京时间): 2026-08-11 04:18:52
+# 电视台总数: 137
 # 数据源: 3 个 (成功: 2, 失败: 1)
 # 特点: 移除技术参数，统一央视频道命名，按省份分类地方台，IPv6优先
 # 配置文件: config.txt
@@ -18,176 +18,174 @@
 # 黑名单: blacklist.txt
 
 
-# 分类: 央视 (1个频道)
-#EXTINF:-1 tvg-name="CCTV-2 财经" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-2.png",CCTV-2 财经
-http://pull-hls-f1.douyincdn.com/media/stream-407987562509501100/playlist.m3u8?keeptime=00093a80&wsSecret=70ba7ec30965743accbcfb926a58fd7c&wsTime=6a6c7613&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-2026073118165145DD5015353E316620A0-ZYOHNH
-
-# 分类: 卫视 (18个频道)
-#EXTINF:-1 tvg-name="北京卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/北京卫视.png" tvg-score="0.95",北京卫视 (0.95)
-http://58.57.40.22:9901/tsfile/live/1032_1.m3u8
+# 分类: 卫视 (19个频道)
 #EXTINF:-1 tvg-name="山西卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/山西卫视.png" tvg-score="0.96",山西卫视 (0.96)
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
-#EXTINF:-1 tvg-name="河南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/河南卫视.png" tvg-score="0.96",河南卫视 (0.96)
-http://58.57.40.22:9901/tsfile/live/1048_1.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png" tvg-score="0.98",湖南卫视 (0.98)
+#EXTINF:-1 tvg-name="江苏卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/江苏卫视.png" tvg-score="0.94",江苏卫视 (0.94)
+http://58.57.40.22:9901/tsfile/live/1031_1.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png" tvg-score="0.93",湖南卫视 (0.93)
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
-#EXTINF:-1 tvg-name="广东卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/广东卫视.png" tvg-score="0.96",广东卫视 (0.96)
-http://58.57.40.22:9901/tsfile/live/1039_1.m3u8
-#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" tvg-score="0.62",海南卫视 (0.62)
-http://8.135.27.147:1234/947472502
-#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/贵州卫视.png" tvg-score="0.96",贵州卫视 (0.96)
+#EXTINF:-1 tvg-name="广东卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东卫视.png" tvg-score="0.58",广东卫视 (0.58)
+https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
+#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海南卫视.png" tvg-ipv6="true",海南卫视 [IPv6]
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="贵州卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/贵州卫视.png" tvg-score="0.95",贵州卫视 (0.95)
 http://58.57.40.22:9901/tsfile/live/1042_1.m3u8
-#EXTINF:-1 tvg-name="青海卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/青海卫视.png" tvg-score="0.62",青海卫视 (0.62)
-http://223.247.25.247:1234/947472506
-#EXTINF:-1 tvg-name="三沙卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/三沙卫视.png" tvg-score="0.61",三沙卫视 (0.61)
-http://113.120.243.10:7788/961023778
-#EXTINF:-1 tvg-name="东南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东南卫视.png" tvg-score="0.96",东南卫视 (0.96)
+#EXTINF:-1 tvg-name="云南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/云南卫视.png" tvg-score="0.96",云南卫视 (0.96)
+http://112.123.243.37:50085/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/甘肃卫视.png" tvg-score="0.96",甘肃卫视 (0.96)
+http://112.123.243.37:50085/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/宁夏卫视.png" tvg-score="0.96",宁夏卫视 (0.96)
+http://112.123.243.37:50085/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="内蒙古卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/内蒙古卫视.png" tvg-score="0.96",内蒙古卫视 (0.96)
+http://112.123.243.37:50085/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="西藏卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/西藏卫视.png" tvg-score="0.96",西藏卫视 (0.96)
+http://112.123.243.37:50085/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="东南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东南卫视.png" tvg-score="0.50",东南卫视 (0.50)
 http://101.66.194.210:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png" tvg-score="0.97",东方卫视 (0.97)
+#EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png" tvg-score="0.95",东方卫视 (0.95)
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
-#EXTINF:-1 tvg-name="兵团卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/兵团卫视.png" tvg-score="0.62",兵团卫视 (0.62)
-http://8.135.27.147:1234/956923145
-#EXTINF:-1 tvg-name="农林卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/农林卫视.png" tvg-score="0.62",农林卫视 (0.62)
-http://8.135.27.147:1234/956904896
+#EXTINF:-1 tvg-name="兵团卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/兵团卫视.png" tvg-score="0.96",兵团卫视 (0.96)
+http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="凤凰卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/凤凰卫视.png" tvg-score="0.66",凤凰卫视 (0.66)
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-#EXTINF:-1 tvg-name="大湾区卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/大湾区卫视.png" tvg-score="0.61",大湾区卫视 (0.61)
-http://223.247.25.247:1234/608917627
+#EXTINF:-1 tvg-name="厦门卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/厦门卫视.png" tvg-score="0.96",厦门卫视 (0.96)
+http://112.123.243.37:50085/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="康巴卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/康巴卫视.png" tvg-ipv6="true",康巴卫视 [IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="星空卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/星空卫视.png" tvg-score="0.95",星空卫视 (0.95)
-https://stream1.freetv.fun/xing-kong-wei-shi-11.m3u8
-#EXTINF:-1 tvg-name="海峡卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海峡卫视.png" tvg-score="0.66",海峡卫视 (0.66)
+https://stream1.freetv.fun/xing-kong-wei-shi-12.m3u8
+#EXTINF:-1 tvg-name="海峡卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海峡卫视.png" tvg-score="0.65",海峡卫视 (0.65)
 https://10.fast.hidns.vip/163189/hxws/
 
 # 分类: 少儿台 (7个频道)
-#EXTINF:-1 tvg-name="优漫卡通" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/优漫卡通.png" tvg-score="0.95",优漫卡通 (0.95)
+#EXTINF:-1 tvg-name="优漫卡通" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/优漫卡通.png" tvg-score="0.97",优漫卡通 (0.97)
 https://stream1.freetv.fun/you-man-qia-tong-11.m3u8
-#EXTINF:-1 tvg-name="哈哈炫动" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/哈哈炫动.png" tvg-score="0.94",哈哈炫动 (0.94)
+#EXTINF:-1 tvg-name="哈哈炫动" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/哈哈炫动.png" tvg-score="0.96",哈哈炫动 (0.96)
 https://stream1.freetv.fun/ha-ha-xuan-dong-29.m3u8
 #EXTINF:-1 tvg-name="山东少儿" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东少儿.png" tvg-score="0.96",山东少儿 (0.96)
 https://stream1.freetv.fun/shan-dong-shao-er-7.m3u8
-#EXTINF:-1 tvg-name="炫动卡通" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/炫动卡通.png" tvg-score="0.94",炫动卡通 (0.94)
+#EXTINF:-1 tvg-name="炫动卡通" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/炫动卡通.png" tvg-score="0.96",炫动卡通 (0.96)
 https://stream1.freetv.fun/ha-ha-xuan-dong-29.m3u8
 #EXTINF:-1 tvg-name="福建少儿" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建少儿.png" tvg-score="0.96",福建少儿 (0.96)
 https://stream1.freetv.fun/fu-jian-shao-er-1.m3u8
-#EXTINF:-1 tvg-name="金鹰卡通" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/金鹰卡通.png" tvg-score="0.95",金鹰卡通 (0.95)
+#EXTINF:-1 tvg-name="金鹰卡通" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/金鹰卡通.png" tvg-score="0.97",金鹰卡通 (0.97)
 https://stream1.freetv.fun/jin-ying-qia-tong-34.m3u8
-#EXTINF:-1 tvg-name="黑龙江少儿" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江少儿.png" tvg-score="0.95",黑龙江少儿 (0.95)
+#EXTINF:-1 tvg-name="黑龙江少儿" group-title="少儿台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江少儿.png" tvg-score="0.96",黑龙江少儿 (0.96)
 https://stream1.freetv.fun/hei-long-jiang-shao-er-8.m3u8
 
-# 分类: 综艺台 (1个频道)
-#EXTINF:-1 tvg-name="风云音乐" group-title="综艺台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/风云音乐.png" tvg-score="0.51",风云音乐 (0.51)
-https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-
 # 分类: 港澳台 (10个频道)
-#EXTINF:-1 tvg-name="TVB星河" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/TVB星河.png" tvg-score="0.62",TVB星河 (0.62)
+#EXTINF:-1 tvg-name="TVB星河" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/TVB星河.png" tvg-score="0.55",TVB星河 (0.55)
 https://cdn.qd.je/163189.php?id=tvbxh
 #EXTINF:-1 tvg-name="三立新闻" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三立新闻.png" tvg-score="0.96",三立新闻 (0.96)
 https://stream1.freetv.fun/san-li-xin-wen-4.m3u8
-#EXTINF:-1 tvg-name="东森洋片" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东森洋片.png" tvg-score="0.96",东森洋片 (0.96)
+#EXTINF:-1 tvg-name="东森洋片" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东森洋片.png" tvg-score="0.97",东森洋片 (0.97)
 https://stream1.freetv.fun/dong-sen-yang-pian-3.m3u8
-#EXTINF:-1 tvg-name="东森电影" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东森电影.png" tvg-score="0.64",东森电影 (0.64)
+#EXTINF:-1 tvg-name="东森电影" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东森电影.png" tvg-score="0.57",东森电影 (0.57)
 https://stream1.freetv.fun/dong-sen-dian-ying-8.ctv
-#EXTINF:-1 tvg-name="东森超视" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东森超视.png" tvg-score="0.96",东森超视 (0.96)
+#EXTINF:-1 tvg-name="东森超视" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东森超视.png" tvg-score="0.97",东森超视 (0.97)
 https://stream1.freetv.fun/dong-sen-chao-shi-4.m3u8
-#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png" tvg-score="0.69",凤凰中文 (0.69)
-https://cdn.qd.je/163189.php?id=fhzw
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png" tvg-score="0.62",凤凰资讯 (0.62)
+#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png" tvg-score="0.97",凤凰中文 (0.97)
+https://stream1.freetv.fun/feng-huang-zhong-wen-10.m3u8
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png" tvg-score="0.69",凤凰资讯 (0.69)
 https://cdn.qd.je/163189.php?id=fhzx
-#EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰香港.png" tvg-score="0.68",凤凰香港 (0.68)
+#EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰香港.png" tvg-score="0.59",凤凰香港 (0.59)
 https://cdn.qd.je/163189.php?id=fhhk
-#EXTINF:-1 tvg-name="杭州明珠" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/杭州明珠.png" tvg-score="0.57",杭州明珠 (0.57)
+#EXTINF:-1 tvg-name="杭州明珠" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/杭州明珠.png" tvg-score="0.66",杭州明珠 (0.66)
 https://stream1.freetv.fun/hang-zhou-ming-zhu-1.ctv
-#EXTINF:-1 tvg-name="翡翠台" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/翡翠台.png" tvg-score="0.61",翡翠台 (0.61)
+#EXTINF:-1 tvg-name="翡翠台" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/翡翠台.png" tvg-score="0.58",翡翠台 (0.58)
 https://cdn.qd.je/163189.php?id=fct
 
 # 分类: 体育台 (4个频道)
-#EXTINF:-1 tvg-name="安徽综艺体育" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安徽综艺体育.png" tvg-score="0.94",安徽综艺体育 (0.94)
+#EXTINF:-1 tvg-name="安徽综艺体育" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安徽综艺体育.png" tvg-score="0.97",安徽综艺体育 (0.97)
 https://stream1.freetv.fun/an-hui-zong-yi-ti-yu-8.m3u8
-#EXTINF:-1 tvg-name="山东体育" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东体育.png" tvg-score="0.95",山东体育 (0.95)
+#EXTINF:-1 tvg-name="山东体育" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东体育.png" tvg-score="0.97",山东体育 (0.97)
 https://stream1.freetv.fun/shan-dong-ti-yu-4.m3u8
-#EXTINF:-1 tvg-name="广东体育" group-title="体育台" tvg-logo="https://11.112114.xyz/logo/广东体育.png" tvg-score="0.67",广东体育 (0.67)
+#EXTINF:-1 tvg-name="广东体育" group-title="体育台" tvg-logo="https://11.112114.xyz/logo/广东体育.png" tvg-score="0.56",广东体育 (0.56)
 http://php.jdshipin.com/PLTV/iptv.php?id=gdty
 #EXTINF:-1 tvg-name="魅力足球" group-title="体育台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/魅力足球.png" tvg-ipv6="true" tvg-score="1.00",魅力足球 [IPv6] (1.00)
 https://stream1.freetv.fun/ipv6-mei-li-zu-qiu-4.m3u8
 
 # 分类: 影视台 (3个频道)
-#EXTINF:-1 tvg-name="上虞文化影院" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上虞文化影院.png" tvg-score="0.55",上虞文化影院 (0.55)
+#EXTINF:-1 tvg-name="上虞文化影院" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上虞文化影院.png" tvg-score="0.54",上虞文化影院 (0.54)
 https://stream1.freetv.fun/shang-yu-wen-hua-ying-yuan-4.ctv
-#EXTINF:-1 tvg-name="湖南电影" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南电影.png" tvg-score="0.62",湖南电影 (0.62)
+#EXTINF:-1 tvg-name="湖南电影" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南电影.png" tvg-score="0.58",湖南电影 (0.58)
 https://stream1.freetv.fun/hu-nan-dian-ying-2.ctv
-#EXTINF:-1 tvg-name="纬来电影" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纬来电影.png" tvg-score="0.96",纬来电影 (0.96)
+#EXTINF:-1 tvg-name="纬来电影" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纬来电影.png" tvg-score="0.93",纬来电影 (0.93)
 https://stream1.freetv.fun/wei-lai-dian-ying-1.m3u8
 
-# 分类: 其他台 (60个频道)
+# 分类: 其他台 (63个频道)
+#EXTINF:-1 tvg-name="CETV 2" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-2.png" tvg-ipv6="true",CETV 2 [IPv6]
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
 #EXTINF:-1 tvg-name="CETV 3" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-3.png" tvg-ipv6="true",CETV 3 [IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226577/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EhE2Z89HKgsQOlN9opVn1iw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNN03yUnk4zBVk1bynPPL3hZ%2CEND
+#EXTINF:-1 tvg-name="CETV 4" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-4.png" tvg-ipv6="true",CETV 4 [IPv6]
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="东方影视" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方影视.png" tvg-ipv6="true" tvg-score="1.00",东方影视 [IPv6] (1.00)
 https://stream1.freetv.fun/ipv6-dong-fang-ying-shi-8.m3u8
-#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png" tvg-score="0.62",中国天气 (0.62)
-http://14.153.176.108:1234/959986621
-#EXTINF:-1 tvg-name="乐山新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/乐山新闻综合.png" tvg-score="0.95",乐山新闻综合 (0.95)
+#EXTINF:-1 tvg-name="乐山新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/乐山新闻综合.png" tvg-score="0.96",乐山新闻综合 (0.96)
 https://stream1.freetv.fun/le-shan-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="兰溪新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兰溪新闻综合.png" tvg-score="0.96",兰溪新闻综合 (0.96)
 https://stream1.freetv.fun/lan-xi-xin-wen-zong-he-3.m3u8
-#EXTINF:-1 tvg-name="动漫秀场" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/动漫秀场.png" tvg-score="0.95",动漫秀场 (0.95)
+#EXTINF:-1 tvg-name="动漫秀场" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/动漫秀场.png" tvg-score="0.97",动漫秀场 (0.97)
 https://stream1.freetv.fun/dong-man-xiu-chang-11.m3u8
-#EXTINF:-1 tvg-name="十堰新闻" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/十堰新闻.png" tvg-score="0.95",十堰新闻 (0.95)
+#EXTINF:-1 tvg-name="十堰新闻" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/十堰新闻.png" tvg-score="0.96",十堰新闻 (0.96)
 https://stream1.freetv.fun/shi-yan-xin-wen-2.m3u8
-#EXTINF:-1 tvg-name="南宁公共" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁公共.png" tvg-score="0.95",南宁公共 (0.95)
+#EXTINF:-1 tvg-name="南宁公共" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁公共.png" tvg-score="0.96",南宁公共 (0.96)
 https://stream1.freetv.fun/nan-zhu-gong-gong-1.m3u8
 #EXTINF:-1 tvg-name="南宁新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁新闻综合.png" tvg-score="0.95",南宁新闻综合 (0.95)
 https://stream1.freetv.fun/nan-zhu-xin-wen-zong-he-3.m3u8
-#EXTINF:-1 tvg-name="南宁都市生活" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁都市生活.png" tvg-score="0.95",南宁都市生活 (0.95)
+#EXTINF:-1 tvg-name="南宁都市生活" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁都市生活.png" tvg-score="0.96",南宁都市生活 (0.96)
 https://stream1.freetv.fun/nan-zhu-du-shi-sheng-huo-3.m3u8
-#EXTINF:-1 tvg-name="叙州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/叙州新闻综合.png" tvg-score="0.95",叙州新闻综合 (0.95)
+#EXTINF:-1 tvg-name="叙州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/叙州新闻综合.png" tvg-score="0.96",叙州新闻综合 (0.96)
 https://stream1.freetv.fun/xu-zhou-xin-wen-zong-he-7.m3u8
-#EXTINF:-1 tvg-name="周口新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周口新闻综合.png" tvg-score="0.95",周口新闻综合 (0.95)
+#EXTINF:-1 tvg-name="周口新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周口新闻综合.png" tvg-score="0.97",周口新闻综合 (0.97)
 https://stream1.freetv.fun/zhou-kou-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="大庆新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/大庆新闻综合.png" tvg-score="0.95",大庆新闻综合 (0.95)
+#EXTINF:-1 tvg-name="大庆新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/大庆新闻综合.png" tvg-score="0.97",大庆新闻综合 (0.97)
 https://stream1.freetv.fun/da-qing-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="天映经典" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天映经典.png" tvg-score="0.95",天映经典 (0.95)
 https://stream1.freetv.fun/tian-ying-jing-dian-5.m3u8
-#EXTINF:-1 tvg-name="宜兴新闻" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宜兴新闻.png" tvg-score="0.96",宜兴新闻 (0.96)
+#EXTINF:-1 tvg-name="宜兴新闻" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宜兴新闻.png" tvg-score="0.95",宜兴新闻 (0.95)
 https://stream1.freetv.fun/yi-xing-xin-wen-2.m3u8
-#EXTINF:-1 tvg-name="宿州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合.png" tvg-score="0.95",宿州新闻综合 (0.95)
+#EXTINF:-1 tvg-name="宿州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宿州新闻综合.png" tvg-score="0.97",宿州新闻综合 (0.97)
 https://stream1.freetv.fun/su-zhou-xin-wen-zong-he-2.m3u8
-#EXTINF:-1 tvg-name="嵊州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊州新闻综合.png" tvg-score="0.94",嵊州新闻综合 (0.94)
+#EXTINF:-1 tvg-name="嵊州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊州新闻综合.png" tvg-score="0.96",嵊州新闻综合 (0.96)
 https://stream1.freetv.fun/sheng-zhou-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="嵊泗综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊泗综合.png" tvg-score="0.94",嵊泗综合 (0.94)
+#EXTINF:-1 tvg-name="嵊泗综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊泗综合.png" tvg-score="0.96",嵊泗综合 (0.96)
 https://stream1.freetv.fun/sheng-zhou-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="平湖新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/平湖新闻综合.png" tvg-score="0.95",平湖新闻综合 (0.95)
+#EXTINF:-1 tvg-name="平湖新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/平湖新闻综合.png" tvg-score="0.97",平湖新闻综合 (0.97)
 https://stream1.freetv.fun/ping-hu-xin-wen-zong-he-3.m3u8
-#EXTINF:-1 tvg-name="广元综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广元综合.png" tvg-score="0.95",广元综合 (0.95)
+#EXTINF:-1 tvg-name="广元综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广元综合.png" tvg-score="0.96",广元综合 (0.96)
 https://stream1.freetv.fun/yan-yuan-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="广州竞赛" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/广州竞赛.png" tvg-score="0.57",广州竞赛 (0.57)
-https://stream1.freetv.fun/yan-zhou-jing-sai-34.ctv
-#EXTINF:-1 tvg-name="开化新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开化新闻综合.png" tvg-score="0.94",开化新闻综合 (0.94)
+#EXTINF:-1 tvg-name="广州竞赛" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/广州竞赛.png" tvg-score="0.95",广州竞赛 (0.95)
+https://stream1.freetv.fun/yan-zhou-jing-sai-12.m3u8
+#EXTINF:-1 tvg-name="开化新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开化新闻综合.png" tvg-score="0.95",开化新闻综合 (0.95)
 https://stream1.freetv.fun/kai-hua-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="开封新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开封新闻综合.png" tvg-score="0.95",开封新闻综合 (0.95)
+#EXTINF:-1 tvg-name="开封新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开封新闻综合.png" tvg-score="0.92",开封新闻综合 (0.92)
 https://stream1.freetv.fun/kai-feng-xin-wen-zong-he-2.m3u8
-#EXTINF:-1 tvg-name="德阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/德阳新闻综合.png" tvg-score="0.95",德阳新闻综合 (0.95)
+#EXTINF:-1 tvg-name="德阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/德阳新闻综合.png" tvg-score="0.96",德阳新闻综合 (0.96)
 https://stream1.freetv.fun/de-yang-xin-wen-zong-he-2.m3u8
-#EXTINF:-1 tvg-name="武义新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武义新闻综合.png" tvg-score="0.95",武义新闻综合 (0.95)
+#EXTINF:-1 tvg-name="新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新闻综合.png" tvg-ipv6="true" tvg-score="1.00",新闻综合 [IPv6] (1.00)
+https://stream1.freetv.fun/ipv6-xin-wen-zong-he-7.m3u8
+#EXTINF:-1 tvg-name="武义新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武义新闻综合.png" tvg-score="0.96",武义新闻综合 (0.96)
 https://stream1.freetv.fun/wu-yi-xin-wen-zong-he-3.m3u8
-#EXTINF:-1 tvg-name="武汉二台电视剧" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武汉二台电视剧.png" tvg-score="0.95",武汉二台电视剧 (0.95)
+#EXTINF:-1 tvg-name="武汉二台电视剧" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武汉二台电视剧.png" tvg-score="0.96",武汉二台电视剧 (0.96)
 https://stream1.freetv.fun/wu-yi-2dian-shi-ju-1.m3u8
 #EXTINF:-1 tvg-name="武汉教育" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武汉教育.png" tvg-score="0.95",武汉教育 (0.95)
 https://stream1.freetv.fun/wu-yi-jiao-yu-4.m3u8
-#EXTINF:-1 tvg-name="永嘉新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/永嘉新闻综合.png" tvg-score="0.94",永嘉新闻综合 (0.94)
+#EXTINF:-1 tvg-name="永嘉新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/永嘉新闻综合.png" tvg-score="0.97",永嘉新闻综合 (0.97)
 https://stream1.freetv.fun/yong-jia-xin-wen-zong-he-4.m3u8
-#EXTINF:-1 tvg-name="沁阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/沁阳新闻综合.png" tvg-score="0.94",沁阳新闻综合 (0.94)
+#EXTINF:-1 tvg-name="沁阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/沁阳新闻综合.png" tvg-score="0.96",沁阳新闻综合 (0.96)
 https://stream1.freetv.fun/qin-yang-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="泌阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/泌阳新闻综合.png" tvg-score="0.95",泌阳新闻综合 (0.95)
+#EXTINF:-1 tvg-name="泌阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/泌阳新闻综合.png" tvg-score="0.96",泌阳新闻综合 (0.96)
 https://stream1.freetv.fun/mi-yang-xin-wen-zong-he-2.m3u8
-#EXTINF:-1 tvg-name="泰州一套新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/泰州一套新闻综合.png" tvg-score="0.96",泰州一套新闻综合 (0.96)
+#EXTINF:-1 tvg-name="泰州一套新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/泰州一套新闻综合.png" tvg-score="0.95",泰州一套新闻综合 (0.95)
 https://stream1.freetv.fun/tai-zhou-yi-tao-xin-wen-zong-he-4.m3u8
-#EXTINF:-1 tvg-name="济南教育" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/济南教育.png" tvg-score="0.94",济南教育 (0.94)
+#EXTINF:-1 tvg-name="济南教育" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/济南教育.png" tvg-score="0.97",济南教育 (0.97)
 https://stream1.freetv.fun/ji-nan-jiao-yu-1.m3u8
-#EXTINF:-1 tvg-name="济南综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/济南综合.png" tvg-score="0.95",济南综合 (0.95)
+#EXTINF:-1 tvg-name="济南综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/济南综合.png" tvg-score="0.97",济南综合 (0.97)
 https://stream1.freetv.fun/ji-nan-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="湖州公共" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖州公共.png" tvg-score="0.96",湖州公共 (0.96)
+#EXTINF:-1 tvg-name="湖州公共" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖州公共.png" tvg-score="0.97",湖州公共 (0.97)
 https://stream1.freetv.fun/hu-zhou-gong-gong-9.m3u8
 #EXTINF:-1 tvg-name="漳州新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/漳州新闻综合.png" tvg-score="0.95",漳州新闻综合 (0.95)
 https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-2.m3u8
@@ -201,41 +199,43 @@ https://stream1.freetv.fun/sheng-huo-shi-shang-13.m3u8
 http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226433/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EygquRbh9L0wUPRY53fsZWw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO62IynDcU1yYDL1b4Xte8T%2CEND
 #EXTINF:-1 tvg-name="白名单 :6610" group-title="其他台" tvg-ipv6="true" tvg-whitelist="true",白名单 :6610 [IPv6] [白名单]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EIGb_ib7rnBX9_sANRKq9sg%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000003873458%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C10000100000000060000000007253514_0%2CEND&GuardEncType=2
+#EXTINF:-1 tvg-name="第一财经" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/第一财经.png" tvg-ipv6="true" tvg-score="1.00",第一财经 [IPv6] (1.00)
+https://stream1.freetv.fun/ipv6-di-yi-cai-jing-8.m3u8
 #EXTINF:-1 tvg-name="纪实人文" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/纪实人文.png" tvg-ipv6="true" tvg-score="1.00",纪实人文 [IPv6] (1.00)
 https://stream1.freetv.fun/ipv6-ji-shi-ren-wen-12.m3u8
-#EXTINF:-1 tvg-name="绍兴公共" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绍兴公共.png" tvg-score="0.95",绍兴公共 (0.95)
+#EXTINF:-1 tvg-name="绍兴公共" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绍兴公共.png" tvg-score="0.96",绍兴公共 (0.96)
 https://stream1.freetv.fun/shao-xing-gong-gong-7.m3u8
-#EXTINF:-1 tvg-name="绵阳科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绵阳科技.png" tvg-score="0.95",绵阳科技 (0.95)
+#EXTINF:-1 tvg-name="绵阳科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绵阳科技.png" tvg-score="0.97",绵阳科技 (0.97)
 https://stream1.freetv.fun/mian-yang-ke-ji-2.m3u8
-#EXTINF:-1 tvg-name="苍南新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苍南新闻综合.png" tvg-score="0.94",苍南新闻综合 (0.94)
+#EXTINF:-1 tvg-name="苍南新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苍南新闻综合.png" tvg-score="0.95",苍南新闻综合 (0.95)
 https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-5.m3u8
-#EXTINF:-1 tvg-name="萧山新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/萧山新闻综合.png" tvg-score="0.95",萧山新闻综合 (0.95)
+#EXTINF:-1 tvg-name="萧山新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/萧山新闻综合.png" tvg-score="0.96",萧山新闻综合 (0.96)
 https://stream1.freetv.fun/xiao-shan-xin-wen-zong-he-6.m3u8
-#EXTINF:-1 tvg-name="蓬安新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/蓬安新闻综合.png" tvg-score="0.95",蓬安新闻综合 (0.95)
+#EXTINF:-1 tvg-name="蓬安新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/蓬安新闻综合.png" tvg-score="0.96",蓬安新闻综合 (0.96)
 https://stream1.freetv.fun/peng-an-xin-wen-zong-he-2.m3u8
-#EXTINF:-1 tvg-name="衢江新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/衢江新闻综合.png" tvg-score="0.95",衢江新闻综合 (0.95)
+#EXTINF:-1 tvg-name="衢江新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/衢江新闻综合.png" tvg-score="0.97",衢江新闻综合 (0.97)
 https://stream1.freetv.fun/qu-jiang-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="西宁生活服务" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/西宁生活服务.png" tvg-score="0.96",西宁生活服务 (0.96)
 https://stream1.freetv.fun/xi-zhu-sheng-huo-fu-wu-2.m3u8
-#EXTINF:-1 tvg-name="象山综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/象山综合.png" tvg-score="0.96",象山综合 (0.96)
+#EXTINF:-1 tvg-name="象山综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/象山综合.png" tvg-score="0.97",象山综合 (0.97)
 http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39
-#EXTINF:-1 tvg-name="运城科技教育" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/运城科技教育.png" tvg-score="0.95",运城科技教育 (0.95)
+#EXTINF:-1 tvg-name="运城科技教育" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/运城科技教育.png" tvg-score="0.96",运城科技教育 (0.96)
 https://stream1.freetv.fun/yun-cheng-ke-ji-jiao-yu-2.m3u8
-#EXTINF:-1 tvg-name="邢台综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邢台综合.png" tvg-score="0.95",邢台综合 (0.95)
+#EXTINF:-1 tvg-name="邢台综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邢台综合.png" tvg-score="0.96",邢台综合 (0.96)
 https://stream1.freetv.fun/xing-tai-zong-he-2.m3u8
-#EXTINF:-1 tvg-name="郸城新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/郸城新闻综合.png" tvg-score="0.95",郸城新闻综合 (0.95)
+#EXTINF:-1 tvg-name="郸城新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/郸城新闻综合.png" tvg-score="0.97",郸城新闻综合 (0.97)
 https://stream1.freetv.fun/dan-cheng-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/金鹰纪实.png" tvg-score="0.95",金鹰纪实 (0.95)
 https://stream1.freetv.fun/jin-ying-ji-shi-35.m3u8
 #EXTINF:-1 tvg-name="镇江二套社会民生" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/镇江二套社会民生.png",镇江二套社会民生
 http://zjtv-wshls.homecdn.com/live/2aa16.m3u8
-#EXTINF:-1 tvg-name="靖天戏剧" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天戏剧.png" tvg-score="0.63",靖天戏剧 (0.63)
+#EXTINF:-1 tvg-name="靖天戏剧" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天戏剧.png" tvg-score="0.60",靖天戏剧 (0.60)
 https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv058
-#EXTINF:-1 tvg-name="靖天映画" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天映画.png" tvg-score="0.62",靖天映画 (0.62)
+#EXTINF:-1 tvg-name="靖天映画" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天映画.png" tvg-score="0.69",靖天映画 (0.69)
 http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv055
-#EXTINF:-1 tvg-name="靖天资讯" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天资讯.png" tvg-score="0.59",靖天资讯 (0.59)
+#EXTINF:-1 tvg-name="靖天资讯" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天资讯.png" tvg-score="0.54",靖天资讯 (0.54)
 https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv065
-#EXTINF:-1 tvg-name="靖江新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖江新闻综合.png" tvg-score="0.94",靖江新闻综合 (0.94)
+#EXTINF:-1 tvg-name="靖江新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖江新闻综合.png" tvg-score="0.96",靖江新闻综合 (0.96)
 https://stream1.freetv.fun/jing-jiang-xin-wen-zong-he-7.m3u8
 #EXTINF:-1 tvg-name="黄花城水长城02" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/黄花城水长城02.png",黄花城水长城02
 http://gctxyc.liveplay.myqcloud.com/gc/wgw02_1/index.m3u8#https://gcalic.v.myalicdn.com/gc/wgw02_1/index.m3u8
@@ -243,7 +243,7 @@ http://gctxyc.liveplay.myqcloud.com/gc/wgw02_1/index.m3u8#https://gcalic.v.myali
 https://stream1.freetv.fun/ipv6-qi-qi-ha-er-xin-wen-zong-he-3.m3u8
 
 # 分类: 上海市 (3个频道)
-#EXTINF:-1 tvg-name="上海新闻综合" group-title="上海市" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海新闻综合.png" tvg-score="0.96",上海新闻综合 (0.96)
+#EXTINF:-1 tvg-name="上海新闻综合" group-title="上海市" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海新闻综合.png" tvg-score="0.97",上海新闻综合 (0.97)
 https://stream1.freetv.fun/shang-hai-xin-wen-zong-he-3.m3u8
 #EXTINF:-1 tvg-name="上海纪实" group-title="上海市" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上海纪实.png" tvg-ipv6="true" tvg-score="1.00",上海纪实 [IPv6] (1.00)
 https://stream1.freetv.fun/ipv6-shang-hai-ji-shi-ren-wen-2.m3u8
@@ -251,33 +251,33 @@ https://stream1.freetv.fun/ipv6-shang-hai-ji-shi-ren-wen-2.m3u8
 https://stream1.freetv.fun/ipv6-shang-hai-du-shi-3.m3u8
 
 # 分类: 四川省 (1个频道)
-#EXTINF:-1 tvg-name="四川科教" group-title="四川省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/四川科教.png" tvg-score="0.95",四川科教 (0.95)
+#EXTINF:-1 tvg-name="四川科教" group-title="四川省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/四川科教.png" tvg-score="0.96",四川科教 (0.96)
 https://stream1.freetv.fun/si-chuan-ke-jiao-1.m3u8
 
 # 分类: 安徽省 (1个频道)
-#EXTINF:-1 tvg-name="安徽影视" group-title="安徽省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安徽影视.png" tvg-score="0.94",安徽影视 (0.94)
+#EXTINF:-1 tvg-name="安徽影视" group-title="安徽省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安徽影视.png" tvg-score="0.97",安徽影视 (0.97)
 https://stream1.freetv.fun/an-hui-ying-shi-14.m3u8
 
 # 分类: 山东省 (1个频道)
-#EXTINF:-1 tvg-name="山东新闻" group-title="山东省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东新闻.png" tvg-score="0.95",山东新闻 (0.95)
+#EXTINF:-1 tvg-name="山东新闻" group-title="山东省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东新闻.png" tvg-score="0.97",山东新闻 (0.97)
 https://stream1.freetv.fun/shan-dong-xin-wen-2.m3u8
 
 # 分类: 广东省 (1个频道)
-#EXTINF:-1 tvg-name="广东珠江" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东珠江.png" tvg-score="0.66",广东珠江 (0.66)
-http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
+#EXTINF:-1 tvg-name="广东珠江" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东珠江.png" tvg-score="0.60",广东珠江 (0.60)
+https://stream1.freetv.fun/04428a48ff376402f2390af00c5f7dc8abc625e497b18839d7837c389edfb3d7.ctv
 
 # 分类: 新疆维吾尔自治区 (1个频道)
 #EXTINF:-1 tvg-name="新疆天山" group-title="新疆维吾尔自治区" tvg-logo="https://11.112114.xyz/logo/新疆天山定海神针.png",新疆天山
 http://gctxyc.liveplay.myqcloud.com/gc/xjtcdhsz_1/index.m3u8#https://gcalic.v.myalicdn.com/gc/xjtcdhsz_1/index.m3u8
 
 # 分类: 河北省 (1个频道)
-#EXTINF:-1 tvg-name="河北少儿科教" group-title="河北省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/河北少儿科教.png" tvg-score="0.95",河北少儿科教 (0.95)
+#EXTINF:-1 tvg-name="河北少儿科教" group-title="河北省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/河北少儿科教.png" tvg-score="0.97",河北少儿科教 (0.97)
 https://stream1.freetv.fun/he-bei-shao-er-ke-jiao-2.m3u8
 
 # 分类: 浙江省 (2个频道)
-#EXTINF:-1 tvg-name="浙江民生休闲" group-title="浙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江民生休闲.png" tvg-score="0.96",浙江民生休闲 (0.96)
+#EXTINF:-1 tvg-name="浙江民生休闲" group-title="浙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江民生休闲.png" tvg-score="0.95",浙江民生休闲 (0.95)
 https://stream1.freetv.fun/zhe-jiang-min-sheng-9.m3u8
-#EXTINF:-1 tvg-name="浙江钱江" group-title="浙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江钱江.png" tvg-score="0.57",浙江钱江 (0.57)
+#EXTINF:-1 tvg-name="浙江钱江" group-title="浙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江钱江.png" tvg-score="0.60",浙江钱江 (0.60)
 https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-4.ctv
 
 # 分类: 海南省 (3个频道)
@@ -289,45 +289,45 @@ https://stream1.freetv.fun/ipv6-hai-nan-wen-lu-7.m3u8
 https://stream1.freetv.fun/ipv6-hai-nan-xin-wen-6.m3u8
 
 # 分类: 湖北省 (4个频道)
-#EXTINF:-1 tvg-name="湖北影视" group-title="湖北省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖北影视.png" tvg-score="0.95",湖北影视 (0.95)
+#EXTINF:-1 tvg-name="湖北影视" group-title="湖北省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖北影视.png" tvg-score="0.96",湖北影视 (0.96)
 https://stream1.freetv.fun/hu-bei-ying-shi-14.m3u8
 #EXTINF:-1 tvg-name="湖北生活" group-title="湖北省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖北生活.png" tvg-score="0.96",湖北生活 (0.96)
 https://stream1.freetv.fun/hu-bei-sheng-huo-2.m3u8
 #EXTINF:-1 tvg-name="湖北经视" group-title="湖北省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖北经视.png" tvg-score="0.95",湖北经视 (0.95)
 https://stream1.freetv.fun/hu-bei-jing-shi-24.m3u8
-#EXTINF:-1 tvg-name="湖北综合" group-title="湖北省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖北综合.png" tvg-score="0.58",湖北综合 (0.58)
+#EXTINF:-1 tvg-name="湖北综合" group-title="湖北省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖北综合.png" tvg-score="0.62",湖北综合 (0.62)
 https://stream1.freetv.fun/hu-bei-zong-he-4.ctv
 
 # 分类: 湖南省 (4个频道)
-#EXTINF:-1 tvg-name="湖南国际" group-title="湖南省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南国际.png" tvg-score="0.61",湖南国际 (0.61)
+#EXTINF:-1 tvg-name="湖南国际" group-title="湖南省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南国际.png" tvg-score="0.66",湖南国际 (0.66)
 https://stream1.freetv.fun/hu-nan-guo-ji-4.ctv
-#EXTINF:-1 tvg-name="湖南电视剧" group-title="湖南省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南电视剧.png" tvg-score="0.95",湖南电视剧 (0.95)
+#EXTINF:-1 tvg-name="湖南电视剧" group-title="湖南省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南电视剧.png" tvg-score="0.96",湖南电视剧 (0.96)
 https://stream1.freetv.fun/hu-nan-dian-shi-ju-7.m3u8
-#EXTINF:-1 tvg-name="湖南经视" group-title="湖南省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南经视.png" tvg-score="0.94",湖南经视 (0.94)
+#EXTINF:-1 tvg-name="湖南经视" group-title="湖南省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南经视.png" tvg-score="0.97",湖南经视 (0.97)
 https://stream1.freetv.fun/hu-nan-jing-shi-6.m3u8
 #EXTINF:-1 tvg-name="湖南都市" group-title="湖南省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南都市.png" tvg-score="0.96",湖南都市 (0.96)
 https://stream1.freetv.fun/hu-nan-du-shi-9.m3u8
 
 # 分类: 福建省 (3个频道)
-#EXTINF:-1 tvg-name="福建电视剧" group-title="福建省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建电视剧.png" tvg-score="0.93",福建电视剧 (0.93)
+#EXTINF:-1 tvg-name="福建电视剧" group-title="福建省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建电视剧.png" tvg-score="0.96",福建电视剧 (0.96)
 https://stream1.freetv.fun/fu-jian-dian-shi-ju-5.m3u8
 #EXTINF:-1 tvg-name="福建经视" group-title="福建省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建经视.png" tvg-score="0.96",福建经视 (0.96)
 https://stream1.freetv.fun/fu-jian-jing-ji-1.m3u8
-#EXTINF:-1 tvg-name="福建综合" group-title="福建省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建综合.png" tvg-score="0.94",福建综合 (0.94)
+#EXTINF:-1 tvg-name="福建综合" group-title="福建省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建综合.png" tvg-score="0.97",福建综合 (0.97)
 https://stream1.freetv.fun/fu-jian-zong-he-6.m3u8
 
 # 分类: 辽宁省 (1个频道)
-#EXTINF:-1 tvg-name="辽宁北方" group-title="辽宁省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/辽宁北方.png" tvg-score="0.94",辽宁北方 (0.94)
+#EXTINF:-1 tvg-name="辽宁北方" group-title="辽宁省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/辽宁北方.png" tvg-score="0.96",辽宁北方 (0.96)
 https://stream1.freetv.fun/liao-zhu-bei-fang-3.m3u8
 
 # 分类: 黑龙江省 (5个频道)
-#EXTINF:-1 tvg-name="黑龙江影视" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江影视.png" tvg-score="0.95",黑龙江影视 (0.95)
+#EXTINF:-1 tvg-name="黑龙江影视" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江影视.png" tvg-score="0.96",黑龙江影视 (0.96)
 https://stream1.freetv.fun/hei-long-jiang-ying-shi-7.m3u8
-#EXTINF:-1 tvg-name="黑龙江文体" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江文体.png" tvg-score="0.95",黑龙江文体 (0.95)
+#EXTINF:-1 tvg-name="黑龙江文体" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江文体.png" tvg-score="0.96",黑龙江文体 (0.96)
 https://stream1.freetv.fun/hei-long-jiang-wen-ti-7.m3u8
-#EXTINF:-1 tvg-name="黑龙江新闻" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江新闻.png" tvg-score="0.95",黑龙江新闻 (0.95)
+#EXTINF:-1 tvg-name="黑龙江新闻" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江新闻.png" tvg-score="0.97",黑龙江新闻 (0.97)
 https://stream1.freetv.fun/hei-long-jiang-xin-wen-9.m3u8
-#EXTINF:-1 tvg-name="黑龙江新闻法治" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江新闻法治.png" tvg-score="0.96",黑龙江新闻法治 (0.96)
+#EXTINF:-1 tvg-name="黑龙江新闻法治" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江新闻法治.png" tvg-score="0.97",黑龙江新闻法治 (0.97)
 https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-6.m3u8
-#EXTINF:-1 tvg-name="黑龙江都市" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江都市.png" tvg-score="0.94",黑龙江都市 (0.94)
+#EXTINF:-1 tvg-name="黑龙江都市" group-title="黑龙江省" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江都市.png" tvg-score="0.96",黑龙江都市 (0.96)
 https://stream1.freetv.fun/hei-long-jiang-du-shi-7.m3u8
