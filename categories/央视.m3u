@@ -1,7 +1,7 @@
 #EXTM3U
 # 央视频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-10 03:58:40
-# 电视台数量: 1
+# 更新时间(北京时间): 2026-08-12 04:20:39
+# 电视台数量: 2
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -9,5 +9,7 @@
 # 白名单功能: 启用
 # 测速功能: 启用
 
-#EXTINF:-1 tvg-name="CCTV-2 财经" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-2.png",CCTV-2 财经 [1普通]
-http://pull-hls-f1.douyincdn.com/media/stream-407987562509501100/playlist.m3u8?keeptime=00093a80&wsSecret=70ba7ec30965743accbcfb926a58fd7c&wsTime=6a6c7613&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-2026073118165145DD5015353E316620A0-ZYOHNH
+#EXTINF:-1 tvg-name="CCTV 2财经" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV2.png",CCTV 2财经 [1普通]
+http://218.13.148.152:5140/IPTV-%E5%A4%AE%E8%A7%86/CCTV-2
+#EXTINF:-1 tvg-name="CCTV 9纪录" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV9.png",CCTV 9纪录 [1普通]
+http://112.123.243.37:50085/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
