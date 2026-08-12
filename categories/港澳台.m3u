@@ -1,6 +1,6 @@
 #EXTM3U
 # 港澳台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-12 04:20:39
+# 更新时间(北京时间): 2026-08-13 04:19:05
 # 电视台数量: 10
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -19,8 +19,8 @@ https://stream1.freetv.fun/dong-sen-yang-pian-3.m3u8
 https://stream1.freetv.fun/dong-sen-dian-ying-8.ctv
 #EXTINF:-1 tvg-name="东森超视" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东森超视.png",东森超视 [2普通]
 https://stream1.freetv.fun/dong-sen-chao-shi-4.m3u8|https://stream1.freetv.fun/dong-sen-chao-shi-2.m3u8
-#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png",凤凰中文 [4普通]
-https://stream1.freetv.fun/feng-huang-zhong-wen-12.m3u8|https://stream1.freetv.fun/feng-huang-zhong-wen-18.m3u8|https://stream1.freetv.fun/feng-huang-zhong-wen-10.m3u8|http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png",凤凰中文 [6普通]
+https://stream1.freetv.fun/feng-huang-zhong-wen-18.m3u8|https://stream1.freetv.fun/feng-huang-zhong-wen-12.m3u8|https://stream1.freetv.fun/feng-huang-zhong-wen-10.m3u8|https://cdn.qd.je/163189.php?id=fhzw|https://stream1.freetv.fun/c8ad10f8d135ebbea6b77779874c1d8a6da07d925786ac11f855c0dfa87b4487.ctv|http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png",凤凰资讯 [1普通]
 https://cdn.qd.je/163189.php?id=fhzx
 #EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰香港.png",凤凰香港 [2普通]
