@@ -1,7 +1,7 @@
 #EXTM3U
 # 其他台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-16 03:09:46
-# 电视台数量: 78
+# 更新时间(北京时间): 2026-08-17 03:09:56
+# 电视台数量: 77
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -25,8 +25,6 @@ https://stream1.freetv.fun/ipv6-dong-fang-ying-shi-8.m3u8
 http://8.134.175.232:4022/rtp/239.253.43.104:5146
 #EXTINF:-1 tvg-name="东莞生活资讯" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/东莞生活资讯.png" tvg-ipv6="true",东莞生活资讯 [1IPv6]
 http://8.134.175.232:4022/rtp/239.253.43.105:5146
-#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [7普通]
-http://222.134.19.49:8090/959986621|http://116.52.173.67:1234/959986621|http://60.168.105.165:5008/959986621|http://111.76.19.197:1234/959986621|http://113.120.243.10:7788/959986621|http://42.94.210.22:7788/959986621|http://27.12.12.40:1234/959986621
 #EXTINF:-1 tvg-name="乐山新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/乐山新闻综合.png",乐山新闻综合 [2普通]
 https://stream1.freetv.fun/le-shan-xin-wen-zong-he-1.m3u8|https://stream1.freetv.fun/le-shan-xin-wen-zong-he-2.m3u8
 #EXTINF:-1 tvg-name="佛山顺德" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/佛山顺德.png" tvg-ipv6="true",佛山顺德 [1IPv6]
