@@ -1,7 +1,7 @@
 #EXTM3U
 # 其他台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-17 03:09:56
-# 电视台数量: 77
+# 更新时间(北京时间): 2026-08-18 03:27:29
+# 电视台数量: 79
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -21,10 +21,12 @@ http://8.134.175.232:4022/rtp/239.77.1.232:5146
 http://8.134.175.232:4022/rtp/239.77.1.233:5146
 #EXTINF:-1 tvg-name="东方影视" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方影视.png" tvg-ipv6="true",东方影视 [1IPv6]
 https://stream1.freetv.fun/ipv6-dong-fang-ying-shi-8.m3u8
-#EXTINF:-1 tvg-name="东莞新闻综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/东莞新闻综合.png" tvg-ipv6="true",东莞新闻综合 [1IPv6]
-http://8.134.175.232:4022/rtp/239.253.43.104:5146
+#EXTINF:-1 tvg-name="东莞新闻综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/东莞新闻综合.png" tvg-ipv6="true",东莞新闻综合 [1IPv6+1普通]
+http://8.134.175.232:4022/rtp/239.253.43.104:5146|https://t.freetv.fun/live/dong-wan-xin-wen-zong-he-4.m3u8
 #EXTINF:-1 tvg-name="东莞生活资讯" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/东莞生活资讯.png" tvg-ipv6="true",东莞生活资讯 [1IPv6]
 http://8.134.175.232:4022/rtp/239.253.43.105:5146
+#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [5普通]
+http://113.120.243.10:7788/959986621|http://60.168.105.165:5008/959986621|http://116.52.173.67:1234/959986621|http://222.134.19.49:8090/959986621|http://111.76.19.197:1234/959986621
 #EXTINF:-1 tvg-name="乐山新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/乐山新闻综合.png",乐山新闻综合 [2普通]
 https://stream1.freetv.fun/le-shan-xin-wen-zong-he-1.m3u8|https://stream1.freetv.fun/le-shan-xin-wen-zong-he-2.m3u8
 #EXTINF:-1 tvg-name="佛山顺德" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/佛山顺德.png" tvg-ipv6="true",佛山顺德 [1IPv6]
@@ -69,8 +71,8 @@ https://stream1.freetv.fun/kai-hua-xin-wen-zong-he-1.m3u8|https://stream1.freetv
 https://stream1.freetv.fun/kai-feng-xin-wen-zong-he-2.m3u8
 #EXTINF:-1 tvg-name="德阳新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/德阳新闻综合.png",德阳新闻综合 [2普通]
 https://stream1.freetv.fun/de-yang-xin-wen-zong-he-2.m3u8|https://stream1.freetv.fun/de-yang-xin-wen-zong-he-3.m3u8
-#EXTINF:-1 tvg-name="揭阳综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/揭阳综合.png" tvg-ipv6="true",揭阳综合 [1IPv6]
-http://8.134.175.232:4022/rtp/239.77.0.229:5146
+#EXTINF:-1 tvg-name="揭阳综合" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/揭阳综合.png" tvg-ipv6="true",揭阳综合 [1IPv6+1普通]
+http://8.134.175.232:4022/rtp/239.77.0.229:5146|https://t.freetv.fun/live/jie-yang-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新闻综合.png" tvg-ipv6="true",新闻综合 [1IPv6]
 https://stream1.freetv.fun/ipv6-xin-wen-zong-he-7.m3u8
 #EXTINF:-1 tvg-name="武义新闻综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武义新闻综合.png",武义新闻综合 [1普通]
@@ -123,6 +125,8 @@ https://stream1.freetv.fun/ipv6-di-yi-cai-jing-8.m3u8
 https://stream1.freetv.fun/ipv6-ji-shi-ren-wen-12.m3u8
 #EXTINF:-1 tvg-name="绍兴公共" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绍兴公共.png",绍兴公共 [3普通]
 https://stream1.freetv.fun/shao-xing-gong-gong-7.m3u8|https://stream1.freetv.fun/shao-xing-gong-gong-8.m3u8|https://stream1.freetv.fun/shao-xing-gong-gong-1.m3u8
+#EXTINF:-1 tvg-name="经济科教" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/经济科教.png",经济科教 [1普通]
+https://t.freetv.fun/live/jing-ji-ke-jiao-8.m3u8
 #EXTINF:-1 tvg-name="绵阳科技" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绵阳科技.png",绵阳科技 [1普通]
 https://stream1.freetv.fun/mian-yang-ke-ji-2.m3u8
 #EXTINF:-1 tvg-name="肇庆生活服务" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/肇庆生活服务.png" tvg-ipv6="true",肇庆生活服务 [1IPv6]
@@ -149,8 +153,8 @@ https://stream1.freetv.fun/dan-cheng-xin-wen-zong-he-1.m3u8|https://stream1.free
 https://stream1.freetv.fun/jin-ying-ji-shi-35.m3u8
 #EXTINF:-1 tvg-name="镇江二套社会民生" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/镇江二套社会民生.png",镇江二套社会民生 [1普通]
 http://zjtv-wshls.homecdn.com/live/2aa16.m3u8
-#EXTINF:-1 tvg-name="靖天戏剧" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天戏剧.png",靖天戏剧 [2普通]
-https://tmxk.pp.ua/litv.php?token=tmxk&id=4gtv-4gtv058|http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv058
+#EXTINF:-1 tvg-name="靖天戏剧" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天戏剧.png",靖天戏剧 [1普通]
+http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv058
 #EXTINF:-1 tvg-name="靖天映画" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天映画.png",靖天映画 [1普通]
 http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=4gtv-4gtv055
 #EXTINF:-1 tvg-name="靖天资讯" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天资讯.png",靖天资讯 [1普通]
