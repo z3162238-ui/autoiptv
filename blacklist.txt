@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-08-19 03:27:13
+# 生成时间: 2026-08-20 02:26:50
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -1600,7 +1600,9 @@ http://111.53.96.67:8081/live/1/index.m3u8
 http://111.53.96.67:8081/live/1/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 
 # 域名: 111.59.24.227:8181
+http://111.59.24.227:8181/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
 http://111.59.24.227:8181/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
+http://111.59.24.227:8181/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 http://111.59.24.227:8181/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 111.6.126.218
@@ -1766,6 +1768,8 @@ http://112.234.22.221:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=
 # 域名: 112.234.22.76:9901
 http://112.234.22.76:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
 http://112.234.22.76:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+http://112.234.22.76:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
+http://112.234.22.76:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 http://112.234.22.76:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 http://112.234.22.76:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0
 http://112.234.22.76:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -3189,6 +3193,7 @@ http://118.193.115.2:9901/tsfile/live/0002_1.m3u8?key=txiptv
 http://118.193.115.2:9901/tsfile/live/0110_1.m3u8?key=txiptv
 http://118.193.115.2:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
 http://118.193.115.2:9901/tsfile/live/0112_1.m3u8?key=txiptv
+http://118.193.115.2:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 http://118.193.115.2:9901/tsfile/live/0120_1.m3u8?key=txiptv
 http://118.193.115.2:9901/tsfile/live/0121_1.m3u8?key=txiptv
 http://118.193.115.2:9901/tsfile/live/0131_1.m3u8?key=txiptv
@@ -3269,6 +3274,7 @@ http://119.164.216.162:9901/tsfile/live/1007_1.m3u8
 
 # 域名: 119.166.53.110:9901
 http://119.166.53.110:9901/tsfile/live/0002_33.m3u8?key=txiptv&playlive=1&authid=0
+http://119.166.53.110:9901/tsfile/live/0002_42.m3u8?key=txiptv&playlive=1&authid=0
 http://119.166.53.110:9901/tsfile/live/0002_44.m3u8?key=txiptv&playlive=1&authid=0
 http://119.166.53.110:9901/tsfile/live/0002_45.m3u8?key=txiptv&playlive=1&authid=0
 http://119.166.53.110:9901/tsfile/live/0002_60.m3u8?key=txiptv&playlive=1&authid=0
@@ -3527,6 +3533,7 @@ http://120.198.95.220:9901/tsfile/live/1036_1.m3u8?key=txiptv
 http://120.198.95.220:9901/tsfile/live/1037_1.m3u8?key=txiptv
 http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv
 http://120.198.95.220:9901/tsfile/live/1056_1.m3u8?key=txiptv&playlive=1&down=1
+http://120.198.95.220:9901/tsfile/live/1065_1.m3u8?key=txiptv&playlive=1&down=1
 http://120.198.95.220:9901/tsfile/live/1069_1.m3u8?key=txiptv&playlive=1&down=1
 
 # 域名: 120.201.232.170:80
@@ -3644,6 +3651,7 @@ http://120.237.39.10:9901/tsfile/live/1055_1.m3u8?key=txiptv&playlive=1&down=1
 http://120.237.39.10:9901/tsfile/live/1056_1.m3u8?key=txiptv&playlive=1&down=1
 http://120.237.39.10:9901/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&down=1
 http://120.237.39.10:9901/tsfile/live/1061_1.m3u8?key=txiptv&playlive=1&down=1
+http://120.237.39.10:9901/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&down=1
 http://120.237.39.10:9901/tsfile/live/1065_1.m3u8?key=txiptv&playlive=1&down=1
 http://120.237.39.10:9901/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&down=1
 http://120.237.39.10:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1
@@ -4080,6 +4088,7 @@ http://123.118.53.84:45237/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=
 http://123.118.53.84:45237/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.118.53.84:45237/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.118.53.84:45237/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+http://123.118.53.84:45237/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.118.53.84:45237/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 http://123.118.53.84:45237/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 
@@ -5602,6 +5611,8 @@ http://171.221.250.130:18888/27e684978eb642eeb90ab815f6cc51bf/c41893de5e8645b3b4
 
 # 域名: 171.38.148.188:9003
 http://171.38.148.188:9003/hls/31/index.m3u8
+http://171.38.148.188:9003/hls/32/index.m3u8
+http://171.38.148.188:9003/hls/33/index.m3u8
 http://171.38.148.188:9003/hls/37/index.m3u8
 http://171.38.148.188:9003/hls/38/index.m3u8
 http://171.38.148.188:9003/hls/39/index.m3u8
@@ -5610,6 +5621,8 @@ http://171.38.148.188:9003/hls/54/index.m3u8
 http://171.38.148.188:9003/hls/55/index.m3u8
 http://171.38.148.188:9003/hls/56/index.m3u8
 http://171.38.148.188:9003/hls/58/index.m3u8
+http://171.38.148.188:9003/hls/59/index.m3u8
+http://171.38.148.188:9003/hls/60/index.m3u8
 http://171.38.148.188:9003/hls/61/index.m3u8
 http://171.38.148.188:9003/hls/63/index.m3u8
 http://171.38.148.188:9003/hls/64/index.m3u8
@@ -6405,6 +6418,7 @@ http://192.151.150.154/live/snwshd.m3u8
 http://192.151.150.154/live/szwshd.m3u8
 http://192.151.150.154/live/xmws.m3u8
 http://192.151.150.154/live/ynwshd.m3u8
+http://192.151.150.154/live/zjwshd.m3u8
 
 # 域名: 192.168.123.1:23234
 http://192.168.123.1:23234/rtp/228.1.1.15:1234
@@ -7724,6 +7738,9 @@ http://222.134.245.16:9901/tsfile/live/0109_1.m3u8
 http://222.134.245.16:9901/tsfile/live/0113_1.m3u8
 http://222.134.245.16:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 
+# 域名: 222.137.229.140:9901
+http://222.137.229.140:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
+
 # 域名: 222.169.85.8:9901
 http://222.169.85.8:9901/tsfile/live/0001_1.m3u8
 http://222.169.85.8:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -8481,6 +8498,9 @@ http://27.12.12.100:1234/961023778
 
 # 域名: 27.12.12.189:1234
 http://27.12.12.189:1234/959986621
+
+# 域名: 27.12.12.40:1234
+http://27.12.12.40:1234/959986621
 
 # 域名: 27.15.4.131:9901
 http://27.15.4.131:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -10444,6 +10464,9 @@ http://60.16.0.216:5757/hls/45/index.m3u8
 # 域名: 60.168.105.138:5008
 http://60.168.105.138:5008/959986621
 
+# 域名: 60.168.105.165:5008
+http://60.168.105.165:5008/959986621
+
 # 域名: 60.169.39.215:8090
 http://60.169.39.215:8090/live/ch0.m3u8
 
@@ -11519,6 +11542,21 @@ http://76.5432123.xyz/杂项代理/学习强国.php?id=xmws
 
 # 域名: 7sycrzf7.live.sxmty.com
 http://7sycrzf7.live.sxmty.com/live/hls/da9222d15ce7491d85fe3519e5201df5/af161dfd2a434b22b3b75fdd72fb9038-1.m3u8
+
+# 域名: 8.134.175.232:4022
+http://8.134.175.232:4022/rtp/239.253.43.104:5146
+http://8.134.175.232:4022/rtp/239.253.43.105:5146
+http://8.134.175.232:4022/rtp/239.253.43.2:5146
+http://8.134.175.232:4022/rtp/239.253.43.33:5146
+http://8.134.175.232:4022/rtp/239.253.43.55:5146
+http://8.134.175.232:4022/rtp/239.253.43.70:5146
+http://8.134.175.232:4022/rtp/239.253.43.75:5146
+http://8.134.175.232:4022/rtp/239.77.0.117:5146
+http://8.134.175.232:4022/rtp/239.77.0.141:5146
+http://8.134.175.232:4022/rtp/239.77.0.155:5146
+http://8.134.175.232:4022/rtp/239.77.0.229:5146
+http://8.134.175.232:4022/rtp/239.77.1.232:5146
+http://8.134.175.232:4022/rtp/239.77.1.233:5146
 
 # 域名: 8.135.27.147:1234
 http://8.135.27.147:1234/959986621
@@ -24107,6 +24145,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1786881600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-b3086346be752463fd4d808763d4f358&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1786967100-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-7f10caad45b35a0789db260ceee4478e&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1787054400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-e44ed4077c9cd85b34cf7971cfd29ab6&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1787140800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-362c26a61ee8fb9637eca234543544af&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -31550,6 +31589,7 @@ https://stream1.freetv.fun/c81a555962f383888669f729afa0303c466520db6b41f649f3d70
 https://stream1.freetv.fun/c847cb98e9c1a6e222395ceea5b23181ad7d7ac74bc5523ddb979b34c0dbd8ab.m3u8
 https://stream1.freetv.fun/c8913042c11fcccc11cf546d8dc56169fb11bd886663cf15ab3de1ae5957056d.ctv
 https://stream1.freetv.fun/c8a8b8a24ab802c58f26f0520dc40cf341fbd5811ce1ae9327f2c63e26e8fc28.m3u8
+https://stream1.freetv.fun/c8ad10f8d135ebbea6b77779874c1d8a6da07d925786ac11f855c0dfa87b4487.ctv
 https://stream1.freetv.fun/c95b5ce6ca401e23da88fe5a66cde26a17521d47e49728622112817742b2c843.ctv
 https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-1.m3u8
 https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-2.m3u8
@@ -31645,6 +31685,7 @@ https://stream1.freetv.fun/d359e4b4c64fc318def5882bd25710c29440c676c536363f3ecea
 https://stream1.freetv.fun/d49d41d9ceb97e07341c1579705a77c11628092576082ca219be9f79cc35c612.ctv
 https://stream1.freetv.fun/d4cd263a36eeddecabc48438abe4fb71143b58164f3cb914cb257d4c42651ddc.ctv
 https://stream1.freetv.fun/d4e41340653ef3bc5e2b559cce1953ba68c56106f7afad9c4b9245f2c426d1fb.m3u8
+https://stream1.freetv.fun/d5ea0e1f55c87ee51fc1f1a03c3e1a4345db73ba01a2a0a15d13505b457f346a.ctv
 https://stream1.freetv.fun/d6595e6ee8885bc42c66a38218d3a13995e409226205198038b7379b403b61b1.m3u8
 https://stream1.freetv.fun/d66327025d5a2448b6097ce39c1de75d1f9693468932b522bd7dcc31533135f1.m3u8
 https://stream1.freetv.fun/d6cb8a9b2d3d4f555418141ecb008cc61e84a6278690a855241eb57bf43fdf75.m3u8
@@ -31769,6 +31810,7 @@ https://stream1.freetv.fun/fb5394800a608b25d8da5495c22b891f23674ff76d567e511e058
 https://stream1.freetv.fun/fb69842d1d95aecc0df982e3e037dbb8899245c179aefc3d1dddcf003a28c143.m3u8
 https://stream1.freetv.fun/fba6704cbab1ff262740fe321ceed139e3855663007cac10ef4e97052e7cf60f.ctv
 https://stream1.freetv.fun/fc49c564c870b78b1a3655d913ca8a4fe4e31f58db2da34caedc0761a3e51256.m3u8
+https://stream1.freetv.fun/fd1abacd02d10bf9e60b98fdc292704eefa30cff9e4eb0816eec3156e687c991.ctv
 https://stream1.freetv.fun/fd1abacd02d10bf9e60b98fdc292704eefa30cff9e4eb0816eec3156e687c991.m3u8
 https://stream1.freetv.fun/fddc800c1b97bed5f28f080504e2559989f2906b771b745a69903512e6250a96.ctv
 https://stream1.freetv.fun/fe3d3346f748e4ec230691be958aff27e91c225b43b5855685cd1fbe79c56f60.m3u8
@@ -32805,6 +32847,7 @@ https://stream1.freetv.fun/zhe-jiang-min-sheng-xiu-xian-6.ctv
 https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-1.m3u8
 https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-2.m3u8
 https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-3.ctv
+https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-4.ctv
 https://stream1.freetv.fun/zhe-jiang-qian-jiang-du-shi-5.ctv
 https://stream1.freetv.fun/zhe-jiang-shao-er-1.ctv
 https://stream1.freetv.fun/zhe-jiang-shao-er-1.m3u8
@@ -33372,6 +33415,7 @@ https://t.freetv.fun/live/hai-nan-wen-lu.m3u8
 https://t.freetv.fun/live/hai-xia-wei-shi-1.m3u8
 https://t.freetv.fun/live/hai-xia-wei-shi-2.m3u8
 https://t.freetv.fun/live/hai-xia-wei-shi-4.m3u8
+https://t.freetv.fun/live/hai-xia-wei-shi-5.m3u8
 https://t.freetv.fun/live/hai-xia-wei-shi-7.m3u8
 https://t.freetv.fun/live/hai-xia-wei-shi.m3u8
 https://t.freetv.fun/live/he-bei-nong-min-1.m3u8
@@ -34843,6 +34887,7 @@ https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/liv
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=229264706c04b3968805a4afb4ce3c6e
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2ee4bedb77dd619a89801e11bcad4978
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4dd8cb983a1b5e3af53d7505102e054a
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=66d2021e1d5195ed6141ff7fd3799fc5
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=6a300d5bcd6d3c2267577df6cf49a548
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=71c8f48212e27dfdb4930f83f4f55250
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=71e1e979abd2251b8b6039b62eb7bdb7
