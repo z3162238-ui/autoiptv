@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-08-26 02:31:39
+# 生成时间: 2026-08-27 03:39:49
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -19776,6 +19776,7 @@ http://hlszymgsplive.miguvideo.com:8080/migu/kailu/yxxwzh/51/20250604/index.m3u8
 
 # 域名: hmfs.f3322.net:3388
 http://hmfs.f3322.net:3388/hls/21/index.m3u8
+http://hmfs.f3322.net:3388/hls/24/index.m3u8
 http://hmfs.f3322.net:3388/hls/28/index.m3u8
 http://hmfs.f3322.net:3388/hls/29/index.m3u8
 
@@ -24336,6 +24337,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1787486400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-cac1dc5a43214332ae7653a534480e7f&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1787571900-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-6aba8366d0578e66e37929617f2836ca&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1787659200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-1c5a979c32a093b8afce8066a729bb31&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1787745600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-07119511ff6242d2a7871923fbac6a1e&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -24367,6 +24369,7 @@ https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069
 https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/fujianlvyou?streamid=221239fcf3c7edb274f2f0760fe47f96&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/fujianlvyou?streamid=599c11c8b284751261b165f4d5765b36&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/fujianlvyou?streamid=fc58882de71ce4575b66002f2475226b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
@@ -26140,6 +26143,9 @@ http://m.061899.xyz/mg/cctv9
 http://m.061899.xyz/mg/dzdy
 http://m.061899.xyz/mg/jtyy
 http://m.061899.xyz/mg/ymdy
+
+# 域名: m.italkbbtv.com
+https://m.italkbbtv.com/live/6a3a3784260d0d240f66a62c
 
 # 域名: m.m3u8.wifiwx.com
 http://m.m3u8.wifiwx.com/live/wifiwx-240.m3u8
@@ -31504,6 +31510,7 @@ https://stream1.freetv.fun/4073fb5ec1ec48f010e1db882aeb63ddc7104c56c5c729c4d08e9
 https://stream1.freetv.fun/409b4584ca2443a28b43c60a3d77ad50368d96bed0ca5a2d1f3a4b2e57c39204.m3u8
 https://stream1.freetv.fun/40a51dcba4da6c5f133e6979a6dd68e8630d7fd596f6926d699a502686ad3901.ctv
 https://stream1.freetv.fun/413df533cc2d866bacdc87729814e66f4cf836c13b12ed783b54345fd012c6c8.m3u8
+https://stream1.freetv.fun/41f5e435dbab4cbe0bd4b8d0f367aa33b121eb8c105ac2b6a115e556e5af2e0a.ctv
 https://stream1.freetv.fun/42a086620b7c0822bfb1730aadfc77b329f888b41589f8899a18172c5c60f96e.ctv
 https://stream1.freetv.fun/42df764f3d1531dcdd8abd06222c38e31557c88e6a5cd9a07ea42d9603981cc0.ctv
 https://stream1.freetv.fun/42ec063601b24e5ddb24832e5f5d56c71ca4d52922d298be84bbc21aa7429280.m3u8
@@ -33407,27 +33414,42 @@ http://t.061899.xyz/tl/js/js.php?id=fhwszwt
 http://t.061899.xyz/tl/js/js.php?id=fhwszxt
 http://t.061899.xyz/tl/js/js.php?id=tvbfct
 http://t.061899.xyz/tl/js/js.php?id=tvbwxxwt
+http://t.061899.xyz/tl/tl.php?id=cctv10
+http://t.061899.xyz/tl/tl.php?id=cctv11
+http://t.061899.xyz/tl/tl.php?id=cctv13
 http://t.061899.xyz/tl/tl.php?id=cctv14
 http://t.061899.xyz/tl/tl.php?id=cctv15
+http://t.061899.xyz/tl/tl.php?id=cctv16
 http://t.061899.xyz/tl/tl.php?id=cctv17
 http://t.061899.xyz/tl/tl.php?id=cctv5
 http://t.061899.xyz/tl/tl.php?id=cctv5p
 http://t.061899.xyz/tl/tl.php?id=cctv9
+http://t.061899.xyz/tl/tl.php?id=chcdzdy
+http://t.061899.xyz/tl/tl.php?id=cqws
+http://t.061899.xyz/tl/tl.php?id=dfws
+http://t.061899.xyz/tl/tl.php?id=dfys
 http://t.061899.xyz/tl/tl.php?id=dwqws
+http://t.061899.xyz/tl/tl.php?id=fztd
 http://t.061899.xyz/tl/tl.php?id=gsws
 http://t.061899.xyz/tl/tl.php?id=gxws
+http://t.061899.xyz/tl/tl.php?id=gzws
 http://t.061899.xyz/tl/tl.php?id=hinws
+http://t.061899.xyz/tl/tl.php?id=hnws
 http://t.061899.xyz/tl/tl.php?id=hubws
 http://t.061899.xyz/tl/tl.php?id=hunws
+http://t.061899.xyz/tl/tl.php?id=jbty
+http://t.061899.xyz/tl/tl.php?id=jsws
 http://t.061899.xyz/tl/tl.php?id=jxws
 http://t.061899.xyz/tl/tl.php?id=mlzq
 http://t.061899.xyz/tl/tl.php?id=nxws
+http://t.061899.xyz/tl/tl.php?id=qcxj
 http://t.061899.xyz/tl/tl.php?id=qhws
 http://t.061899.xyz/tl/tl.php?id=shics
 http://t.061899.xyz/tl/tl.php?id=shxwzh
 http://t.061899.xyz/tl/tl.php?id=sxws
 http://t.061899.xyz/tl/tl.php?id=xzws
 http://t.061899.xyz/tl/tl.php?id=ymkt
+http://t.061899.xyz/tl/tl.php?id=ynws
 http://t.061899.xyz/tl/tl.php?id=yxfy
 
 # 域名: t.freetv.fun
@@ -35129,6 +35151,7 @@ https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/liv
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=95c73a16ff06c952cb6241649a49cf91
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=c52aed13ad8ad018803bc8495a6ea46e
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d3dc7668c21a544edad767f7427bbe34
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=ed7916b56e770543ee13544d9f4a1f40
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=efb4ca142aa9c24217a5a500f1d87ace
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=fbf45e2b1ba9da1b745ea6e76a6dd4c4
 
@@ -37028,6 +37051,7 @@ http://ye23.vip/z7z8/2021/kbs2020.php?id=2
 # 域名: yftv-wshls.yzbtv.cn
 rtmp://yftv-wshls.yzbtv.cn/live/1bd5d
 rtmp://yftv-wshls.yzbtv.cn/live/1bd61
+rtmp://yftv-wshls.yzbtv.cn/live/1bd69
 rtmp://yftv-wshls.yzbtv.cn/live/1bd75
 rtmp://yftv-wshls.yzbtv.cn/live/1bd7d
 rtmp://yftv-wshls.yzbtv.cn/live/1bd81
