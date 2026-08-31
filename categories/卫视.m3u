@@ -1,7 +1,7 @@
 #EXTM3U
 # 卫视频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-08-31 04:22:43
-# 电视台数量: 19
+# 更新时间(北京时间): 2026-09-01 06:18:10
+# 电视台数量: 22
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -9,41 +9,47 @@
 # 白名单功能: 启用
 # 测速功能: 启用
 
-#EXTINF:-1 tvg-name="重庆卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/重庆卫视.png" tvg-ipv6="true",重庆卫视 [1IPv6]
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="北京卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/北京卫视.png",北京卫视 [1普通]
+http://27.12.12.174:1234/630287636
+#EXTINF:-1 tvg-name="重庆卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/重庆卫视.png" tvg-ipv6="true",重庆卫视 [1IPv6+1普通]
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|http://223.247.25.219:1234/738910914
 #EXTINF:-1 tvg-name="山西卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/山西卫视.png",山西卫视 [1普通]
 http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/辽宁卫视.png",辽宁卫视 [1普通]
 http://112.123.243.37:50085/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="吉林卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/吉林卫视.png",吉林卫视 [1普通]
 http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="江苏卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/江苏卫视.png",江苏卫视 [1普通]
-http://58.57.40.22:9901/tsfile/live/1031_1.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png",湖南卫视 [2普通]
-https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8|http://58.57.40.22:9901/tsfile/live/1028_1.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png",湖南卫视 [1普通]
+https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 #EXTINF:-1 tvg-name="广东卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/广东卫视.png",广东卫视 [1普通]
 https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
-#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海南卫视.png" tvg-ipv6="true",海南卫视 [1IPv6]
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海南卫视.png" tvg-ipv6="true",海南卫视 [1IPv6+7普通]
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|http://27.12.12.174:1234/947472502|http://223.247.25.219:1234/947472502|http://116.236.204.18:1234/947472502|http://110.7.43.144:7788/947472502|http://116.52.173.172:1234/947472502|http://117.63.79.182:1234/947472502|http://110.154.192.81:7788/947472502
 #EXTINF:-1 tvg-name="贵州卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/贵州卫视.png",贵州卫视 [1普通]
 http://58.57.40.22:9901/tsfile/live/1042_1.m3u8
 #EXTINF:-1 tvg-name="云南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/云南卫视.png",云南卫视 [1普通]
 http://112.123.243.37:50085/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="陕西卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/陕西卫视.png" tvg-ipv6="true",陕西卫视 [1IPv6]
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="陕西卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/陕西卫视.png" tvg-ipv6="true",陕西卫视 [1IPv6+1普通]
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND|http://27.12.12.174:1234/738910838
 #EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/甘肃卫视.png" tvg-ipv6="true",甘肃卫视 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="青海卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/青海卫视.png",青海卫视 [2普通]
+http://27.12.12.174:1234/947472506|http://117.63.79.182:1234/947472506
 #EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/宁夏卫视.png",宁夏卫视 [1普通]
 http://112.123.243.37:50085/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="新疆卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/新疆卫视.png",新疆卫视 [1普通]
 http://112.123.243.37:50085/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="三沙卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/三沙卫视.png",三沙卫视 [5普通]
+http://27.12.12.174:1234/961023778|http://116.236.204.18:1234/961023778|http://117.63.79.182:1234/961023778|http://116.52.173.172:1234/961023778|http://223.247.25.219:1234/961023778
+#EXTINF:-1 tvg-name="东南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东南卫视.png",东南卫视 [1普通]
+http://27.12.12.174:1234/849116810
 #EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png",东方卫视 [1普通]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
+#EXTINF:-1 tvg-name="兵团卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/兵团卫视.png",兵团卫视 [3普通]
+http://27.12.12.174:1234/956923145|http://116.236.204.18:1234/956923145|http://117.63.79.182:1234/956923145
 #EXTINF:-1 tvg-name="康巴卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/康巴卫视.png" tvg-ipv6="true",康巴卫视 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="星空卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/星空卫视.png",星空卫视 [1普通]
 http://194.147.100.173/jsy/p.php/?id=1e4smSsL8eixpbYkS2n61A
-#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/深圳卫视.png",深圳卫视 [1普通]
-http://58.57.40.22:9901/tsfile/live/1036_1.m3u8
 #EXTINF:-1 tvg-name="福建海峡卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建海峡卫视.png",福建海峡卫视 [1普通]
 https://m.italkbbtv.com/live/6a30f74820a80832dc74e2c7
