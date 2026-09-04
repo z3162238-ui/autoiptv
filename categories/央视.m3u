@@ -1,7 +1,7 @@
 #EXTM3U
 # 央视频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-09-04 04:24:14
-# 电视台数量: 16
+# 更新时间(北京时间): 2026-09-05 04:10:05
+# 电视台数量: 10
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -19,25 +19,13 @@ http://2280.eu.org:1234/667987558
 http://2280.eu.org:1234/673168185
 #EXTINF:-1 tvg-name="CCTV 13新闻" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV13.png",CCTV 13新闻 [1普通]
 http://2280.eu.org:1234/608807423
-#EXTINF:-1 tvg-name="CCTV 14少儿" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV14.png",CCTV 14少儿 [1普通]
-http://2280.eu.org:1234/624878440
-#EXTINF:-1 tvg-name="CCTV 15音乐" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV15.png",CCTV 15音乐 [1普通]
-http://2280.eu.org:1234/673168223
-#EXTINF:-1 tvg-name="CCTV 17农业农村" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV17.png",CCTV 17农业农村 [1普通]
-http://2280.eu.org:1234/673168256
 #EXTINF:-1 tvg-name="CCTV 1综合" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV1.png",CCTV 1综合 [1普通]
 http://2280.eu.org:1234/608807420
-#EXTINF:-1 tvg-name="CCTV 2财经" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV2.png",CCTV 2财经 [1普通]
-http://2280.eu.org:1234/631780532
 #EXTINF:-1 tvg-name="CCTV 3综艺" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV3.png",CCTV 3综艺 [1普通]
-http://2280.eu.org:1234/624878271
+http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV 4中文国际" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV4.png",CCTV 4中文国际 [1普通]
 http://2280.eu.org:1234/631780421
-#EXTINF:-1 tvg-name="CCTV 5+体育赛事" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV5.png",CCTV 5+体育赛事 [1普通]
-http://2280.eu.org:1234/641886773
 #EXTINF:-1 tvg-name="CCTV 5体育" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV5.png",CCTV 5体育 [1普通]
-http://2280.eu.org:1234/641886683
-#EXTINF:-1 tvg-name="CCTV 6电影" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV6.png",CCTV 6电影 [1普通]
-http://2280.eu.org:1234/624878396
+http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV 8电视剧" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV8.png",CCTV 8电视剧 [1普通]
 http://2280.eu.org:1234/624878356
