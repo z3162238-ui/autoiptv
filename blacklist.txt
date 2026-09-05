@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-05 04:10:05
+# 生成时间: 2026-09-06 03:49:25
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -1935,6 +1935,10 @@ http://112.30.194.221:20080/live/dcdece140fe94d83a9e3a55a88e7537a/hls.m3u8
 http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959.flv
 http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
 http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
+
+# 域名: 112.30.73.119:229
+http://112.30.73.119:229/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+http://112.30.73.119:229/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 112.30.73.119:9901
 http://112.30.73.119:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -4662,6 +4666,9 @@ http://124.228.160.14:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=
 
 # 域名: 124.228.160.210:9901
 http://124.228.160.210:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
+http://124.228.160.210:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+http://124.228.160.210:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
+http://124.228.160.210:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 124.232.233.15:6610
 http://124.232.233.15:6610/000000001001/201600020001/1400.m3u8?m3u8_level=2
@@ -5807,8 +5814,11 @@ p3p://173.208.176.178:31809/64450b180002b23d3eeb784a0aa62e20
 p3p://173.208.176.178:31809/64c62c06000d1cf03751bf246ed813e7
 
 # 域名: 173.208.212.130:8181
+http://173.208.212.130:8181/1080p/cctv14.m3u8
+http://173.208.212.130:8181/1080p/cctv15.m3u8
 http://173.208.212.130:8181/1080p/cctv4.m3u8
 http://173.208.212.130:8181/1080p/cctv5.m3u8
+http://173.208.212.130:8181/1080p/cctv6.m3u8
 http://173.208.212.130:8181/720p/ahws.m3u8
 http://173.208.212.130:8181/720p/bjws.m3u8
 http://173.208.212.130:8181/720p/cctv5.m3u8
@@ -11810,6 +11820,8 @@ http://74.91.26.218:82/live/cctv7hd.m3u8
 http://74.91.26.218:82/live/cctv8hd.m3u8
 http://74.91.26.218:82/live/cctv9hd.m3u8
 http://74.91.26.218:82/live/gdty.m3u8
+http://74.91.26.218:82/live/gdxw.m3u8
+http://74.91.26.218:82/live/gdzj.m3u8
 http://74.91.26.218:82/live/hnwshd.m3u8
 http://74.91.26.218:82/live/inews.m3u8
 http://74.91.26.218:82/live/jade.m3u8
@@ -24502,6 +24514,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1788354000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-4385c4e2e878cf61e9c6100885389b43&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1788440400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-2e389c5f997c587f82786ab26ab0d405&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1788526800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-c675407dc1e718dfe06a1265a14057ab&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1788613200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-acb267685f3771f20c925d66d1404677&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -26446,6 +26459,7 @@ https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u
 http://m3u8file.lstv.org.cn/nmip-media/channellive/channel1/playlist.m3u8
 
 # 域名: mag.trexlive.me:80
+http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:72:F3:F0&stream=156419
 http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=156419
 http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=156424
 http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=1919463
@@ -35500,6 +35514,7 @@ https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/liv
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=71c8f48212e27dfdb4930f83f4f55250
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=71e1e979abd2251b8b6039b62eb7bdb7
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=7bba61e57ed34084e23c24794f728ac5
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=7cb6b06eb3beb22a0b2b4fd2a788c761
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=82791483a05e17ad3385b5c4b422461e
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=87e1cf81e2ca2d1e7324c8faed877cf3
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=a4d0de290d281ec07acb3072134345a5
@@ -37056,6 +37071,9 @@ https://www.yangshipin.cn/tv/home?pid=600002520
 https://www.yangshipin.cn/tv/home?pid=600002525
 https://www.yangshipin.cn/tv/home?pid=600002531
 https://www.yangshipin.cn/tv/home?pid=600002532
+
+# 域名: www.yao87.com:4022
+http://www.yao87.com:4022/udp/239.76.246.101:1234
 
 # 域名: www.youtube.com
 https://www.youtube.com/channel/UC4K_LI-Tn3-LshNgG0-YypQ/live
