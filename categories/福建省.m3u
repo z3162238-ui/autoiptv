@@ -1,6 +1,6 @@
 #EXTM3U
 # 福建省频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-09-07 03:51:55
+# 更新时间(北京时间): 2026-09-08 05:02:26
 # 电视台数量: 1
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -9,5 +9,5 @@
 # 白名单功能: 启用
 # 测速功能: 启用
 
-#EXTINF:-1 tvg-name="福建南平武夷山玉女峰" group-title="福建省" tvg-logo="https://11.112114.xyz/logo/福建南平武夷山玉女峰.png",福建南平武夷山玉女峰 [1普通]
+#EXTINF:-1 tvg-name="福建武夷山玉女峰" group-title="福建省" tvg-logo="https://11.112114.xyz/logo/福建武夷山玉女峰.png",福建武夷山玉女峰 [1普通]
 https://gcalic.v.myalicdn.com/gc/wysynf_1/index.m3u8
