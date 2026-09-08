@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-08 05:02:26
+# 生成时间: 2026-09-09 04:36:44
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -3255,6 +3255,7 @@ http://118.107.85.4:1935/live/smil:DNTV2.smil/chunklist.m3u8
 http://118.113.42.180:3456/rtp/239.93.1.151:5140
 
 # 域名: 118.122.144.115:8888
+http://118.122.144.115:8888/newlive/live/hls/14/live.m3u8
 http://118.122.144.115:8888/newlive/live/hls/17/live.m3u8
 http://118.122.144.115:8888/newlive/live/hls/20/live.m3u8
 http://118.122.144.115:8888/newlive/live/hls/27/live.m3u8
@@ -7687,6 +7688,9 @@ http://221.13.235.129:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=
 http://221.13.235.129:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
 http://221.13.235.129:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 
+# 域名: 221.13.235.175:9901
+http://221.13.235.175:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
+
 # 域名: 221.13.235.58:9901
 http://221.13.235.58:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 
@@ -10565,6 +10569,7 @@ http://58.48.37.158:1111/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 58.56.162.102:4466
 http://58.56.162.102:4466/newlive/live/hls/17/live.m3u8
+http://58.56.162.102:4466/newlive/live/hls/19/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/20/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/21/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/27/live.m3u8
@@ -24521,6 +24526,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1788613200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-acb267685f3771f20c925d66d1404677&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1788699600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-896465385212256e86a16cac46b26081&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1788786000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-93eddf215199839270ad606a4f7438b6&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1788875100-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-57dfd4f15552cc4d16bc34d983ba3c39&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -33778,6 +33784,7 @@ http://t.061899.xyz/tl/tl.php?id=hinws
 http://t.061899.xyz/tl/tl.php?id=hnws
 http://t.061899.xyz/tl/tl.php?id=hubws
 http://t.061899.xyz/tl/tl.php?id=hunws
+http://t.061899.xyz/tl/tl.php?id=hxws
 http://t.061899.xyz/tl/tl.php?id=jbty
 http://t.061899.xyz/tl/tl.php?id=jsws
 http://t.061899.xyz/tl/tl.php?id=jxws
@@ -35500,6 +35507,7 @@ https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/liv
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=95cb1afa2cfdd1aa824c9457cfc6c493
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=a2ed38ed23f400c362b85f160aa11389
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=a85d36cee89a56a4ba899d9368ce85e2
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=bba89072e2b007ad831c23056465d7aa
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=c52aed13ad8ad018803bc8495a6ea46e
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d3dc7668c21a544edad767f7427bbe34
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d7d3d119f4de1d2d9148e6ecd70b4e84
