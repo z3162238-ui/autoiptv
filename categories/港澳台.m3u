@@ -1,6 +1,6 @@
 #EXTM3U
 # 港澳台频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-09-11 04:20:49
+# 更新时间(北京时间): 2026-09-12 04:20:04
 # 电视台数量: 10
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
@@ -21,10 +21,10 @@ http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34629|https://cdn.qd.je/
 https://gcalic.v.myalicdn.com/gc/fhgcdgm_1/index.m3u8
 #EXTINF:-1 tvg-name="凤凰古城南华山" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰古城南华山.png",凤凰古城南华山 [1普通]
 https://gcalic.v.myalicdn.com/gc/fhgcdnhs_1/index.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png" tvg-ipv6="true",凤凰资讯 [1IPv6+2普通]
-http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34641|https://cdn.qd.je/163189.php?id=fhzx|http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
-#EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰香港.png",凤凰香港 [1普通]
-https://cdn.qd.je/163189.php?id=fhhk
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png" tvg-ipv6="true",凤凰资讯 [1IPv6+3普通]
+http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34641|http://bobohome.ignorelist.com:20247/fengshows?id=1.m3u8|https://cdn.qd.je/163189.php?id=fhzx|http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
+#EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰香港.png",凤凰香港 [2普通]
+http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8|https://cdn.qd.je/163189.php?id=fhhk
 #EXTINF:-1 tvg-name="福建漳州醉美沙滩翡翠湾" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/福建漳州醉美沙滩翡翠湾.png",福建漳州醉美沙滩翡翠湾 [1普通]
 https://gcalic.v.myalicdn.com/gc/fcw03_1/index.m3u8
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/翡翠台.png",翡翠台 [1普通]
