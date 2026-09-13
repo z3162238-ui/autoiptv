@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-13 03:58:27
+# 生成时间: 2026-09-14 04:07:24
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -4831,6 +4831,7 @@ http://125.227.210.55:8187/VideoInput/play.ts
 http://125.227.210.55:8188/VideoInput/play.ts
 
 # 域名: 125.42.148.178:9901
+http://125.42.148.178:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -4839,9 +4840,11 @@ http://125.42.148.178:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=
 http://125.42.148.178:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+http://125.42.148.178:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+http://125.42.148.178:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.148.178:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
 
@@ -8476,8 +8479,16 @@ rtp://228.1.1.81:8304
 rtp://228.1.1.96:4120
 
 # 域名: 2280.eu.org:1234
+http://2280.eu.org:1234/608807420
+http://2280.eu.org:1234/608807423
+http://2280.eu.org:1234/624878356
 http://2280.eu.org:1234/624878405
+http://2280.eu.org:1234/631780421
+http://2280.eu.org:1234/631780532
+http://2280.eu.org:1234/641886773
 http://2280.eu.org:1234/673168140
+http://2280.eu.org:1234/673168223
+http://2280.eu.org:1234/947472502
 
 # 域名: 23.237.104.106:8080
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
@@ -10003,6 +10014,9 @@ http://45.4.1.201:8000/play/a1ai/index.m3u8
 
 # 域名: 45.5.119.43:4000
 http://45.5.119.43:4000/play/a05t/index.m3u8
+
+# 域名: 45.78.61.93:1234
+http://45.78.61.93:1234/959986621
 
 # 域名: 46.32.176.50
 http://46.32.176.50/extremesport/index.m3u8
@@ -11757,8 +11771,12 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyjc
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyyy
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyzq
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdtvs5
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdty
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdwshd
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdxw
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdyd
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdzj
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdzja
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gfjs
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gxgj
@@ -11899,8 +11917,14 @@ http://8.134.175.232:4022/rtp/239.77.1.233:5146
 
 # 域名: 8.135.27.147:1234
 http://8.135.27.147:1234/614961829
+http://8.135.27.147:1234/738910535
+http://8.135.27.147:1234/738910914
+http://8.135.27.147:1234/947472502
+http://8.135.27.147:1234/947472506
+http://8.135.27.147:1234/956923145
 http://8.135.27.147:1234/959986621
 http://8.135.27.147:1234/961023778
+http://8.135.27.147:1234/962042070
 
 # 域名: 8.138.7.223
 http://8.138.7.223/%E3%80%90%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%9A%E6%A6%B4%E8%8A%92%E7%94%B5%E8%A7%86%E3%80%91/%E5%86%9C%E6%9E%97%E5%8D%AB%E8%A7%86.m3u8
@@ -24561,6 +24585,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789045200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-f7012149aef3467c1e48b5655f7ad207&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789131600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-2ebb347087a3581baeaac0694c0aade1&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789218000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-757f3d482522f2305c8d54ea40afc16b&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789304400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-5e4d11e7008ade112e3ebb5e1d199a46&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -35558,6 +35583,7 @@ https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/liv
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=fbf45e2b1ba9da1b745ea6e76a6dd4c4
 
 # 域名: v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=09513124aef1add792107b776e4df7f9
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=0c7f3f19e52bbc06dfe60a59c5e0218b
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=0fa6ccab862dc7c5b26001b43f528d20
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=1b8fda0de8e9969427130153975299c3
