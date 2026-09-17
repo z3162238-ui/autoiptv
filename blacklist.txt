@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-17 04:45:08
+# 生成时间: 2026-09-18 04:51:12
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -5893,8 +5893,18 @@ http://173.208.212.130:8181/720p/ysjp.m3u8
 http://173.208.212.130:8181/720p/zjws.m3u8
 
 # 域名: 173.208.234.146
+http://173.208.234.146/live/cctv16.m3u8
+http://173.208.234.146/live/cctv2.m3u8
+http://173.208.234.146/live/cctv5p.m3u8
+http://173.208.234.146/live/fhxg.m3u8
+http://173.208.234.146/live/fhzx.m3u8
+http://173.208.234.146/live/gdtvs1.m3u8
 http://173.208.234.146/live/gdtvs4.m3u8
 http://173.208.234.146/live/gdtvs5.m3u8
+http://173.208.234.146/live/gdty.m3u8
+http://173.208.234.146/live/gdxw.m3u8
+http://173.208.234.146/live/gdyd.m3u8
+http://173.208.234.146/live/gdzj.m3u8
 http://173.208.234.146/live/lbchuangguandong.m3u8
 http://173.208.234.146/live/vlshz.m3u8
 http://173.208.234.146/live/vlxyj.m3u8
@@ -10054,6 +10064,9 @@ http://47.104.173.199/b/hoge.php?ip=gxwztv&id=23&auth=niubiplus
 # 域名: 47.108.20.161:8866
 http://47.108.20.161:8866/guangdong/guangzhou.php?id=shenghuo
 http://47.108.20.161:8866/guangdong/guangzhou.php?id=xinwen
+
+# 域名: 47.119.24.76:59093
+http://47.119.24.76:59093/959986621
 
 # 域名: 47.79.91.114:50001
 http://47.79.91.114:50001/TVOD/5000000010000016738/bestzb/index.m3u8
@@ -24612,6 +24625,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789304400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-5e4d11e7008ade112e3ebb5e1d199a46&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789480800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-7ab25813816fe38e191beaf64634592c&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789566300-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-65b46ab1f8e3238afce288c9dd8ba760&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789653600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-7438d6a2dbc5273fe8691c013d6f20b3&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -26428,6 +26442,7 @@ http://m.061899.xyz/mg/jtyy
 http://m.061899.xyz/mg/ymdy
 
 # 域名: m.italkbbtv.com
+https://m.italkbbtv.com/live/6a30f74820a80832dc74e2c7
 https://m.italkbbtv.com/live/6a3a3784260d0d240f66a62c
 
 # 域名: m.m3u8.wifiwx.com
@@ -35591,6 +35606,7 @@ https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/liv
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=360d88aa50841d36304643337f8dd47b
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=421a9e6ad7a45d5a205da18d4ce594d0
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4def33f0653b268e75cdfd46b26f06d3
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=57412f6cc0deaab2eca8a9482db6b952
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=59f64451a02dc166e608fed90caef5a8
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=5f03069d6fce40deebf33618a4992b66
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=65063fdd0bf1db2f0eafcab219face30
