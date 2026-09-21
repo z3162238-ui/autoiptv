@@ -1,7 +1,7 @@
 #EXTM3U
 # 电视直播源 - IPv6优先多源分离版（新增广播/MV分类）
 # 同名电视台显示为多个条目，IPv6源优先，播放器自动合并
-# 更新时间(北京时间): 2026-09-21 04:05:14
+# 更新时间(北京时间): 2026-09-22 05:30:02
 # 电视台总数: 113
 # 数据源: 3 个 (成功: 2, 失败: 1)
 # 特点: 移除技术参数，统一央视频道命名，按省份分类地方台，IPv6优先
@@ -29,7 +29,7 @@ http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="江苏卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/江苏卫视.png",江苏卫视 (0.95)
 http://58.57.40.22:9901/tsfile/live/1031_1.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png",湖南卫视 [普通源1 (0.97)]
+#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png",湖南卫视 [普通源1 (0.98)]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png",湖南卫视 [普通源2 (0.95)]
 http://58.57.40.22:9901/tsfile/live/1028_1.m3u8
@@ -41,14 +41,16 @@ http://58.57.40.22:9901/tsfile/live/1042_1.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/甘肃卫视.png" tvg-ipv6="true",甘肃卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png",东方卫视 (0.96)
+#EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png",东方卫视 (0.97)
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 #EXTINF:-1 tvg-name="康巴卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/康巴卫视.png" tvg-ipv6="true",康巴卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="星空卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/星空卫视.png",星空卫视 (0.56)
+#EXTINF:-1 tvg-name="星空卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/星空卫视.png",星空卫视 (0.59)
 http://194.147.100.173/jsy/p.php/?id=1e4smSsL8eixpbYkS2n61A
-#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/深圳卫视.png",深圳卫视 (0.95)
-http://58.57.40.22:9901/tsfile/live/1036_1.m3u8
+#EXTINF:-1 tvg-name="海峡卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海峡卫视.png",海峡卫视 [普通源1 (0.60)]
+https://cdn.qd.je/163189/hxws2
+#EXTINF:-1 tvg-name="海峡卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/海峡卫视.png",海峡卫视 [普通源2 (0.68)]
+https://cdn.qd.je/163189/hxws
 
 # 分类: 景区频道 (15个频道)
 #EXTINF:-1 tvg-name="六盘山红军长征景区" group-title="景区频道" tvg-logo="https://11.112114.xyz/logo/六盘山红军长征景区.png",六盘山红军长征景区
@@ -83,39 +85,33 @@ https://gcalic.v.myalicdn.com/gc/hspyt_1/index.m3u8
 https://gcalic.v.myalicdn.com/gc/hsptgy_1/index.m3u8
 
 # 分类: 港澳台 (9个频道)
-#EXTINF:-1 tvg-name="TVB星河" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/TVB星河.png",TVB星河 (0.58)
+#EXTINF:-1 tvg-name="TVB星河" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/TVB星河.png",TVB星河 (0.56)
 https://cdn.qd.je/163189.php?id=tvbxh
 #EXTINF:-1 tvg-name="三立新闻" group-title="港澳台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三立新闻.png",三立新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png",凤凰中文 [普通源1 (0.59)]
 https://cdn.qd.je/163189.php?id=fhzw
-#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png",凤凰中文 [普通源2 (0.69)]
-http://bobohome.ignorelist.com:20247/fengshows?id=2.m3u8
-#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png",凤凰中文 [普通源3 (0.66)]
+#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png",凤凰中文 [普通源2 (0.66)]
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png",凤凰中文 [普通源4 (0.65)]
+#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰中文.png",凤凰中文 [普通源3 (0.63)]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 tvg-name="凤凰古城东关门" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰古城东关门.png",凤凰古城东关门
 https://gcalic.v.myalicdn.com/gc/fhgcdgm_1/index.m3u8
 #EXTINF:-1 tvg-name="凤凰古城南华山" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰古城南华山.png",凤凰古城南华山
 https://gcalic.v.myalicdn.com/gc/fhgcdnhs_1/index.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png",凤凰资讯 [普通源1 (0.58)]
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png",凤凰资讯 [普通源1 (0.56)]
 https://cdn.qd.je/163189.php?id=fhzx
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png",凤凰资讯 [普通源2 (0.68)]
-http://bobohome.ignorelist.com:20247/fengshows?id=1.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png",凤凰资讯 [普通源3 (0.61)]
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰资讯.png",凤凰资讯 [普通源2 (0.60)]
 http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
-#EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰香港.png",凤凰香港 [普通源1 (0.72)]
-http://bobohome.ignorelist.com:20247/fengshows?id=3.m3u8
-#EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰香港.png",凤凰香港 [普通源2 (0.60)]
+#EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/凤凰香港.png",凤凰香港 (0.57)
 https://cdn.qd.je/163189.php?id=fhhk
 #EXTINF:-1 tvg-name="福建漳州醉美沙滩翡翠湾" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/福建漳州醉美沙滩翡翠湾.png",福建漳州醉美沙滩翡翠湾
 https://gcalic.v.myalicdn.com/gc/fcw03_1/index.m3u8
-#EXTINF:-1 tvg-name="翡翠台" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/翡翠台.png",翡翠台 (0.59)
+#EXTINF:-1 tvg-name="翡翠台" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/翡翠台.png",翡翠台 (0.61)
 https://cdn.qd.je/163189.php?id=fct
 
 # 分类: 体育台 (1个频道)
-#EXTINF:-1 tvg-name="广东体育" group-title="体育台" tvg-logo="https://11.112114.xyz/logo/广东体育.png",广东体育 (0.63)
+#EXTINF:-1 tvg-name="广东体育" group-title="体育台" tvg-logo="https://11.112114.xyz/logo/广东体育.png",广东体育 (0.65)
 http://php.jdshipin.com/PLTV/iptv.php?id=gdty
 
 # 分类: 影视台 (1个频道)
@@ -470,9 +466,9 @@ https://gcalic.v.myalicdn.com/gc/hgsspzxdpb_1/index.m3u8
 #EXTINF:-1 tvg-name="黄花城水长城01" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/黄花城水长城01.png",黄花城水长城01
 https://gcalic.v.myalicdn.com/gc/wgw01_1/index.m3u8
 #EXTINF:-1 tvg-name="黄花城水长城02" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/黄花城水长城02.png",黄花城水长城02 [普通源1]
-https://gcalic.v.myalicdn.com/gc/wgw02_1/index.m3u8
-#EXTINF:-1 tvg-name="黄花城水长城02" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/黄花城水长城02.png",黄花城水长城02 [普通源2]
 http://gctxyc.liveplay.myqcloud.com/gc/wgw02_1/index.m3u8#https://gcalic.v.myalicdn.com/gc/wgw02_1/index.m3u8
+#EXTINF:-1 tvg-name="黄花城水长城02" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/黄花城水长城02.png",黄花城水长城02 [普通源2]
+https://gcalic.v.myalicdn.com/gc/wgw02_1/index.m3u8
 #EXTINF:-1 tvg-name="黄花城水长城03" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/黄花城水长城03.png",黄花城水长城03
 https://gcalic.v.myalicdn.com/gc/wgw03_1/index.m3u8
 #EXTINF:-1 tvg-name="黄龙" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/黄龙.png",黄龙
@@ -515,7 +511,7 @@ https://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8
 https://gcalic.v.myalicdn.com/gc/tms05_1/index.m3u8
 
 # 分类: 广东省 (1个频道)
-#EXTINF:-1 tvg-name="广东珠江" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东珠江.png",广东珠江 (0.60)
+#EXTINF:-1 tvg-name="广东珠江" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东珠江.png",广东珠江 (0.64)
 http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
 
 # 分类: 广西壮族自治区 (1个频道)
