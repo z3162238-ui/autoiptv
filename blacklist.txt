@@ -1,8 +1,8 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-22 05:30:02
-# 过滤原因: 主要失败原因: 连接超时
+# 生成时间: 2026-09-23 04:46:11
+# 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
 
@@ -3302,6 +3302,7 @@ http://118.122.144.115:8888/newlive/live/hls/34/live.m3u8
 http://118.122.144.115:8888/newlive/live/hls/36/live.m3u8
 http://118.122.144.115:8888/newlive/live/hls/38/live.m3u8
 http://118.122.144.115:8888/newlive/live/hls/39/live.m3u8
+http://118.122.144.115:8888/newlive/live/hls/9/live.m3u8
 
 # 域名: 118.122.189.74:9901
 http://118.122.189.74:9901/tsfile/live/0001_1.m3u8
@@ -10681,6 +10682,7 @@ http://58.56.162.102:4466/newlive/live/hls/17/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/19/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/20/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/21/live.m3u8
+http://58.56.162.102:4466/newlive/live/hls/24/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/27/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/28/live.m3u8
 http://58.56.162.102:4466/newlive/live/hls/29/live.m3u8
@@ -24664,6 +24666,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789822800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-ca015c906c2f2fc6d7927ed16474ea18&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789909200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-4204ba17a26a1287e0f0fbbd7ee2aaa7&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789995600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-d6d25508b26ed74a7db12c8722045ea8&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790085600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-9636a12848787a815a6d8e794ab8e96a&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -35678,6 +35681,7 @@ https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/liv
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=47ebfa87dbbe6753a61203ba08ecd87b
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4dd8cb983a1b5e3af53d7505102e054a
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=526216159d4a53afddf5b368ecfedece
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=5e0b2cad85483e7a94b981089e80d0c7
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=622c80e5b6979c7dcca4fba16c88fae1
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=66d2021e1d5195ed6141ff7fd3799fc5
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=6a300d5bcd6d3c2267577df6cf49a548
@@ -37001,6 +37005,9 @@ https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000c4tmklbc77u4upig
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000cihdb9rc77uaaibdjvl0&ratio=720p&line=0
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000ck0eshjc77uf7o7ivnpg&ratio=720p&line=0
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000cni9357og65hefir2gf0&ratio=720p&line=0
+
+# 域名: www.ikerobot.com:1234
+http://www.ikerobot.com:1234/959986621
 
 # 域名: www.jeremyoto.com:82
 http://www.jeremyoto.com:82/rtp/233.50.201.168:5140
