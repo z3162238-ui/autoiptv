@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-23 04:46:11
+# 生成时间: 2026-09-24 04:56:51
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -692,6 +692,9 @@ http://103.233.191.134:1935/ch3/ch3.live/playlist.m3u8
 http://103.233.191.134:1935/ch4/sport_ch4.live/playlist.m3u8
 http://103.233.191.134:1935/ch5/info_ch5.live/playlist.m3u8
 http://103.233.191.134:1935/ch6/hd_ch6.live/playlist.m3u8
+
+# 域名: 103.236.77.86:29824
+http://103.236.77.86:29824/959986621
 
 # 域名: 103.250.28.74:8000
 http://103.250.28.74:8000/play/a019/index.m3u8
@@ -8541,13 +8544,16 @@ rtp://228.1.1.96:4120
 # 域名: 2280.eu.org:1234
 http://2280.eu.org:1234/608807420
 http://2280.eu.org:1234/608807423
+http://2280.eu.org:1234/608917627
 http://2280.eu.org:1234/624878356
 http://2280.eu.org:1234/624878405
 http://2280.eu.org:1234/631780421
 http://2280.eu.org:1234/631780532
 http://2280.eu.org:1234/641886773
+http://2280.eu.org:1234/673168121
 http://2280.eu.org:1234/673168140
 http://2280.eu.org:1234/673168223
+http://2280.eu.org:1234/849116810
 http://2280.eu.org:1234/947472502
 
 # 域名: 23.237.104.106:8080
@@ -24667,6 +24673,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789909200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-4204ba17a26a1287e0f0fbbd7ee2aaa7&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1789995600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-d6d25508b26ed74a7db12c8722045ea8&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790085600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-9636a12848787a815a6d8e794ab8e96a&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790172000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-c88e4fc5dd34c3c1f6512285e15b0743&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -35700,6 +35707,7 @@ https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/liv
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=cf2db343681692a9018b81f52f63e082
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=da7dd19600fe965405405833b793c058
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=e968acbdcc75436b527ad524d6b5258b
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=e99a4103843d2d30b48bed9f2447ed4e
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=f1fc8a416f1b31b13ab1cbd8c827c57c
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=f3200126ac85405d20293ee8656596ce
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=fd1ecb6c2133202c702725a25900dc99
