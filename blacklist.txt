@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-24 04:56:51
+# 生成时间: 2026-09-25 05:03:35
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -14363,6 +14363,9 @@ http://cdn.jdshipin.com:8880/huya.php?id=30080242
 https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/hlg4kvideo/playlist.m3u8
 https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/sdr4kvideo/playlist.m3u8
 https://cdn.jsdelivr.net/gh/namegenliang/fast-github-access@main/hosts/1080p.m3u8
+
+# 域名: cdn.qd.je
+https://cdn.qd.je/163189/hxws
 
 # 域名: cdn.rabta.stream
 https://cdn.rabta.stream/M-Sports/index.m3u8
