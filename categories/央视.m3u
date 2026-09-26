@@ -1,7 +1,7 @@
 #EXTM3U
 # 央视频道列表（IPv6优先多源合并版）
-# 更新时间(北京时间): 2026-09-26 04:59:24
-# 电视台数量: 10
+# 更新时间(北京时间): 2026-09-27 04:29:12
+# 电视台数量: 7
 # 说明: 每个电视台包含多个源，IPv6源优先，PotPlayer按Alt+W切换
 # 已过滤低质量源（评分 < 0.5）
 # 配置文件: config.txt
@@ -9,10 +9,6 @@
 # 白名单功能: 启用
 # 测速功能: 启用
 
-#EXTINF:-1 tvg-name="CCTV-3 综艺" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-3.png",CCTV-3 综艺 [1普通]
-http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="CCTV-5 体育" group-title="央视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5.png",CCTV-5 体育 [1普通]
-http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV 11戏曲" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV11.png",CCTV 11戏曲 [1普通]
 http://2280.eu.org:1234/667987558
 #EXTINF:-1 tvg-name="CCTV 12社会与法" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV12.png",CCTV 12社会与法 [1普通]
@@ -25,7 +21,5 @@ http://2280.eu.org:1234/673168256
 http://2280.eu.org:1234/624878271
 #EXTINF:-1 tvg-name="CCTV 4中文国际" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV4.png",CCTV 4中文国际 [2普通]
 http://2280.eu.org:1234/608807419|http://2280.eu.org:1234/608807416
-#EXTINF:-1 tvg-name="CCTV 5体育" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV5.png",CCTV 5体育 [1普通]
-http://2280.eu.org:1234/641886683
 #EXTINF:-1 tvg-name="CCTV 6电影" group-title="央视" tvg-logo="https://11.112114.xyz/logo/CCTV6.png",CCTV 6电影 [1普通]
 http://2280.eu.org:1234/624878396

@@ -1,8 +1,8 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-26 04:59:24
-# 过滤原因: 主要失败原因: HTTPConnectionPool(host='42.194.148.122', port=1234): Max retries exceeded with url: /959986621 (Cau
+# 生成时间: 2026-09-27 04:29:12
+# 过滤原因: 主要失败原因: 连接超时
 # 配置文件: config.txt
 # 黑名单功能: 启用
 
@@ -418,6 +418,9 @@ http://101.43.145.141:12002/migu/783847495.m3u8?migutoken=559f2517a7c40a01b0fcac
 http://101.43.145.141:12002/migu/796070308.m3u8?migutoken=1730af6437a233f0596951f5d5a2061eaca737e10bcdbcea03fa2a7fa4bc33239ce4566a89ef3fdda6468d4a13966fccece1a98b921a181e5ffe79ab2788b226a9e33caa4f43bcc88a4cb636
 http://101.43.145.141:12002/migu/849116810.m3u8?migutoken=493c25074e789af9ea585564bc6247071fd0034397826d218d7e54b5583191a257269d01cb9139a605ad2610441dcc58ad46c310273d7cfe0245fbd7eb0276ef82fec79d40f5aacd8d9cbc47
 http://101.43.145.141:12002/migu/947472502.m3u8?migutoken=4950d7078d00246ab4e35789edbd80cc585a129c1309e6d45a1ec31034e4b1c72305d73dbe238c47ee50db8fead14b7c692ab1c10a1e26dd25d5c0a4ebb873ee4768926dc95dcf7ac6af263e
+
+# 域名: 101.66.194.125:9901
+http://101.66.194.125:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
 
 # 域名: 101.66.194.177:9901
 http://101.66.194.177:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -1962,10 +1965,12 @@ http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
 
 # 域名: 112.30.73.119:229
 http://112.30.73.119:229/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+http://112.30.73.119:229/tsfile/live/0003_2.m3u8?key=txiptv&playlive=0&authid=0
 http://112.30.73.119:229/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 112.30.73.119:9901
 http://112.30.73.119:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
+http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0
 
 # 域名: 112.45.133.129:90
 http://112.45.133.129:90/live/xwzh.m3u8
@@ -5372,6 +5377,9 @@ http://150.158.112.123/公众号~玉玉软件库/mg.php?id=xzws
 http://150.158.112.123/公众号~玉玉软件库/mg.php?id=ymkt
 http://150.158.112.123/公众号~玉玉软件库/mg.php?id=yxfy
 http://150.158.112.123/公众号~玉玉软件库/mg.php?id=zxs
+
+# 域名: 152.32.226.172:1234
+http://152.32.226.172:1234/959986621
 
 # 域名: 153.0.171.163:85
 http://153.0.171.163:85/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -24681,6 +24689,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790085600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-9636a12848787a815a6d8e794ab8e96a&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790172000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-c88e4fc5dd34c3c1f6512285e15b0743&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790344800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-b7821cf2aa275fc5061766264171b4ba&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790431200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-db887a055159f67f17904201e930ae22&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -35707,6 +35716,7 @@ https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/liv
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=82791483a05e17ad3385b5c4b422461e
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=87e1cf81e2ca2d1e7324c8faed877cf3
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=9ff09497bf3947ef06b93c00aca6e78a
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=a3ea789aafcfda6175b2c39a60ef024d
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=a4d0de290d281ec07acb3072134345a5
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=afe039485d1fec79dd0fcb02fc557fd1
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=c83bea5861d981a2c757fafa3d4d2cb9
