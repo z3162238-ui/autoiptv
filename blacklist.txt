@@ -1,8 +1,8 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-29 06:52:20
-# 过滤原因: 主要失败原因: None
+# 生成时间: 2026-09-30 05:46:17
+# 过滤原因: 主要失败原因: 连接超时
 # 配置文件: config.txt
 # 黑名单功能: 启用
 
@@ -420,6 +420,7 @@ http://101.43.145.141:12002/migu/849116810.m3u8?migutoken=493c25074e789af9ea5855
 http://101.43.145.141:12002/migu/947472502.m3u8?migutoken=4950d7078d00246ab4e35789edbd80cc585a129c1309e6d45a1ec31034e4b1c72305d73dbe238c47ee50db8fead14b7c692ab1c10a1e26dd25d5c0a4ebb873ee4768926dc95dcf7ac6af263e
 
 # 域名: 101.66.194.125:9901
+http://101.66.194.125:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.194.125:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
 
 # 域名: 101.66.194.177:9901
@@ -3904,6 +3905,7 @@ http://120.40.39.246:352/newlive/live/hls/20/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/27/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/28/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/31/live.m3u8
+http://120.40.39.246:352/newlive/live/hls/32/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/33/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/34/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/35/live.m3u8
@@ -10740,16 +10742,20 @@ http://58.56.162.102:4466/newlive/live/hls/9/live.m3u8
 http://58.57.40.22:9901/tsfile/live/0142_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1000_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1014_1.m3u8
+http://58.57.40.22:9901/tsfile/live/1028_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1029_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1030_1.m3u8
+http://58.57.40.22:9901/tsfile/live/1031_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1032_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1033_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1034_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1035_1.m3u8
+http://58.57.40.22:9901/tsfile/live/1036_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1037_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1038_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1039_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1040_1.m3u8
+http://58.57.40.22:9901/tsfile/live/1042_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1043_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1044_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1046_1.m3u8
@@ -14390,6 +14396,7 @@ https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/sdr4kvideo/playlist.m3u8
 https://cdn.jsdelivr.net/gh/namegenliang/fast-github-access@main/hosts/1080p.m3u8
 
 # 域名: cdn.qd.je
+https://cdn.qd.je/163189.php?id=fhhk
 https://cdn.qd.je/163189/hxws
 
 # 域名: cdn.rabta.stream
@@ -24706,6 +24713,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790431200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-db887a055159f67f17904201e930ae22&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790517600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-2f98997154e28c9c1c3492f6ff5c8c51&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790604000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-12b23c67dc57ee7d037bda4dd247148a&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790694000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-88cb0d11889074817565adc918b317c5&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -29835,6 +29843,7 @@ http://php.666230.xyz/smt.php?id=ettvwestern
 # 域名: php.jdshipin.com
 http://php.jdshipin.com/PLTV/iptv.php?id=aod
 http://php.jdshipin.com/PLTV/iptv.php?id=fhzx
+http://php.jdshipin.com/PLTV/iptv.php?id=gdty
 http://php.jdshipin.com/PLTV/iptv.php?id=huali
 http://php.jdshipin.com/PLTV/iptv.php?id=j2
 http://php.jdshipin.com/PLTV/iptv.php?id=meiya
@@ -29915,6 +29924,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
 http://php.jdshipin.com/TVOD/iptv.php?id=gdty
+http://php.jdshipin.com/TVOD/iptv.php?id=gdzj
 http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
 http://php.jdshipin.com/TVOD/iptv.php?id=huali
 http://php.jdshipin.com/TVOD/iptv.php?id=huali2
@@ -35719,6 +35729,7 @@ https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/liv
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2ee4bedb77dd619a89801e11bcad4978
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=329ba6c5bf3239a8355215ded5e9da9c
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=47ebfa87dbbe6753a61203ba08ecd87b
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4ac7a4c2f36cdcf575fe96112c8a066f
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4dd8cb983a1b5e3af53d7505102e054a
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=526216159d4a53afddf5b368ecfedece
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=5e0b2cad85483e7a94b981089e80d0c7
