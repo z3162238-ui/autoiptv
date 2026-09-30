@@ -1,8 +1,8 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-09-30 05:46:17
-# 过滤原因: 主要失败原因: 连接超时
+# 生成时间: 2026-10-01 05:46:44
+# 过滤原因: 主要失败原因: HTTPConnectionPool(host='2280.eu.org', port=1234): Read timed out. (read timeout=5)
 # 配置文件: config.txt
 # 黑名单功能: 启用
 
@@ -2275,6 +2275,7 @@ http://113.57.111.4:1111/tsfile/live/1031_1.m3u8
 http://113.57.111.4:1111/tsfile/live/1032_1.m3u8
 
 # 域名: 113.57.140.161:10081
+http://113.57.140.161:10081/newlive/live/hls/1/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/10/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/11/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/12/live.m3u8
@@ -3436,6 +3437,9 @@ http://119.164.216.162:9901/tsfile/live/1005_1.m3u8
 http://119.164.216.162:9901/tsfile/live/1006_1.m3u8
 http://119.164.216.162:9901/tsfile/live/1007_1.m3u8
 
+# 域名: 119.165.221.175:1234
+http://119.165.221.175:1234/959986621
+
 # 域名: 119.166.53.110:9901
 http://119.166.53.110:9901/tsfile/live/0002_33.m3u8?key=txiptv&playlive=1&authid=0
 http://119.166.53.110:9901/tsfile/live/0002_42.m3u8?key=txiptv&playlive=1&authid=0
@@ -3449,6 +3453,9 @@ http://119.184.188.117:1935/live/xtzh/playlist.m3u8
 
 # 域名: 119.200.131.11:1935
 http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8
+
+# 域名: 119.233.255.62:1234
+http://119.233.255.62:1234/849119120
 
 # 域名: 119.32.12.17:2901
 http://119.32.12.17:2901/udp/224.1.100.100:11111
@@ -3913,6 +3920,7 @@ http://120.40.39.246:352/newlive/live/hls/38/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/5/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/6/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/8/live.m3u8
+http://120.40.39.246:352/newlive/live/hls/9/live.m3u8
 
 # 域名: 120.40.57.250:1000
 http://120.40.57.250:1000/rtp/239.61.2.160:8948
@@ -5848,6 +5856,9 @@ http://171.213.140.54:8123/udp/239.93.1.10:2193
 http://171.221.250.130:18888/27e684978eb642eeb90ab815f6cc51bf/c41893de5e8645b3b43aef1640859b0d.m3u8
 http://171.221.250.130:18888/27e684978eb642eeb90ab815f6cc51bf/c41893de5e8645b3b43aef1640859b0d.m3u8?zsicd
 
+# 域名: 171.37.59.95:1234
+http://171.37.59.95:1234/959986621
+
 # 域名: 171.38.148.188:9003
 http://171.38.148.188:9003/hls/31/index.m3u8
 http://171.38.148.188:9003/hls/32/index.m3u8
@@ -7682,6 +7693,7 @@ http://219.146.95.58:59902/tsfile/live/0136_1.m3u8?txiptv
 http://219.146.95.58:59902/tsfile/live/0138_1.m3u8?txiptv
 
 # 域名: 219.147.245.238:25480
+http://219.147.245.238:25480/newlive/live/hls/1/live.m3u8
 http://219.147.245.238:25480/newlive/live/hls/10/live.m3u8
 http://219.147.245.238:25480/newlive/live/hls/12/live.m3u8
 http://219.147.245.238:25480/newlive/live/hls/16/live.m3u8
@@ -8566,19 +8578,40 @@ rtp://228.1.1.81:8304
 rtp://228.1.1.96:4120
 
 # 域名: 2280.eu.org:1234
+http://2280.eu.org:1234/608807416
+http://2280.eu.org:1234/608807419
 http://2280.eu.org:1234/608807420
 http://2280.eu.org:1234/608807423
 http://2280.eu.org:1234/608917627
+http://2280.eu.org:1234/624878271
 http://2280.eu.org:1234/624878356
+http://2280.eu.org:1234/624878396
 http://2280.eu.org:1234/624878405
+http://2280.eu.org:1234/624878440
+http://2280.eu.org:1234/630287636
+http://2280.eu.org:1234/630291707
 http://2280.eu.org:1234/631780421
 http://2280.eu.org:1234/631780532
+http://2280.eu.org:1234/641886683
 http://2280.eu.org:1234/641886773
+http://2280.eu.org:1234/651632648
+http://2280.eu.org:1234/667987558
 http://2280.eu.org:1234/673168121
 http://2280.eu.org:1234/673168140
+http://2280.eu.org:1234/673168185
 http://2280.eu.org:1234/673168223
+http://2280.eu.org:1234/673168256
+http://2280.eu.org:1234/738910535
+http://2280.eu.org:1234/738910838
+http://2280.eu.org:1234/738910914
+http://2280.eu.org:1234/790187291
 http://2280.eu.org:1234/849116810
 http://2280.eu.org:1234/947472502
+http://2280.eu.org:1234/947472506
+http://2280.eu.org:1234/956923145
+http://2280.eu.org:1234/959986621
+http://2280.eu.org:1234/961023778
+http://2280.eu.org:1234/962042070
 
 # 域名: 23.237.104.106:8080
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
@@ -24714,6 +24747,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790517600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-2f98997154e28c9c1c3492f6ff5c8c51&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790604000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-12b23c67dc57ee7d037bda4dd247148a&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790694000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-88cb0d11889074817565adc918b317c5&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1790776800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-c11d143c41a403251a174ad729489e0d&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -35716,6 +35750,7 @@ https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/liv
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d3dc7668c21a544edad767f7427bbe34
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d7d3d119f4de1d2d9148e6ecd70b4e84
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=e4e3846387cd63ab4b82530c8681e24b
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=e95dfb357fe36ce6cecc70284566e7b5
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=ed7916b56e770543ee13544d9f4a1f40
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=efb4ca142aa9c24217a5a500f1d87ace
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=fbf45e2b1ba9da1b745ea6e76a6dd4c4
