@@ -4,8 +4,8 @@
 # 播放器切换源方法：PotPlayer按Alt+W，VLC右键选择源
 # 排序规则：IPv6源 > 白名单源 > 4K > 高清 > 标清 > 流畅
 # 新增分类：调频广播、歌曲MV
-# 更新时间(北京时间): 2026-10-01 05:46:44
-# 电视台总数: 108
+# 更新时间(北京时间): 2026-10-02 06:14:48
+# 电视台总数: 106
 # 数据源: 3 个 (成功: 2, 失败: 1)
 # 特点: 移除技术参数，统一央视频道命名，按省份分类地方台，IPv6优先
 # 配置文件: config.txt
@@ -21,21 +21,17 @@
 # 黑名单: blacklist.txt
 
 
-# 分类: 卫视 (10个频道)
+# 分类: 卫视 (8个频道)
 #EXTINF:-1 tvg-name="重庆卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/重庆卫视.png" tvg-ipv6="true",重庆卫视 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/湖南卫视.png",湖南卫视 [1高速+1源]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
-#EXTINF:-1 tvg-name="广西卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/广西卫视.png",广西卫视 [1高速+1源]
-http://101.66.194.125:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海南卫视.png" tvg-ipv6="true",海南卫视 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="陕西卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/陕西卫视.png" tvg-ipv6="true",陕西卫视 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="甘肃卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/甘肃卫视.png" tvg-ipv6="true",甘肃卫视 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="东方卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/东方卫视.png",东方卫视 [1高速+1源]
-https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 #EXTINF:-1 tvg-name="康巴卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/康巴卫视.png" tvg-ipv6="true",康巴卫视 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227027/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkHMvBpWz4rccMxNvSRekpQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="星空卫视" group-title="卫视" tvg-logo="https://11.112114.xyz/logo/星空卫视.png",星空卫视 [1源]
@@ -93,10 +89,6 @@ https://gcalic.v.myalicdn.com/gc/fcw03_1/index.m3u8
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台" tvg-logo="https://11.112114.xyz/logo/翡翠台.png",翡翠台 [1源]
 https://cdn.qd.je/163189.php?id=fct
 
-# 分类: 影视台 (1个频道)
-#EXTINF:-1 tvg-name="经典电影" group-title="影视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/经典电影.png",经典电影 [1高速+1源]
-https://txmov2.a.kwimgs.com/bs3/video-hls/5211790793651941963_hlsb.m3u8
-
 # 分类: 其他台 (45个频道)
 #EXTINF:-1 tvg-name="CETV 2" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-2.png" tvg-ipv6="true",CETV 2 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
@@ -104,8 +96,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226577/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EhE2Z89HKgsQOlN9opVn1iw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNN03yUnk4zBVk1bynPPL3hZ%2CEND
 #EXTINF:-1 tvg-name="CETV 4" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-4.png" tvg-ipv6="true",CETV 4 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [5源]
-http://58.210.97.102:1234/959986621|http://113.98.11.46:3000/959986621|http://119.233.255.62:1234/959986621|http://124.221.146.169:7001/959986621|http://222.213.105.65:7788/959986621
+#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [7源]
+http://113.98.11.46:3000/959986621|http://124.221.146.169:7001/959986621|http://58.210.97.102:1234/959986621|http://222.213.105.65:7788/959986621|http://118.113.40.76:1234/959986621|http://115.171.53.99:7788/959986621|http://175.168.96.35:7788/959986621
 #EXTINF:-1 tvg-name="中央电视塔东" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中央电视塔东.png",中央电视塔东 [1源]
 https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8
 #EXTINF:-1 tvg-name="中央电视塔南" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中央电视塔南.png",中央电视塔南 [1源]
@@ -224,6 +216,10 @@ https://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8
 # 分类: 山西省 (1个频道)
 #EXTINF:-1 tvg-name="湖南张家界天门山西线玻璃栈道" group-title="山西省" tvg-logo="https://11.112114.xyz/logo/湖南张家界天门山西线玻璃栈道.png",湖南张家界天门山西线玻璃栈道 [1源]
 https://gcalic.v.myalicdn.com/gc/tms05_1/index.m3u8
+
+# 分类: 广东省 (1个频道)
+#EXTINF:-1 tvg-name="广东影视" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东影视.png",广东影视 [3源]
+http://115.171.53.99:7788/614961829|http://118.113.40.76:1234/614961829|http://175.168.96.35:7788/614961829
 
 # 分类: 广西壮族自治区 (1个频道)
 #EXTINF:-1 tvg-name="广西玉林大容山莲花山顶" group-title="广西壮族自治区" tvg-logo="https://11.112114.xyz/logo/广西玉林大容山莲花山顶.png",广西玉林大容山莲花山顶 [1源]
