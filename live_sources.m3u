@@ -4,8 +4,8 @@
 # 播放器切换源方法：PotPlayer按Alt+W，VLC右键选择源
 # 排序规则：IPv6源 > 白名单源 > 4K > 高清 > 标清 > 流畅
 # 新增分类：调频广播、歌曲MV
-# 更新时间(北京时间): 2026-10-02 06:14:48
-# 电视台总数: 106
+# 更新时间(北京时间): 2026-10-03 05:41:37
+# 电视台总数: 105
 # 数据源: 3 个 (成功: 2, 失败: 1)
 # 特点: 移除技术参数，统一央视频道命名，按省份分类地方台，IPv6优先
 # 配置文件: config.txt
@@ -96,8 +96,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226577/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EhE2Z89HKgsQOlN9opVn1iw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNN03yUnk4zBVk1bynPPL3hZ%2CEND
 #EXTINF:-1 tvg-name="CETV 4" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-4.png" tvg-ipv6="true",CETV 4 [1IPv6]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [7源]
-http://113.98.11.46:3000/959986621|http://124.221.146.169:7001/959986621|http://58.210.97.102:1234/959986621|http://222.213.105.65:7788/959986621|http://118.113.40.76:1234/959986621|http://115.171.53.99:7788/959986621|http://175.168.96.35:7788/959986621
+#EXTINF:-1 tvg-name="中国天气" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中国天气.png",中国天气 [3源]
+http://113.98.11.46:3000/959986621|http://222.213.105.65:7788/959986621|http://58.210.97.102:1234/959986621
 #EXTINF:-1 tvg-name="中央电视塔东" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中央电视塔东.png",中央电视塔东 [1源]
 https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8
 #EXTINF:-1 tvg-name="中央电视塔南" group-title="其他台" tvg-logo="https://11.112114.xyz/logo/中央电视塔南.png",中央电视塔南 [1源]
@@ -216,10 +216,6 @@ https://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8
 # 分类: 山西省 (1个频道)
 #EXTINF:-1 tvg-name="湖南张家界天门山西线玻璃栈道" group-title="山西省" tvg-logo="https://11.112114.xyz/logo/湖南张家界天门山西线玻璃栈道.png",湖南张家界天门山西线玻璃栈道 [1源]
 https://gcalic.v.myalicdn.com/gc/tms05_1/index.m3u8
-
-# 分类: 广东省 (1个频道)
-#EXTINF:-1 tvg-name="广东影视" group-title="广东省" tvg-logo="https://11.112114.xyz/logo/广东影视.png",广东影视 [3源]
-http://115.171.53.99:7788/614961829|http://118.113.40.76:1234/614961829|http://175.168.96.35:7788/614961829
 
 # 分类: 广西壮族自治区 (1个频道)
 #EXTINF:-1 tvg-name="广西玉林大容山莲花山顶" group-title="广西壮族自治区" tvg-logo="https://11.112114.xyz/logo/广西玉林大容山莲花山顶.png",广西玉林大容山莲花山顶 [1源]
