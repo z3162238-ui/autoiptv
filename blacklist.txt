@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-10-11 04:58:51
+# 生成时间: 2026-10-12 05:19:59
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -2295,6 +2295,7 @@ http://113.57.140.161:10081/newlive/live/hls/29/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/3/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/30/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/31/live.m3u8
+http://113.57.140.161:10081/newlive/live/hls/32/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/33/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/34/live.m3u8
 http://113.57.140.161:10081/newlive/live/hls/35/live.m3u8
@@ -8031,6 +8032,7 @@ http://221.226.51.220:50081/newlive/live/hls/18/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/2/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/20/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/25/live.m3u8
+http://221.226.51.220:50081/newlive/live/hls/26/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/27/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/28/live.m3u8
 http://221.226.51.220:50081/newlive/live/hls/29/live.m3u8
@@ -15498,6 +15500,7 @@ https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&tx
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=707661b816c822c485b14a2cb2e48096&wsTime=1770350375
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=719c37a8b672cf597dfc8419c27153ff&wsTime=1770487102
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=72208c6f8fb81beeafbeb5cabf25ee70&wsTime=1770094055
+https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=a05ffbf30268c568551731d4c37faf96&wsTime=1771646305
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=a799ff72617b53c62b88e775f05302b2&wsTime=1770235200
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=b00cf1e46e0f1d6694a640aabf4a593f&wsTime=1769796050
@@ -24806,6 +24809,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1791471600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-97577c3c6e05b045d2b9da75fa4271a2&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1791558000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-3cba4fbea14a2bf921700dfa0cb4befb&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1791644400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-08a2668401c99df758c5435b5ed4e285&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1791727200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-4cde7634287747d433e7de8ff5ff4b02&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -35803,6 +35807,7 @@ https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/liv
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2fdb4a61af061062c4b1d4048db745d2
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=35f810a116d3611b3d40cf23bb0e6fef
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=360d88aa50841d36304643337f8dd47b
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=41e571bf0e7eeaf3d464a64fdd8d2aed
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=421a9e6ad7a45d5a205da18d4ce594d0
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4895ae1eca47077e1f403076e1ff7d7d
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4def33f0653b268e75cdfd46b26f06d3
