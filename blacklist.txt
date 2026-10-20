@@ -1,7 +1,7 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-10-20 05:58:42
+# 生成时间: 2026-10-21 05:07:45
 # 过滤原因: 主要失败原因: None
 # 配置文件: config.txt
 # 黑名单功能: 启用
@@ -3967,6 +3967,7 @@ http://120.40.39.246:352/newlive/live/hls/2/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/20/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/27/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/28/live.m3u8
+http://120.40.39.246:352/newlive/live/hls/3/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/30/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/31/live.m3u8
 http://120.40.39.246:352/newlive/live/hls/32/live.m3u8
@@ -24863,6 +24864,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792244700-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-d6d73ce7c19ba82f04f3710314610d3e&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792328400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-18c8542c386480c1277bb65394ed12b8&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792414800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-ba246545c8fac249d69362e4ee390b27&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792504800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-bb385d12c13751f4e7b4c279ed76f0b7&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -29381,6 +29383,10 @@ https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8?checkedby
 https://msj.188766.xyz/play?id=3000000010000009788&token=4c9e9aec4c9e9aec4c9e9aec4c9e9aec
 https://msj.188766.xyz/play?id=3000000010000015686&token=4caadd2e4caadd2e4caadd2e4caadd2e
 
+# 域名: mtayeh.ottb.xyz
+http://mtayeh.ottb.xyz/live/774710333494/659822672281/58627.ts
+http://mtayeh.ottb.xyz/live/774710333494/659822672281/58634.ts
+
 # 域名: mts1.iptv-playoutcenter.de
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 
@@ -30201,6 +30207,8 @@ https://piccpndali.v.myalicdn.com/audio/xianggangweishi_2.m3u8
 https://piccpndks.v.kcdnvip.com/audio/cctv15_2/index.m3u8
 https://piccpndks.v.kcdnvip.com/audio/cctv6_2/index.m3u8
 https://piccpndks.v.kcdnvip.com/audio/guangxi_2/index.m3u8
+https://piccpndks.v.kcdnvip.com/audio/liaoning_2/index.m3u8
+https://piccpndks.v.kcdnvip.com/audio/sichuan_2/index.m3u8
 https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8
 
 # 域名: pili-live-hdl.hsyapp.sobeylingyun.com
@@ -35887,6 +35895,7 @@ https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/liv
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d126ef4b66cbc573fe7a3c61f43c700f
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d3dc7668c21a544edad767f7427bbe34
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d7d3d119f4de1d2d9148e6ecd70b4e84
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d7f30568ceaa4ba18bc3a70473a7ede4
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=deeaab02bb59cf869a64aa90925dedc2
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=e4e3846387cd63ab4b82530c8681e24b
 https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=e95dfb357fe36ce6cecc70284566e7b5
