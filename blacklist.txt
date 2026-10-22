@@ -1,8 +1,8 @@
 # 直播源黑名单
 # 该文件包含测试失败的直播源
 # 每行一个URL，下次更新时会跳过这些源
-# 生成时间: 2026-10-22 05:08:15
-# 过滤原因: 主要失败原因: None
+# 生成时间: 2026-10-23 05:06:28
+# 过滤原因: 主要失败原因: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 # 配置文件: config.txt
 # 黑名单功能: 启用
 
@@ -1801,7 +1801,20 @@ http://111.9.163.109:9901/tsfile/live/0008_1.m3u8
 http://111.9.163.109:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 域名: 112.103.141.175:1234
+http://112.103.141.175:1234/614961829
+http://112.103.141.175:1234/630287636
+http://112.103.141.175:1234/630291707
+http://112.103.141.175:1234/651632648
+http://112.103.141.175:1234/738910535
+http://112.103.141.175:1234/738910838
+http://112.103.141.175:1234/783847495
+http://112.103.141.175:1234/947472500
+http://112.103.141.175:1234/947472502
+http://112.103.141.175:1234/947472506
+http://112.103.141.175:1234/956923145
 http://112.103.141.175:1234/959986621
+http://112.103.141.175:1234/961023778
+http://112.103.141.175:1234/962042070
 
 # 域名: 112.103.141.26:1234
 http://112.103.141.26:1234/959986621
@@ -7251,6 +7264,9 @@ http://204.12.221.218:8181/3m1080p/tjws.m3u8
 http://204.12.221.218:8181/3m1080p/ynws.m3u8
 http://204.12.221.218:8181/3m1080p/zjws.m3u8
 
+# 域名: 204315.xyz:20204
+http://204315.xyz:20204/rtp/233.18.204.122:5140
+
 # 域名: 205.185.123.236:8899
 http://205.185.123.236:8899/astro/qianxi/qianxi.m3u8
 
@@ -10251,6 +10267,9 @@ http://46.32.176.50/extremesport/index.m3u8
 
 # 域名: 47.100.209.208:8100
 http://47.100.209.208:8100/TVOD/3000000020000011523.m3u8?token=8520
+
+# 域名: 47.103.64.145:8014
+http://47.103.64.145:8014/959986621
 
 # 域名: 47.104.173.199
 http://47.104.173.199/b/hoge.php?ip=gxwztv&id=23&auth=niubiplus
@@ -24872,6 +24891,7 @@ https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792414800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-ba246545c8fac249d69362e4ee390b27&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792504800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-bb385d12c13751f4e7b4c279ed76f0b7&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792591200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-5b280d493f5c330d31a1e10d10423ef1&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792677600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-fbd41f8be44a10e7b01d757132f298e4&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 
 # 域名: live-pull.newslqy.com
 http://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
@@ -35146,6 +35166,11 @@ http://tv.20191209.xyz:37377/migu/673168256
 http://tv.20191209.xyz:37377/migu/673168256.m3u8?migutoken=eb3fbda758006d66837b5b6ef1b7ab6847a99f05f6b3303861d81e6e1335349499a40c8479d9a801327519db10547f9870398da6796159db51812e236c1b6c07d2c0f7e5bc32101c9cc222dc
 http://tv.20191209.xyz:37377/migu/790187291.m3u8?migutoken=086ba6ec3f6268d44a6979043b9df04cccad70c2a183e6b46cc15be2d0bd40d33e0be32880248cf8d79ddcf04a82560af19d8d9cc76b700a59be26618056a02a5f822c76fe3ed7f3e0b81c94
 
+# 域名: tv.8610000.cn:555
+http://tv.8610000.cn:555/gdtv/gdtv.php?id=53
+http://tv.8610000.cn:555/gdtv/gdtv.php?id=54
+http://tv.8610000.cn:555/gdtv/gdtv.php?id=74
+
 # 域名: tv.cdn.com.mp
 https://tv.cdn.com.mp/live/gdzj/stream.m3u8
 
@@ -35917,6 +35942,7 @@ https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/liv
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=0fa6ccab862dc7c5b26001b43f528d20
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=1b464e331a2e9ee8b6233672c597975d
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=1b8fda0de8e9969427130153975299c3
+https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=1d4215a49ef78ea4784e520dc7cd0383
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=229264706c04b3968805a4afb4ce3c6e
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2d14330c6fed1d7551f96adc17d4c409
 https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2ee4bedb77dd619a89801e11bcad4978
@@ -37492,6 +37518,26 @@ http://www.xzbn.site:35455/itv/2000000003000000033.m3u8?cdn=hnbblive
 http://www.xzbn.site:35455/itv/5000000011000031121.m3u8?cdn=bestzb
 http://www.xzbn.site:35455/itv/6000000001000001070.m3u8?cdn=wasusyt
 
+# 域名: www.yahao.host:4022
+http://www.yahao.host:4022/rtp/239.253.43.104:5146
+http://www.yahao.host:4022/rtp/239.253.43.105:5146
+http://www.yahao.host:4022/rtp/239.253.43.2:5146
+http://www.yahao.host:4022/rtp/239.253.43.33:5146
+http://www.yahao.host:4022/rtp/239.253.43.34:5146
+http://www.yahao.host:4022/rtp/239.253.43.55:5146
+http://www.yahao.host:4022/rtp/239.253.43.63:5146
+http://www.yahao.host:4022/rtp/239.253.43.70:5146
+http://www.yahao.host:4022/rtp/239.253.43.75:5146
+http://www.yahao.host:4022/rtp/239.77.0.117:5146
+http://www.yahao.host:4022/rtp/239.77.0.140:5146
+http://www.yahao.host:4022/rtp/239.77.0.141:5146
+http://www.yahao.host:4022/rtp/239.77.0.155:5146
+http://www.yahao.host:4022/rtp/239.77.0.229:5146
+http://www.yahao.host:4022/rtp/239.77.0.251:5146
+http://www.yahao.host:4022/rtp/239.77.0.254:5146
+http://www.yahao.host:4022/rtp/239.77.1.232:5146
+http://www.yahao.host:4022/rtp/239.77.1.233:5146
+
 # 域名: www.yangshipin.cn
 https://www.yangshipin.cn/tv/home?pid=600002481
 https://www.yangshipin.cn/tv/home?pid=600002490
@@ -37553,7 +37599,14 @@ http://xhalive.qwmedia.cn/hdratv-live/xha-xwpd.flv
 http://xhalive.qwmedia.cn/hdratv-live/xha-yspd.flv
 
 # 域名: xhyx.gz.cn:1698
+http://xhyx.gz.cn:1698/hls/28/index.m3u8
 http://xhyx.gz.cn:1698/hls/35/index.m3u8
+http://xhyx.gz.cn:1698/hls/56/index.m3u8
+http://xhyx.gz.cn:1698/hls/57/index.m3u8
+http://xhyx.gz.cn:1698/hls/58/index.m3u8
+http://xhyx.gz.cn:1698/hls/65/index.m3u8
+http://xhyx.gz.cn:1698/hls/66/index.m3u8
+http://xhyx.gz.cn:1698/hls/69/index.m3u8
 
 # 域名: xianfeng-live21.cjyun.org
 http://xianfeng-live21.cjyun.org/10096/s10096-xftv1.m3u8?auth_key=1672502399-0-0-360388050a36653e6ce75944e6842202
