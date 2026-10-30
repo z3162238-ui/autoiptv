@@ -1,7 +1,7 @@
 #EXTM3U
 # 电视直播源 - IPv6优先多源分离版（新增广播/MV分类）
 # 同名电视台显示为多个条目，IPv6源优先，播放器自动合并
-# 更新时间(北京时间): 2026-10-30 06:19:27
+# 更新时间(北京时间): 2026-10-31 05:54:42
 # 电视台总数: 17
 # 数据源: 3 个 (成功: 1, 失败: 2)
 # 特点: 移除技术参数，统一央视频道命名，按省份分类地方台，IPv6优先
@@ -21,7 +21,7 @@
 # 分类: 卫视 (6个频道)
 #EXTINF:-1 tvg-name="重庆卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/重庆卫视.png" tvg-ipv6="true",重庆卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png",湖南卫视 (0.97)
+#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png",湖南卫视 (0.96)
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 #EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海南卫视.png" tvg-ipv6="true",海南卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
@@ -313,11 +313,11 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227033/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EdeTB7OZ9G_VNJk5C3t96fQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="白名单 :6610" group-title="其他台" tvg-ipv6="true" tvg-whitelist="true",白名单 :6610 [IPv6白名单源122]
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227045/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eq0D3NdTUN7FuRzr8eJsbQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="象山综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/象山综合.png",象山综合 (0.96)
+#EXTINF:-1 tvg-name="象山综合" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/象山综合.png",象山综合 (0.97)
 http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39
 #EXTINF:-1 tvg-name="镇江二套社会民生" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/镇江二套社会民生.png",镇江二套社会民生
 http://zjtv-wshls.homecdn.com/live/2aa16.m3u8
-#EXTINF:-1 tvg-name="靖天映画" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天映画.png" tvg-ipv6="true",靖天映画 (0.84)
+#EXTINF:-1 tvg-name="靖天映画" group-title="其他台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天映画.png" tvg-ipv6="true",靖天映画 (0.86)
 http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34838
 
 # 分类: 北京市 (1个频道)
