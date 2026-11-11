@@ -1,7 +1,7 @@
 #EXTM3U
 # 电视直播源 - IPv6优先多源分离版（新增广播/MV分类）
 # 同名电视台显示为多个条目，IPv6源优先，播放器自动合并
-# 更新时间(北京时间): 2026-11-11 06:47:20
+# 更新时间(北京时间): 2026-11-12 07:57:19
 # 电视台总数: 17
 # 数据源: 3 个 (成功: 1, 失败: 2)
 # 特点: 移除技术参数，统一央视频道命名，按省份分类地方台，IPv6优先
@@ -21,7 +21,7 @@
 # 分类: 卫视 (6个频道)
 #EXTINF:-1 tvg-name="重庆卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/重庆卫视.png" tvg-ipv6="true",重庆卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png",湖南卫视 (0.94)
+#EXTINF:-1 tvg-name="湖南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png",湖南卫视 (0.96)
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 #EXTINF:-1 tvg-name="海南卫视" group-title="卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海南卫视.png" tvg-ipv6="true",海南卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
